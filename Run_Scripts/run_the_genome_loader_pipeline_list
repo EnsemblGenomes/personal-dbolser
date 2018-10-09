@@ -1,0 +1,46 @@
+32,76d31
+< # 1
+< # species=physcomitrella_patens
+< # gca=GCA_000002425.2
+< 
+< # 2
+< # species=populus_trichocarpa
+< # gca=GCA_000002775.3
+< 
+< # 3
+< species=triticum_dicoccoides
+< gca=GCA_002162155.1
+< export JAVA_OPTS='-Xmx128g'
+< 
+< # 4
+< # species=chlamydomonas_reinhardtii
+< # gca=GCA_000002595.3
+< 
+< # 5
+< # species=setaria_italica
+< # gca=GCA_000263155.2
+< 
+< # 6
+< # species=brachypodium_distachyon
+< # gca=GCA_000005505.4
+< 
+< # 7
+< # species=aegilops_tauschii
+< # gca=GCA_000347335.2
+< 
+< # 8
+< # species=daucus_carota
+< # gca=GCA_001625215.1
+< 
+< # 9
+< # species=vigna_angularis
+< # gca=GCA_001190045.1
+< 
+< # 10
+< # species=leishmania_major
+< # gca=GCA_000002725.2
+< 
+< # 11
+< # species=elaeis_oleifera
+< # gca=GCA_000441515.1
+< 
