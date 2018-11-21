@@ -1,0 +1,42 @@
+
+ensrw@mysql-eg-prod-2.ebi.ac.uk:4239 (oryza_sativa_variation_31_84_7)
+> SELECT TABLE_NAME, TABLE_ROWS FROM information_schema.TABLES WHERE TABLE_SCHEMA = DATABASE() AND TABLE_ROWS > 0 ;
++---------------------------+------------+
+| TABLE_NAME                | TABLE_ROWS |
++---------------------------+------------+
+| MTMP_transcript_variation |   74830681 | p
+| allele_code               |          4 |         16 Apr 11 17:17 allele_code.tsv OK
+| attrib                    |        343 | c
+| attrib_set                |        247 | c
+| attrib_type               |         33 | c
+| coord_system              |          4 | c
+| failed_description        |         19 | c
+| individual                |       3525 | xxx
+| individual_type           |          4 | c
+| meta                      |          6 | p
+| meta_coord                |          1 | p
+| population                |          6 | xxx
+| sample                    |       3526 | xxx
+| sample_population         |       3526 | xxx
+| seq_region                |       3870 | c
+| source                    |          1 | xxx
+| study                     |          6 | xxx
+| transcript_variation      |   73954449 | p
+| variation                 |   27869011 |  605727475 Apr 11 17:17 variation.tsv OK
+| variation_feature         |   27869011 | 1629210295 Apr 11 17:17 variation_feature.tsv OK
+| variation_genename        |   12060794 | p
+| variation_hgvs            |    6528512 | p
+| variation_set             |          6 | xxx
+| variation_set_variation   |       1310 | 1629210295 Apr 11 17:17 variation_feature.tsv OK
++---------------------------+------------+
+24 rows in set (0.01 sec)
+
+
+         0 Apr 11 17:05 genotype_code.tsv OK
+         0 Apr 11 17:05 population_allele.tsv OK
+         0 Apr 11 17:05 population_genotype.tsv OK
+         0 Apr 11 17:05 sample_genotype_mbp.tsv OK
+         0 Apr 11 17:05 sample_genotype_sbp.tsv OK
+  52939298 Apr 11 17:17 variation_synonym.tsv OK
+
+

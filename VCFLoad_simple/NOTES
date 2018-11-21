@@ -1,0 +1,220 @@
+
+# ### RUNNING (vcf to tsv)
+
+# # Configure and run load_vcf_simple.plx
+
+# # e.g.
+
+# time \
+#   ./load_vcf_simple.plx \
+#     <( gunzip -c Data/merged.vcf.gz )
+
+# # Files are written to the "MySQL/" directory.
+
+
+
+# ### LOADING (tsv to MySQL):
+
+# ## Correct my messy file names...
+
+# # ln -s population_allele.tsv allele.tsv
+# # ln -s individual_genotype_x.tsv tmp_sample_genotype_single_bp.tsv
+# # ln -s individual_genotype_y.tsv         sample_genotype_multiple_bp.tsv
+
+
+# ## Configure the server
+
+# # db=dbolser_solanum_lycopersicum_variation_24_77_240
+# # server=mysql-staging-2-ensrw
+
+# # db=dbolser_hordeum_vulgare_variation_25_78_2
+# # server=mysql-prod-3-ensrw
+
+# # db=solanum_lycopersicum_variation_27_80_250
+# # server=mysql-prod-1-ensrw
+
+db=oryza_sativa_variation_31_84_7
+server=mysql-prod-2-ensrw
+
+
+
+## Create the db
+
+## Locate the schema
+
+# libdir=/nfs/panda/ensemblgenomes/apis/ensembl/80
+# libdir=/nfs/panda/ensemblgenomes/apis/ensembl/current
+
+# $server mysqladmin CREATE $db
+# $server -e "CREATE DATABASE $db"
+# $server $db < ${libdir}/ensembl-variation/sql/table.sql
+# $server $db < ${libdir}/ensembl-variation/sql/attrib_entries.sql
+
+
+## Try a new method of speed loading based on:
+## https://dev.mysql.com/doc/refman/5.6/en/\
+## optimizing-myisam-bulk-data-loading.html
+
+## Hrm... can't!
+
+echo FLUSH TABLES
+$server $db -e "FLUSH TABLES"
+
+
+
+## Load TSV
+
+echo allele_code
+$server --show-warnings $db -e 'TRUNCATE TABLE allele_code'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/allele_code.tsv" INTO TABLE allele_code'
+$server --show-warnings $db -e 'ANALYZE TABLE allele_code'
+echo
+
+echo allele
+$server --show-warnings $db -e 'TRUNCATE TABLE allele'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/population_allele.tsv" INTO TABLE allele
+    (allele_id, variation_id, allele_code_id, population_id, frequency, count)'
+$server --show-warnings $db -e 'ANALYZE TABLE allele'
+echo
+
+echo genotype_code
+$server --show-warnings $db -e 'TRUNCATE TABLE genotype_code'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/genotype_code.tsv" INTO TABLE genotype_code'
+$server --show-warnings $db -e 'ANALYZE TABLE genotype_code'
+echo
+
+echo sample_genotype_multiple_bp
+$server --show-warnings $db -e 'TRUNCATE TABLE sample_genotype_multiple_bp'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/sample_genotype_mbp.tsv" INTO TABLE
+    sample_genotype_multiple_bp
+    (variation_id, allele_1, allele_2, sample_id)'
+$server --show-warnings $db -e 'ANALYZE TABLE sample_genotype_multiple_bp'
+echo
+
+# echo individual
+# $server --show-warnings $db -e 'TRUNCATE TABLE individual'
+# $server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+#     "MySQL/individual.tsv" INTO TABLE individual
+#     (individual_id, name, individual_type_id)'
+# $server --show-warnings $db -e 'ANALYZE TABLE individual'
+# echo
+
+echo population_genotype
+$server --show-warnings $db -e 'TRUNCATE TABLE population_genotype'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/population_genotype.tsv" INTO TABLE population_genotype
+    (population_genotype_id, variation_id, genotype_code_id,
+     frequency, population_id, count)'
+$server --show-warnings $db -e 'ANALYZE TABLE population_genotype'
+echo
+
+echo tmp_sample_genotype_single_bp
+$server --show-warnings $db -e 'TRUNCATE TABLE tmp_sample_genotype_single_bp'
+$server --show-warnings $db -e 'ALTER    TABLE tmp_sample_genotype_single_bp DISABLE KEYS';
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/sample_genotype_sbp.tsv" INTO TABLE 
+    tmp_sample_genotype_single_bp
+    (variation_id, allele_1, allele_2, sample_id)'
+$server --show-warnings $db -e 'ALTER    TABLE tmp_sample_genotype_single_bp ENABLE  KEYS';
+$server --show-warnings $db -e 'ANALYZE  TABLE tmp_sample_genotype_single_bp'
+echo
+
+echo variation
+$server --show-warnings $db -e 'TRUNCATE TABLE variation'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/variation.tsv" INTO TABLE variation
+    (variation_id, source_id, name, class_attrib_id)'
+$server --show-warnings $db -e 'ANALYZE TABLE variation'
+echo
+
+echo variation_feature
+$server --show-warnings $db -e 'TRUNCATE TABLE variation_feature'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/variation_feature.tsv" INTO TABLE variation_feature
+    (variation_feature_id, seq_region_id, seq_region_start, seq_region_end,
+     seq_region_strand, variation_id, allele_string, variation_name, map_weight,
+    source_id, variation_set_id, class_attrib_id)'
+$server --show-warnings $db -e 'ANALYZE TABLE variation_feature'
+echo
+
+echo variation_synonym
+$server --show-warnings $db -e 'TRUNCATE TABLE variation_synonym'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/variation_synonym.tsv" INTO TABLE variation_synonym
+    (variation_id, source_id, name)'
+$server --show-warnings $db -e 'ANALYZE TABLE variation_synonym'
+echo
+
+echo variation_set_variation
+$server --show-warnings $db -e 'TRUNCATE TABLE variation_set_variation'
+$server --show-warnings $db -e 'LOAD DATA LOCAL INFILE
+    "MySQL/variation_set_variation.tsv" INTO TABLE variation_set_variation'
+$server --show-warnings $db -e 'ANALYZE TABLE variation_set_variation'
+echo
+
+
+
+### POST PROCESSING...
+
+# INSERT INTO sample (sample_id, individual_id, name) SELECT
+# individual_id, individual_id, name FROM individual;
+
+# ## Fix up the DB (attrib_type, attrib_set, attrib)
+# $server $db < \
+#     ${libdir}/ensembl-variation/sql/attrib_entries.sql 
+
+# ## Yuck...
+# $server $db < \
+#     <(mysql-staging-2 mysqldump --no-create-info \
+#       solanum_lycopersicum_variation_26_79_240 \
+#       coord_system read_coverage seq_region source study)
+
+# ## Yuck...
+# $server $db < \
+#     <(mysql-staging-2 mysqldump --no-create-info \
+#       oryza_sativa_core_29_82_7 \
+#       coord_system read_coverage seq_region source study)
+
+# $server $db < \
+#     <(echo "INSERT INTO meta (species_id, meta_key, meta_value) VALUES
+#             (1, 'species.production_name', 'oryza_sativa'),
+#             (1, 'ploidy', '2');")
+
+
+
+# ### TVP
+
+# ## Need to update meta_coord first!
+# ## Probably need to compress first!
+
+# INSERT INTO meta_coord
+# SELECT 'variation_feature', 4, MAX(seq_region_end-seq_region_start+1)
+# FROM variation_feature;
+
+# INSERT INTO meta_coord VALUES ('transcript_variation', 4, NULL);
+
+# Fire off TVP pipeline as usual.
+
+
+
+# ## FAKE READ COVERAGE IF NEEDED
+
+# ## Somethign /like/ this...
+
+# #TRUNCATE TABLE read_coverage;
+
+# INSERT INTO read_coverage
+# SELECT
+#   seq_region_id, 1, length, 
+#   2, # The value of level needs to be 2!
+#   individual_id
+# FROM
+#   seq_region INNER JOIN individual
+# WHERE
+#   coord_system_id = 3;
+
+# ## NEED TO ADD read_coverage into meta_coord too!
