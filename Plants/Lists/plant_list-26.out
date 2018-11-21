@@ -1,0 +1,876 @@
+aegilops_tauschii_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'aegilops_tauschii_core_26_79_1' [Tausch's goatgrass,core,79]
+Earliest patch in database 'aegilops_tauschii_core_26_79_1' is from release 72
+
+
+aegilops_tauschii_otherfeatures_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'aegilops_tauschii_otherfeatures_26_79_1' [unknown,core,79]
+Earliest patch in database 'aegilops_tauschii_otherfeatures_26_79_1' is from release 72
+
+
+amborella_trichopoda_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'amborella_trichopoda_core_26_79_1' [Amborella,core,79]
+Earliest patch in database 'amborella_trichopoda_core_26_79_1' is from release 75
+
+
+arabidopsis_lyrata_core_26_79_10
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'arabidopsis_lyrata_core_26_79_10' [lyrate rockcress,core,79]
+Earliest patch in database 'arabidopsis_lyrata_core_26_79_10' is from release 53
+
+
+arabidopsis_thaliana_core_26_79_10
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'arabidopsis_thaliana_core_26_79_10' [thale-cress,core,79]
+Earliest patch in database 'arabidopsis_thaliana_core_26_79_10' is from release 60
+
+
+arabidopsis_thaliana_funcgen_26_79_10
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'arabidopsis_thaliana_funcgen_26_79_10' [arabidopsis_thaliana,funcgen,79]
+Earliest patch in database 'arabidopsis_thaliana_funcgen_26_79_10' is from release 66
+
+
+arabidopsis_thaliana_variation_26_79_10
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'arabidopsis_thaliana_variation_26_79_10' [arabidopsis_thaliana,variation,79]
+Earliest patch in database 'arabidopsis_thaliana_variation_26_79_10' is from release 56
+
+
+brachypodium_distachyon_core_26_79_12
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brachypodium_distachyon_core_26_79_12' [purple false brome,core,79]
+Earliest patch in database 'brachypodium_distachyon_core_26_79_12' is from release 53
+
+
+brachypodium_distachyon_otherfeatures_26_79_12
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brachypodium_distachyon_otherfeatures_26_79_12' [Purple false brome,core,79]
+Earliest patch in database 'brachypodium_distachyon_otherfeatures_26_79_12' is from release 53
+
+
+brachypodium_distachyon_variation_26_79_12
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brachypodium_distachyon_variation_26_79_12' [brachypodium_distachyon,variation,79]
+Earliest patch in database 'brachypodium_distachyon_variation_26_79_12' is from release 71
+
+
+brassica_oleracea_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brassica_oleracea_core_26_79_1' [brassica_oleracea,core,79]
+Earliest patch in database 'brassica_oleracea_core_26_79_1' is from release 76
+
+
+brassica_rapa_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brassica_rapa_core_26_79_1' [field mustard,core,79]
+Earliest patch in database 'brassica_rapa_core_26_79_1' is from release 56
+
+
+brassica_rapa_otherfeatures_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brassica_rapa_otherfeatures_26_79_1' [field mustard,core,79]
+Earliest patch in database 'brassica_rapa_otherfeatures_26_79_1' is from release 56
+
+
+chlamydomonas_reinhardtii_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'chlamydomonas_reinhardtii_core_26_79_1' [a green algae,core,79]
+Earliest patch in database 'chlamydomonas_reinhardtii_core_26_79_1' is from release 63
+
+
+cyanidioschyzon_merolae_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'cyanidioschyzon_merolae_core_26_79_1' [a red algae,core,79]
+Earliest patch in database 'cyanidioschyzon_merolae_core_26_79_1' is from release 64
+
+
+glycine_max_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'glycine_max_core_26_79_1' [soybean,core,79]
+Earliest patch in database 'glycine_max_core_26_79_1' is from release 62
+
+
+glycine_max_otherfeatures_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'glycine_max_otherfeatures_26_79_1' [Soybean,core,79]
+Earliest patch in database 'glycine_max_otherfeatures_26_79_1' is from release 62
+
+
+hordeum_vulgare_core_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'hordeum_vulgare_core_26_79_2' [Barley,core,79]
+Earliest patch in database 'hordeum_vulgare_core_26_79_2' is from release 64
+
+
+hordeum_vulgare_funcgen_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'hordeum_vulgare_funcgen_26_79_2' [hordeum_vulgare,funcgen,79]
+Earliest patch in database 'hordeum_vulgare_funcgen_26_79_2' is from release 77
+
+
+hordeum_vulgare_otherfeatures_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'hordeum_vulgare_otherfeatures_26_79_2' [Barley,core,79]
+Earliest patch in database 'hordeum_vulgare_otherfeatures_26_79_2' is from release 64
+
+
+hordeum_vulgare_variation_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'hordeum_vulgare_variation_26_79_2' [hordeum_vulgare,variation,79]
+Earliest patch in database 'hordeum_vulgare_variation_26_79_2' is from release 78
+
+
+leersia_perrieri_core_26_79_14
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'leersia_perrieri_core_26_79_14' [Leersia,core,79]
+Earliest patch in database 'leersia_perrieri_core_26_79_14' is from release 75
+
+
+medicago_truncatula_core_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'medicago_truncatula_core_26_79_2' [barrel medic,core,79]
+Earliest patch in database 'medicago_truncatula_core_26_79_2' is from release 78
+
+
+medicago_truncatula_otherfeatures_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'medicago_truncatula_otherfeatures_26_79_2' [barrel medic,core,79]
+Earliest patch in database 'medicago_truncatula_otherfeatures_26_79_2' is from release 78
+
+
+musa_acuminata_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'musa_acuminata_core_26_79_1' [banana,core,79]
+Earliest patch in database 'musa_acuminata_core_26_79_1' is from release 64
+
+
+oryza_barthii_core_26_79_3
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_barthii_core_26_79_3' [African wild rice,core,79]
+Earliest patch in database 'oryza_barthii_core_26_79_3' is from release 75
+
+
+oryza_brachyantha_core_26_79_14
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_brachyantha_core_26_79_14' [oryza_brachyantha,core,79]
+Earliest patch in database 'oryza_brachyantha_core_26_79_14' is from release 64
+
+
+oryza_brachyantha_otherfeatures_26_79_14
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_brachyantha_otherfeatures_26_79_14' [Oryza brachyantha,core,79]
+Earliest patch in database 'oryza_brachyantha_otherfeatures_26_79_14' is from release 64
+
+
+oryza_glaberrima_core_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_glaberrima_core_26_79_2' [African rice,core,79]
+Earliest patch in database 'oryza_glaberrima_core_26_79_2' is from release 62
+
+
+oryza_glaberrima_variation_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_glaberrima_variation_26_79_2' [oryza_glaberrima,variation,79]
+Earliest patch in database 'oryza_glaberrima_variation_26_79_2' is from release 65
+
+
+oryza_glumaepatula_core_26_79_15
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_glumaepatula_core_26_79_15' [oryza_glumaepatula,core,79]
+Earliest patch in database 'oryza_glumaepatula_core_26_79_15' is from release 72
+
+
+oryza_indica_core_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_indica_core_26_79_2' [Indica rice,core,79]
+Earliest patch in database 'oryza_indica_core_26_79_2' is from release 55
+
+
+oryza_indica_funcgen_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_indica_funcgen_26_79_2' [oryza_indica,funcgen,79]
+Earliest patch in database 'oryza_indica_funcgen_26_79_2' is from release 61
+
+
+oryza_indica_variation_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_indica_variation_26_79_2' [oryza_indica,variation,79]
+Earliest patch in database 'oryza_indica_variation_26_79_2' is from release 56
+
+
+oryza_longistaminata_core_26_79_117
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_longistaminata_core_26_79_117' [Oryza longistaminata,core,79]
+Earliest patch in database 'oryza_longistaminata_core_26_79_117' is from release 72
+
+
+oryza_meridionalis_core_26_79_13
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_meridionalis_core_26_79_13' [Oryza meridionalis,core,79]
+Earliest patch in database 'oryza_meridionalis_core_26_79_13' is from release 72
+
+
+oryza_nivara_core_26_79_10
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_nivara_core_26_79_10' [oryza_nivara,core,79]
+Earliest patch in database 'oryza_nivara_core_26_79_10' is from release 72
+
+
+oryza_punctata_core_26_79_12
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_punctata_core_26_79_12' [oryza_punctata,core,79]
+Earliest patch in database 'oryza_punctata_core_26_79_12' is from release 72
+
+
+oryza_rufipogon_core_26_79_11
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_rufipogon_core_26_79_11' [common wild rice,core,79]
+Earliest patch in database 'oryza_rufipogon_core_26_79_11' is from release 72
+
+
+oryza_sativa_core_26_79_7
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_sativa_core_26_79_7' [Japonica rice,core,79]
+Earliest patch in database 'oryza_sativa_core_26_79_7' is from release 64
+
+
+oryza_sativa_funcgen_26_79_7
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_sativa_funcgen_26_79_7' [oryza_sativa,funcgen,79]
+Earliest patch in database 'oryza_sativa_funcgen_26_79_7' is from release 72
+
+
+oryza_sativa_otherfeatures_26_79_7
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_sativa_otherfeatures_26_79_7' [unknown,core,79]
+Earliest patch in database 'oryza_sativa_otherfeatures_26_79_7' is from release 74
+
+
+oryza_sativa_variation_26_79_7
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_sativa_variation_26_79_7' [oryza_sativa,variation,79]
+Earliest patch in database 'oryza_sativa_variation_26_79_7' is from release 56
+
+
+ostreococcus_lucimarinus_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'ostreococcus_lucimarinus_core_26_79_1' [a green algae,core,79]
+Earliest patch in database 'ostreococcus_lucimarinus_core_26_79_1' is from release 76
+
+
+physcomitrella_patens_core_26_79_11
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'physcomitrella_patens_core_26_79_11' [a moss,core,79]
+Earliest patch in database 'physcomitrella_patens_core_26_79_11' is from release 58
+
+
+physcomitrella_patens_otherfeatures_26_79_11
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'physcomitrella_patens_otherfeatures_26_79_11' [physcomitrella,core,79]
+Earliest patch in database 'physcomitrella_patens_otherfeatures_26_79_11' is from release 58
+
+
+populus_trichocarpa_core_26_79_20
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'populus_trichocarpa_core_26_79_20' [western balsam poplar,core,79]
+Earliest patch in database 'populus_trichocarpa_core_26_79_20' is from release 56
+
+
+populus_trichocarpa_funcgen_26_79_20
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'populus_trichocarpa_funcgen_26_79_20' [populus_trichocarpa,funcgen,79]
+Earliest patch in database 'populus_trichocarpa_funcgen_26_79_20' is from release 66
+
+
+prunus_persica_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'prunus_persica_core_26_79_1' [peach,core,79]
+Earliest patch in database 'prunus_persica_core_26_79_1' is from release 75
+
+
+prunus_persica_otherfeatures_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'prunus_persica_otherfeatures_26_79_1' [Prunus persica,core,79]
+Earliest patch in database 'prunus_persica_otherfeatures_26_79_1' is from release 75
+
+
+selaginella_moellendorffii_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'selaginella_moellendorffii_core_26_79_1' [a spike moss,core,79]
+Earliest patch in database 'selaginella_moellendorffii_core_26_79_1' is from release 63
+
+
+setaria_italica_core_26_79_21
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'setaria_italica_core_26_79_21' [foxtail millet,core,79]
+Earliest patch in database 'setaria_italica_core_26_79_21' is from release 64
+
+
+setaria_italica_otherfeatures_26_79_21
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'setaria_italica_otherfeatures_26_79_21' [foxtail millet,core,79]
+Earliest patch in database 'setaria_italica_otherfeatures_26_79_21' is from release 64
+
+
+solanum_lycopersicum_core_26_79_240
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'solanum_lycopersicum_core_26_79_240' [tomato,core,79]
+Earliest patch in database 'solanum_lycopersicum_core_26_79_240' is from release 59
+
+
+solanum_lycopersicum_otherfeatures_26_79_240
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'solanum_lycopersicum_otherfeatures_26_79_240' [tomato,core,79]
+Earliest patch in database 'solanum_lycopersicum_otherfeatures_26_79_240' is from release 59
+
+
+solanum_lycopersicum_variation_26_79_240
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'solanum_lycopersicum_variation_26_79_240' [solanum_lycopersicum,variation,79]
+Earliest patch in database 'solanum_lycopersicum_variation_26_79_240' is from release 77
+
+
+solanum_tuberosum_core_26_79_4
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'solanum_tuberosum_core_26_79_4' [potato,core,79]
+Earliest patch in database 'solanum_tuberosum_core_26_79_4' is from release 64
+
+
+solanum_tuberosum_otherfeatures_26_79_4
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'solanum_tuberosum_otherfeatures_26_79_4' [potato,core,79]
+Earliest patch in database 'solanum_tuberosum_otherfeatures_26_79_4' is from release 64
+
+
+sorghum_bicolor_core_26_79_14
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'sorghum_bicolor_core_26_79_14' [sorghum,core,79]
+Earliest patch in database 'sorghum_bicolor_core_26_79_14' is from release 53
+
+
+sorghum_bicolor_variation_26_79_14
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'sorghum_bicolor_variation_26_79_14' [sorghum_bicolor,variation,79]
+Earliest patch in database 'sorghum_bicolor_variation_26_79_14' is from release 69
+
+
+theobroma_cacao_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'theobroma_cacao_core_26_79_1' [cocoa,core,79]
+Earliest patch in database 'theobroma_cacao_core_26_79_1' is from release 76
+
+
+triticum_aestivum_core_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'triticum_aestivum_core_26_79_2' [bread wheat,core,79]
+Earliest patch in database 'triticum_aestivum_core_26_79_2' is from release 69
+
+
+triticum_aestivum_otherfeatures_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'triticum_aestivum_otherfeatures_26_79_2' [unknown,core,79]
+Earliest patch in database 'triticum_aestivum_otherfeatures_26_79_2' is from release 69
+
+
+triticum_aestivum_variation_26_79_2
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'triticum_aestivum_variation_26_79_2' [triticum_aestivum,variation,79]
+Earliest patch in database 'triticum_aestivum_variation_26_79_2' is from release 76
+
+
+triticum_urartu_core_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'triticum_urartu_core_26_79_1' [an einkorn,core,79]
+Earliest patch in database 'triticum_urartu_core_26_79_1' is from release 72
+
+
+triticum_urartu_otherfeatures_26_79_1
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'triticum_urartu_otherfeatures_26_79_1' [Triticum urartu,core,79]
+Earliest patch in database 'triticum_urartu_otherfeatures_26_79_1' is from release 72
+
+
+vitis_vinifera_core_26_79_3
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'vitis_vinifera_core_26_79_3' [wine grape,core,79]
+Earliest patch in database 'vitis_vinifera_core_26_79_3' is from release 56
+
+
+vitis_vinifera_funcgen_26_79_3
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'vitis_vinifera_funcgen_26_79_3' [vitis_vinifera,funcgen,79]
+Earliest patch in database 'vitis_vinifera_funcgen_26_79_3' is from release 59
+
+
+vitis_vinifera_variation_26_79_3
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'vitis_vinifera_variation_26_79_3' [vitis_vinifera,variation,79]
+Earliest patch in database 'vitis_vinifera_variation_26_79_3' is from release 56
+
+
+zea_mays_core_26_79_6
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'zea_mays_core_26_79_6' [maize,core,79]
+Earliest patch in database 'zea_mays_core_26_79_6' is from release 40
+
+
+zea_mays_funcgen_26_79_6
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'zea_mays_funcgen_26_79_6' [zea_mays,funcgen,79]
+Earliest patch in database 'zea_mays_funcgen_26_79_6' is from release 70
+
+
+zea_mays_otherfeatures_26_79_6
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'zea_mays_otherfeatures_26_79_6' [maize,core,79]
+Earliest patch in database 'zea_mays_otherfeatures_26_79_6' is from release 75
+
+
+zea_mays_variation_26_79_6
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/apis/ensembl/79/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'zea_mays_variation_26_79_6' [zea_mays,variation,79]
+Earliest patch in database 'zea_mays_variation_26_79_6' is from release 65
+
+

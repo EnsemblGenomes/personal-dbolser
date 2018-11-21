@@ -1,0 +1,115 @@
+#! /bin/env bash
+
+### CONFIG
+
+## Bring in E!API
+#source /homes/dbolser/EG_Places/Devel/lib/libensembl-93/setup.sh
+source /homes/dbolser/EG_Places/Devel/lib/libensembl-95/setup.sh
+
+
+
+## EG MySQL server 'command'
+
+#dbserver=mysql-staging-1-ensrw
+#dbserver=mysql-staging-2-ensrw
+#dbserver=mysql-prod-1-ensrw
+dbserver=mysql-prod-2-ensrw
+#dbserver=mysql-prod-3-ensrw
+#dbserver=mysql-pan-prod-ensrw
+#dbserver=mysql-devel-1-ensrw
+#dbserver=mysql-devel-3-ensrw
+#dbserver=mysql-hive-ensrw
+#dbserver=mysql-enaprod-ensrw
+#dbserver=mysql-eg-archive-rel-ensrw
+
+#list=Lists/plant_list-37.txt
+#list=Lists/plant_list-39.txt
+list=Lists/plant_list-41.txt
+#list=dummy_list
+list=db_to_copy.txt
+
+
+## SQL PATCHES
+
+while read -r db; do
+    echo $db
+    
+    ## Remove '--dryrun' once you're ready to run
+    perl $ENSEMBL_ROOT_DIR/ensembl/misc-scripts/schema_patcher.pl \
+        $(${dbserver} details naga) \
+        --database $db --nointeractive --fix \
+        --dryrun
+    
+    echo
+done \
+    < ${list} \
+    > ${list%.txt}.out
+
+grep -c "Would apply patch " ${list%.txt}.out
+grep -c "Will apply patch "  ${list%.txt}.out
+
+# ## Use this form to limit the list
+#     < <(grep -P "_(variation)_" ${list}) 1> one 2> two
+#     < <( grep _core_ ${list} | grep -v aestivum ) \
+
+exit
+
+
+
+
+
+## Do you need to rename?
+
+while read -r core; do
+    #echo $core
+    corx=${core/_35_88_/_36_89_}
+    $dbserver $core --table -e 'SELECT DATABASE()'
+    $dbserver $corx --table -e 'SELECT DATABASE()'
+
+    # mysqlnaga-rename --create --drop $(mysql-prod-1-ensrw --details script) \
+    #                  --database $core \
+    #                  --target   $corx
+    
+done < \
+     
+
+
+
+
+
+## FUNCGEN SCRIPT
+
+## Note: Running this multiple times has no adverse effects
+## (AFAICT). Not sure when this can be run, but it's essential that it
+## is run each release (affects the coord_system and seq_region tables
+## (also updates meta_coord)). Previously there was an issue running
+## on barley, which has multiple versions of a given CS.
+
+script_dir=$ENSEMBL_ROOT_DIR/ensembl-funcgen/scripts/release
+
+func_server=mysql-prod-1-ensrw
+core_server=mysql-prod-1
+
+while read -r db; do
+    echo $db
+    #db=${db/_31_84_/_35_88_}
+    #echo $db
+    
+    sp=${db%_funcgen_*}
+    dv=${db#*_funcgen_*_}
+    echo $sp
+    echo $dv
+    
+    #echo \
+    time \
+      perl $script_dir/update_DB_for_release.pl \
+        $(${func_server} --details script) \
+        $(${core_server} --details script_dnadb_) \
+        -dbname $db \
+        -species $sp \
+        -data_version $dv \
+        -check_displayable
+    
+    echo
+done \
+    < <(grep "_funcgen_" ${list})

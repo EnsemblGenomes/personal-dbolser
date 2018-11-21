@@ -1,0 +1,206 @@
+aegilops_tauschii_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	34215	33924	1	34267
+Uniprot/SWISSPROT	2200	3	3	1	3
+Uniprot/SWISSPROT	NULL	34218	33924	1	34270
+
+amborella_trichopoda_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	7132	7128	1	7134
+Uniprot/SPTREMBL	NULL	7132	7128	1	7134
+
+arabidopsis_lyrata_core_24_77_10
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	32722	32524	1	33335
+Uniprot/SWISSPROT	2200	29	29	1	29
+Uniprot/SWISSPROT	NULL	32751	32551	1	33364
+
+arabidopsis_thaliana_core_24_77_10
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	35002	23849	1	40838
+Uniprot/SWISSPROT	2200	12133	13408	1	13622
+Uniprot/SWISSPROT	NULL	47135	34251	1	54460
+
+brachypodium_distachyon_core_24_77_12
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	30019	30999	1	31801
+Uniprot/SWISSPROT	2200	19	21	1	21
+Uniprot/SWISSPROT	NULL	30038	31009	1	31822
+
+brassica_oleracea_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	2	2	1	2
+Uniprot/SPTREMBL	NULL	2	2	1	2
+
+brassica_rapa_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	41074	41004	1	41487
+Uniprot/SWISSPROT	2200	8	9	1	9
+Uniprot/SWISSPROT	NULL	41082	41007	1	41496
+
+chlamydomonas_reinhardtii_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	14646	14402	1	15433
+Uniprot/SWISSPROT	2200	246	324	1	397
+Uniprot/SWISSPROT	NULL	14892	14484	1	15830
+
+cyanidioschyzon_merolae_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	190	182	1	190
+Uniprot/SWISSPROT	2200	102	102	1	102
+Uniprot/SWISSPROT	NULL	292	278	1	292
+
+glycine_max_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	72158	72457	1	85896
+Uniprot/SWISSPROT	2200	310	382	1	398
+Uniprot/SWISSPROT	NULL	72468	72517	1	86294
+
+hordeum_vulgare_core_24_77_2
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	63674	62137	1	96627
+Uniprot/SWISSPROT	2200	228	244	1	268
+Uniprot/SWISSPROT	NULL	63902	62139	1	96895
+
+leersia_perrieri_core_24_77_14
+
+medicago_truncatula_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	50317	45994	1	52883
+Uniprot/SWISSPROT	2200	40	39	1	41
+Uniprot/SWISSPROT	NULL	50357	45996	1	52924
+
+musa_acuminata_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	36207	36234	1	36302
+Uniprot/SPTREMBL	NULL	36207	36234	1	36302
+
+oryza_barthii_core_24_77_3
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	141	122	1	172
+Uniprot/SPTREMBL	NULL	141	122	1	172
+
+oryza_brachyantha_core_24_77_14
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	30782	30630	1	30886
+Uniprot/SPTREMBL	NULL	30782	30630	1	30886
+
+oryza_glaberrima_core_24_77_2
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	31507	32684	1	33212
+Uniprot/SWISSPROT	2200	1	1	1	1
+Uniprot/SWISSPROT	NULL	31508	32684	1	33213
+
+oryza_glumaepatula_core_24_77_15
+
+oryza_indica_core_24_77_2
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	38563	37065	1	38980
+Uniprot/SWISSPROT	2200	521	541	1	545
+Uniprot/SWISSPROT	NULL	39084	37434	1	39525
+
+oryza_meridionalis_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	125	122	1	165
+Uniprot/SPTREMBL	NULL	125	122	1	165
+
+oryza_nivara_core_24_77_10
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	16	18	1	18
+Uniprot/SPTREMBL	NULL	16	18	1	18
+
+oryza_punctata_core_24_77_12
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	198	214	1	254
+Uniprot/SPTREMBL	NULL	198	214	1	254
+
+oryza_rufipogon_core_24_77_11
+
+oryza_sativa_core_24_77_7
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	40865	28483	1	44597
+Uniprot/SWISSPROT	2200	2697	2975	1	3016
+Uniprot/SWISSPROT	NULL	43562	29614	1	47613
+
+ostreococcus_lucimarinus_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	7383	7581	1	7581
+Uniprot/SWISSPROT	2200	20	22	1	22
+Uniprot/SWISSPROT	NULL	7403	7603	1	7603
+
+physcomitrella_patens_core_24_77_11
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	17306	20108	1	20712
+Uniprot/SWISSPROT	2200	54	80	1	80
+Uniprot/SWISSPROT	NULL	17360	20177	1	20792
+
+populus_trichocarpa_core_24_77_20
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	35038	31575	1	37143
+Uniprot/SWISSPROT	2200	57	54	1	59
+Uniprot/SWISSPROT	NULL	35095	31610	1	37202
+
+prunus_persica_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	28437	28909	1	31009
+Uniprot/SWISSPROT	2200	16	18	1	18
+Uniprot/SWISSPROT	NULL	28453	28909	1	31027
+
+selaginella_moellendorffii_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	33207	34793	1	35372
+Uniprot/SWISSPROT	2200	33	30	1	33
+Uniprot/SWISSPROT	NULL	33240	34821	1	35405
+
+setaria_italica_core_24_77_21
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	39250	40589	1	41641
+Uniprot/SPTREMBL	NULL	39250	40589	1	41641
+
+solanum_lycopersicum_core_24_77_240
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	35611	34480	1	35740
+Uniprot/SWISSPROT	2200	345	356	1	368
+Uniprot/SWISSPROT	NULL	35956	34642	1	36108
+
+solanum_tuberosum_core_24_77_4
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	54127	56155	1	64528
+Uniprot/SWISSPROT	2200	269	238	1	307
+Uniprot/SWISSPROT	NULL	54396	56168	1	64835
+
+sorghum_bicolor_core_24_77_14
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	33489	32962	1	33969
+Uniprot/SWISSPROT	2200	113	118	1	120
+Uniprot/SWISSPROT	NULL	33602	33017	1	34089
+
+theobroma_cacao_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	259	264	1	264
+Uniprot/SPTREMBL	NULL	259	264	1	264
+
+triticum_aestivum_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	101354	97738	1	138209
+Uniprot/SWISSPROT	2200	283	1182	1	1259
+Uniprot/SWISSPROT	NULL	101637	97755	1	139468
+
+triticum_urartu_core_24_77_1
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	33533	33483	1	33914
+Uniprot/SWISSPROT	2200	1	1	1	1
+Uniprot/SWISSPROT	NULL	33534	33483	1	33915
+
+vitis_vinifera_core_24_77_3
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	35997	29526	1	36302
+Uniprot/SWISSPROT	2200	96	96	1	100
+Uniprot/SWISSPROT	NULL	36093	29556	1	36402
+
+zea_mays_core_24_77_6
+db_name	external_db_id	X	O	Z	N
+Uniprot/SPTREMBL	2000	52510	43239	1	67231
+Uniprot/SWISSPROT	2200	598	786	1	876
+Uniprot/SWISSPROT	NULL	53108	43382	1	68107
+

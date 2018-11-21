@@ -1,0 +1,46 @@
+      1 Alignments of EST clusters (Unigenes, Gene Indices) from Brachypodium species
+      1 Alignments of EST clusters (Unigenes, Gene Indices) from Chlamydomonas species
+      1 Alignments of EST clusters (Unigenes, Gene Indices) from hgrape
+      1 Alignments of EST clusters (Unigenes, Gene Indices) from poplar (Populus) species
+      1 Alignments of EST clusters (Unigenes, Gene Indices) from Selaginella species
+      1 Alignments of EST clusters (Unigenes, Gene Indices) from Sorghum species
+      1 Alignments of EST clusters (Unigenes, Gene Indices) from soybean (Glycine) species
+      1 Alignments of EST clusters (Unigenes, Gene Indices) from tomato (Solanum) species
+      1 Alignments of LGB Pratt EST clusters for Sorghum
+      1 <a rel="external" href="http://brassica.bbsrc.ac.uk/array_info.html">Brassica 135K unigene set</a> aligned to Brassica BACs with BLAT
+      1 <a rel="external" href="http://brassica.bbsrc.ac.uk/array_info.html">Brassica 95K unigene set</a> aligned to Brassica BACs with BLAT
+      1 <a rel="external" href="http://www.arabidopsis.org">TAIR</a> v9 Arabidopsis CDS aligned to Brassica BACs with BLAT
+      1 Brassica ESTs within <a rel="external" href="http://www.ncbi.nlm.nih.gov">GenBank</a> aligned to Brassica BACs with BLAST
+      1 cDNA sequences are mapped onto the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.
+      1 'Expressed Sequence Tags' (ESTs) are mapped onto the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.
+      1 Expressed Sequence Tags (ESTs) from <a rel="external" href="http://harvest.ucr.edu/">the HarvEST database</a>.
+      1 Genomic alignments of Arabidopsis "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of Chlamydomonas "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of grape "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of maize (Zea) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of poplar (Populus) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of rice (Oryza) EST clusters (Unigenes, Gene Indices)
+      1 Genomic alignments of rice (Oryza) mRNA
+      1 Genomic alignments of rice (Oryza) "restriction fragment length polymorphism" (RFLP)
+      1 Genomic alignments of Selaginella "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of Sorghum "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of soybean (Glycine) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of tomato (Solanum) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      1 Genomic alignments of tomato (Solanum) mRNA
+      1 genomics location of RFLP (restriction fragment length polymorphism) markers
+      1 Locations of <a rel="external" href="http://en.wikipedia.org/wiki/T-DNA">T-DNA</A> and transposable element insertion sites identified via alignment to the genome of appropriate flanking sequence tags (FST)
+      1 Maize FPC markers
+      1 Non-redundant barley full-length cDNAs from <a rel="external" href="http://www.plantphysiol.org/content/156/1/20.long">Matsumoto et al, 2011 Plant Physiol 156:20-28</a>
+      1 NULL
+      2 Triticum aestivum 'Expressed Sequence Tags' (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.
+      3 Genomic alignments of rice (Oryza) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>
+      3 Genomics location of RFLP (restriction fragment length polymorphism) markers
+      3 Transcriptome transcripts from <a href=http://jaiswallab.cgrb.oregonstate.edu/genomics/brasy>Jaiswal lab Brachypodium sylvaticum variation project</a>
+      4 'Expressed Sequence Tags' (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.
+      5 Genomic location of <a rel="external" href="www.ncbi.nlm.nih.gov/projects/genome/probe/doc/TechOvergo.shtml">Overgo</a> probe markers
+      5 Triticum aestivum UniGene cluster sequences from <a rel="external" href="http://www.ncbi.nlm.nih.gov/unigene/">NCBI</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.
+      8 Alignments of EST clusters (Unigenes, Gene Indices) from monocot species
+      9 Alignmments of EST clusters (Unigenes, Gene Indices) from all dicot species
+     13 Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis
+     13 Alignments of EST clusters (Unigenes, Gene Indices) from Maize
+     13 Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species

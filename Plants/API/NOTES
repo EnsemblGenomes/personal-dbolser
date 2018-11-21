@@ -1,0 +1,18 @@
+
+See:
+https://docs.google.com/spreadsheets/d/\
+1nap1wGeLoeqeAeZAkgxmcgpC3XZWlh5cOLZ8DsLM7fo
+
+Compare what we got from our core metadata query ...
+
+mysql-staging-1-ensrw \
+    ensembl_compara_plants_31_84 -e '
+SELECT
+  genome_db_id, name, assembly, genebuild
+FROM
+  genome_db
+WHERE
+  genome_component IS NULL
+ORDER BY
+  name' > genome_db.txt
+

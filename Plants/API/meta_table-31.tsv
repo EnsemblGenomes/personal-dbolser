@@ -1,0 +1,40 @@
+db	species	provider.name	provider.url	genebuild.method	genebuild.start_date	genebuild.last_geneset_update	genebuild.version	assembly.date	assembly.default	assembly.name	assembly.accession
+aegilops_tauschii_core_31_84_1	aegilops_tauschii	BGI	http://gigadb.org/dataset/100054	Generated from ENA annotation	2014-05-BGI	2013-12	2013-12-BGI	2013-12	ASM34733v1	ASM34733v1	GCA_000347335.1
+amborella_trichopoda_core_31_84_1	amborella_trichopoda	Amborella Genome Database	http://www.amborella.org/	Generated from ENA annotation	2013-10-AGD	2014-01	2014-01-AGD	2014-01	AMTR1.0	AMTR1.0	GCA_000471905.1
+arabidopsis_lyrata_core_31_84_10	arabidopsis_lyrata	JGI	http://genome.jgi-psf.org/Araly1/Araly1.info.html	Imported from JGI-Phytozome	2008-12-JGI	2008-12	2008-12-Araly1.0	2008-12	v.1.0	v.1.0	GCA_000004255.1
+arabidopsis_thaliana_core_31_84_10	arabidopsis_thaliana	TAIR	http://www.arabidopsis.org/	Imported from TAIR	2010-09-TAIR	2010-09	2010-09-TAIR10	2010-09	TAIR10	TAIR10	GCA_000001735.1
+brachypodium_distachyon_core_31_84_12	brachypodium_distachyon	Brachypodium.org	http://brachypodium.org	Imported from JGI-Phytozome	2010-02-JGI		2010-02-Brachy1.2	2009-01	v1.0	v1.0	GCA_000005505.1
+brassica_oleracea_core_31_84_1	brassica_oleracea	CanSeq		import	2014-05-CanSeq	2014-05	v2.1	2014-05	v2.1	v2.1	GCA_000695525.1
+brassica_rapa_core_31_84_1	brassica_rapa	IVFCAAS	http://brassicadb.org/brad/	Imported from IVFCAAS by BrassEnsembl	2012-03-IVFCAAS	2012-05	bra_v1.01_SP2010_01	2009-08	IVFCAASv1	IVFCAASv1	GCA_000309985.1
+chlamydomonas_reinhardtii_core_31_84_1	chlamydomonas_reinhardtii	JGI	http://www.jgi.doe.gov/chlamy	Generated from ENA and UniProtKB annotation	2012-11-JGI	2012-11	2007-11-ENA	2007-11	v3.1	v3.1	GCA_000002595.2
+cyanidioschyzon_merolae_core_31_84_1	cyanidioschyzon_merolae	Cyanidioschyzon merolae Genome Project	http://merolae.biol.s.u-tokyo.ac.jp/	Generated from ENA and UniProtKB annotation	2003-05-ENA	2008-11	2008-11-ENA	2008-11	ASM9120v1	ASM9120v1	GCA_000091205.1
+glycine_max_core_31_84_1	glycine_max	JGI	http://www.phytozome.net/soybean	Imported from JGI-Phytozome	2012-07-JGI		JGI-Glyma-1.1	2010-01	V1.0	V1.0	GCA_000004515.1
+hordeum_vulgare_core_31_84_2	hordeum_vulgare	IBSC	http://barleygenome.org	import	2014-05-IBSC_1.0		IBSC_1.0	2012-03	ASM32608v1	ASM32608v1	GCA_000326085.1
+leersia_perrieri_core_31_84_14	leersia_perrieri	OGE	http://preview.iplantcollaborative.org/de/?type=data	Imported from OGE MAKER annotation	2013-09-OGE		2013-09-OGE	2014-03	Lperr_V1.4	Lperr_V1.4	GCA_000325765.3
+medicago_truncatula_core_31_84_2	medicago_truncatula	IMGAG	http://jcvi.org/medicago/index.php	Generated from ENA annotation	2015-01-IMGAG	2014-06	2014-06-EnsemblPlants	2014-06	MedtrA17_3.5	MedtrA17_4.0	GCA_000219495.2
+musa_acuminata_core_31_84_1	musa_acuminata	CIRAD	http://banana-genome.cirad.fr/	import	2012-08-Cirad	2012-08	2012-08-Cirad	2012-08	MA1	MA1	GCA_000313855.1
+oryza_barthii_core_31_84_3	oryza_barthii	OGE	http://preview.iplantcollaborative.org/de/?type=data	Imported from OGE MAKER annotation	2014-05-OGE		2014-05-OGE	2014-04	O.barthii_v1	O.barthii_v1	GCA_000182155.2
+oryza_brachyantha_core_31_84_14	oryza_brachyantha	OGE	http://www.omap.org/index.html	Imported from OGE	2011-05-OGE		OGEv1.4	2011-05	Oryza_brachyantha.v1.4b	Oryza_brachyantha.v1.4b	GCA_000231095.2
+oryza_glaberrima_core_31_84_2	oryza_glaberrima	AGI	http://www2.genome.arizona.edu/genomes/rice_glab_genome_announce	Imported from MIPS	2011-05-AGI		2011-05-AGI	2011-05	AGI1.1	AGI1.1	GCA_000147395.1
+oryza_glumaepatula_core_31_84_15	oryza_glumaepatula	OGE	http://preview.iplantcollaborative.org/de/?type=data	Imported from OGE MAKER annotation 	2013-09-OGE		2013-09	2013-08	ALNU02000000	ALNU02000000	GCA_000576495.1
+oryza_indica_core_31_84_2	oryza_indica	RIS	http://rice.genomics.org.cn	Imported from BGI	2010-07-BGI	2010-07	2010-07-BGI	2005-01	ASM465v1	ASM465v1	GCA_000004655.2
+oryza_longistaminata_core_31_84_2	oryza_longistaminata	BGI	http://www.ebi.ac.uk/ena/data/view/GCA_000789195.1	Imported from OGE MAKER annotation	2015-05-OGE		2015-05-OGE	2015-05	O_longistaminata_v1.0	O_longistaminata_v1.0	GCA_000789195.1
+oryza_meridionalis_core_31_84_13	oryza_meridionalis	OGE	http://www.omap.org/	Imported from OGE MAKER annotation 	2014-10-OGE		2014-10-MAKER	2014-10-OGE	Oryza_meridionalis_v1.3	Oryza_meridionalis_v1.3	GCA_000338895.2
+oryza_nivara_core_31_84_10	oryza_nivara	OGE	http://preview.iplantcollaborative.org/de/?type=data	Imported from OGE MAKER annotation 	2013-09-OGE		2013-09	2013-08	AWHD00000000	AWHD00000000	GCA_000576065.1
+oryza_punctata_core_31_84_12	oryza_punctata	OGE	http://preview.iplantcollaborative.org/de/?type=data	Imported from OGE MAKER annotation 	2013-09-OGE		2013-09	2013-08	AVCL00000000	AVCL00000000	GCA_000573905.1
+oryza_rufipogon_core_31_84_11	oryza_rufipogon	OGE	http://preview.iplantcollaborative.org/de/?type=data	Imported from OGE MAKER annotation 	2013-09-OGE		2013-09-OGE	2013-08	OR_W1943	OR_W1943	GCA_000817225.1
+oryza_sativa_core_31_84_7	oryza_sativa	RAP-DB	http://rapdb.dna.affrc.go.jp/	Imported from RAP-DB	2013-04-IRGSP		IRGSP-1.0	2013-04	IRGSP-1.0	IRGSP-1.0	GCA_001433935.1
+ostreococcus_lucimarinus_core_31_84_1	ostreococcus_lucimarinus	JGI	http://www.phytozome.net/olucimarinus	Generated from ENA annotation	2007-04-EnsemblPlants	2011-01	2011-01-EnsemblPlants	2011-01	ASM9206v1	ASM9206v1	GCA_000092065.1
+physcomitrella_patens_core_31_84_11	physcomitrella_patens	JGI	http://genome.jgi-psf.org/physcomitrella/physcomitrella.home.html	Imported from JGI-Phytozome	2011-03-JGI	2011-03	2011-03-Phypa1.6	2006-07	ASM242v1	ASM242v1	GCA_000002425.1
+populus_trichocarpa_core_31_84_20	populus_trichocarpa	JGI	http://www.phytozome.net/poplar	Imported from JGI-Phytozome	2010-01-JGI		2010-01-JGI	2010-01	JGI2.0	JGI2.0	GCA_000002775.2
+prunus_persica_core_31_84_1	prunus_persica	International Peach Genome Initiative	http://www.rosaceae.org/species/prunus_persica/genome_v1.0	Generated by the IPGI	2013-03-IPGI	2013-03	2013-03	2013-03	Prupe1_0	Prupe1_0	GCA_000346465.1
+selaginella_moellendorffii_core_31_84_1	selaginella_moellendorffii	JGI	http://www.jgi.doe.gov/Selaginella	Generated from ENA and UniProtKB annotation	2010-07-ENA	2011-05	2011-05-ENA	2011-05	v1.0	v1.0	GCA_000143415.1
+setaria_italica_core_31_84_21	setaria_italica	JGI	http://www.phytozome.net/foxtailmillet.php	Imported from JGI	2012-01-JGI		JGIv2.1	2012-01	JGIv2.0	JGIv2.0	GCA_000263155.1
+solanum_lycopersicum_core_31_84_250	solanum_lycopersicum	ITGSP	http://solgenomics.net/organism/Solanum_lycopersicum/genome	Generated from ENA annotation	2011-02-EnsemblPlants	2014-10	2014-10-EnsemblPlants	2014-10	SL2.50	SL2.50	GCA_000188115.2
+solanum_tuberosum_core_31_84_4	solanum_tuberosum	PGSC	http://potatogenome.net	import	2011-05-SolTub_3.0		SolTub_3.0	2011-05	SolTub_3.0	SolTub_3.0	GCA_000226075.1
+sorghum_bicolor_core_31_84_14	sorghum_bicolor	JGI	http://genome.jgi-psf.org/Sorbi1/Sorbi1.home.html	Imported from JGI-Phytozome	2007-12-JGI	2007-12	2007-12-JGI	2007-12	Sorbi1	Sorbi1	GCA_000003195.1
+theobroma_cacao_core_31_84_1	theobroma_cacao	The Cacao Genome Database	http://www.cacaogenomedb.org/	Generated from ENA annotation	2013-06-EnsemblPlants	2014-05	2014-05-EnsemblPlants	2014-05	Theobroma_cacao_20110822	Theobroma_cacao_20110822	GCA_000403535.1
+triticum_aestivum_core_31_84_2	triticum_aestivum	IWGSC	http://www.wheatgenome.org/	Imported from IWGSC	2014-11-IWGSC	2013-12-MIPS	2.2	2014-11	IWGSC1+popseq	IWGSC1+popseq	
+triticum_urartu_core_31_84_1	triticum_urartu	BGI	http://gigadb.org/dataset/100050	Generated from ENA annotation	2014-05-BGI	2013-04	2013-04-BGI	2013-04	ASM34745v1	ASM34745v1	GCA_000347455.1
+vitis_vinifera_core_31_84_3	vitis_vinifera	Genoscope	http://www.genoscope.cns.fr/externe/GenomeBrowser/Vitis	Imported from CRIBI V1 Grape Genome	2012-11-CRIBI		2012-07-CRIBI	2011-06	IGGP_12x	IGGP_12x	GCA_000003745.2
+zea_mays_core_31_84_6	zea_mays	MaizeSequence.org	http://www.MaizeSequence.org	Imported from MaizeSequence.org	2010-01-MaizeSequence	2010-01	5b	2013-04	AGPv3	AGPv3	GCA_000005005.5

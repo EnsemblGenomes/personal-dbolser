@@ -1,0 +1,38 @@
+NULL	aegilops_tauschii	Aegilops tauschii	aegilops_tauschii	Aegilops tauschii	Aegilops tauschii	NULL	NULL	Aegilops_tauschii
+Amborella trichopoda	amborella_trichopoda	Amborella trichopoda	amborella_trichopoda	Amborella trichopoda	Amborella trichopoda	NULL	NULL	Amborella_trichopoda
+Lyre-leaved rock-cress	NULL	Arabidopsis lyrata	arabidopsis_lyrata	Arabidopsis lyrata subsp. lyrata	Arabidopsis lyrata	NULL	NULL	Arabidopsis_lyrata
+Mouse-ear cress	NULL	Arabidopsis thaliana	arabidopsis_thaliana	Arabidopsis thaliana	A. thaliana	NULL	NULL	Arabidopsis_thaliana
+Purple false brome	NULL	Brachypodium distachyon	brachypodium_distachyon	Brachypodium distachyon	Brachypodium distachyon	(L.) Beauv	NULL	Brachypodium_distachyon
+NULL	NULL	Brassica oleracea	brassica_oleracea	Brassica oleracea	B oleracea	NULL	NULL	Brassica_oleracea
+field mustard	NULL	Brassica rapa	brassica_rapa	Brassica rapa	B rapa	NULL	NULL	Brassica_rapa
+Chlamydomonas reinhardtii	chlamydomonas_reinhardtii	Chlamydomonas reinhardtii	chlamydomonas_reinhardtii	Chlamydomonas reinhardtii	Chlamydomonas reinhardtii	NULL	NULL	Chlamydomonas_reinhardtii
+Cyanidioschyzon merolae	cyanidioschyzon_merolae	Cyanidioschyzon merolae	cyanidioschyzon_merolae	Cyanidioschyzon merolae strain 10D	C. merolae	NULL	NULL	Cyanidioschyzon_merolae
+Soybean	NULL	Glycine max	glycine_max	Glycine max	G. max	NULL	NULL	Glycine_max
+Barley	NULL	Hordeum vulgare	hordeum_vulgare	Hordeum vulgare	Hordeum vulgare	NULL	NULL	Hordeum_vulgare
+authorityLeersia perrieri (A.Camus) Launert	NULL	Leersia perrieri	leersia_perrieri	Leersia perrieri	Leersia perrieri	NULL	NULL	Leersia_perrieri
+Medicago truncatula	medicago_truncatula	Medicago truncatula	medicago_truncatula	Medicago truncatula	Medicago truncatula	A17	NULL	Medicago_truncatula
+NULL	NULL	Musa acuminata	musa_acuminata	Musa acuminata	M. acuminata	Doubled-haploid Pahang (DH-Pahang)	NULL	Musa_acuminata
+authorityOryza breviligulata A.Chev. & Roehr.	NULL	Oryza barthii	oryza_barthii	Oryza barthii	Oryza barthii	NULL	NULL	Oryza_barthii
+Oryza brachyantha	NULL	Oryza brachyantha	oryza_brachyantha	Oryza brachyantha	O. brachyantha	NULL	NULL	Oryza_brachyantha
+African rice	NULL	Oryza glaberrima	oryza_glaberrima	Oryza glaberrima	O. glaberrima	NULL	NULL	Oryza_glaberrima
+authorityOryza glumipatula Steud.	NULL	Oryza glumaepatula	oryza_glumaepatula	Oryza glumaepatula	Oryza glumaepatula	NULL	NULL	Oryza_glumaepatula
+Indica rice	NULL	Oryza sativa Indica Group	oryza_indica	Oryza sativa Indica Group	O. indica	93-11 (Indica rice)	NULL	Oryza_sativa_Indica_Group
+misspellingOryza meridionales	NULL	Oryza meridionalis	oryza_meridionalis	Oryza meridionalis	Oryza meridionalis	NULL	NULL	Oryza_meridionalis
+misspellingOryza nivarra	NULL	Oryza nivara	oryza_nivara	Oryza nivara	Oryza nivara	NULL	NULL	Oryza_nivara
+authorityOryza punctata Kotschy ex Steud.	NULL	Oryza punctata	oryza_punctata	Oryza punctata	Oryza punctata	NULL	NULL	Oryza_punctata
+authorityOryza rufipogon Griff.	NULL	Oryza rufipogon	oryza_rufipogon	Oryza rufipogon	Oryza rufipogon	NULL	NULL	Oryza_rufipogon
+Oryza sativa (japonica cultivar)	NULL	Oryza sativa Japonica (Rice)	oryza_sativa	Oryza sativa Japonica Group	Oryza sativa	NULL	NULL	Oryza_sativa_Japonica_Group
+Ostreococcus lucimarinus CCE9901	ostreococcus_lucimarinus	Ostreococcus lucimarinus CCE9901	ostreococcus_lucimarinus	Ostreococcus lucimarinus CCE9901	Ostreococcus lucimarinus CCE9901	CCE9901	NULL	Ostreococcus_lucimarinus
+physcomitrella	NULL	Physcomitrella patens	physcomitrella_patens	Physcomitrella patens subsp. patens	P. patens	NULL	NULL	Physcomitrella_patens
+western balsam poplar	NULL	Populus trichocarpa	populus_trichocarpa	Populus trichocarpa	Populus trichocarpa	NULL	NULL	Populus_trichocarpa
+Prunus persica	prunus_persica	Prunus persica	prunus_persica	Prunus persica	Prunus persica	NULL	NULL	Prunus_persica
+Selaginella moellendorffii	selaginella_moellendorffii	Selaginella moellendorffii	selaginella_moellendorffii	Selaginella moellendorffii	Selaginella moellendorffii	NULL	NULL	Selaginella_moellendorffii
+foxtail millet	NULL	Setaria italica	setaria_italica	Setaria italica	S. italica	NULL	NULL	Setaria_italica
+tomato	NULL	Solanum lycopersicum	solanum_lycopersicum	Solanum lycopersicum	S. lycopersicum	NULL	NULL	Solanum_lycopersicum
+potato	NULL	Solanum tuberosum	solanum_tuberosum	Solanum tuberosum	S. tuberosum	NULL	NULL	Solanum_tuberosum
+sorghum	NULL	Sorghum bicolor	sorghum_bicolor	Sorghum bicolor	S. bicolor	BTX623	NULL	Sorghum_bicolor
+Theobroma cacao	theobroma_cacao	Theobroma cacao	theobroma_cacao	Theobroma cacao	Theobroma cacao	NULL	NULL	Theobroma_cacao
+NULL	NULL	Triticum aestivum	triticum_aestivum	Triticum aestivum	NULL	Chinese Spring	NULL	Triticum_aestivum
+Triticum urartu	triticum_urartu	Triticum urartu	triticum_urartu	Triticum urartu	Triticum urartu	NULL	NULL	Triticum_urartu
+wine grape	NULL	Vitis vinifera	vitis_vinifera	Vitis vinifera	Vitis vinifera	NULL	NULL	Vitis_vinifera
+maize	NULL	Zea mays	zea_mays	Zea mays	Zea mays	NULL	NULL	Zea_mays

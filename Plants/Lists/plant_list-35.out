@@ -1,0 +1,516 @@
+aegilops_tauschii_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'aegilops_tauschii_core_35_88_1' [Tausch's goatgrass,core,89]
+Earliest patch in database 'aegilops_tauschii_core_35_88_1' is from release 72
+
+
+amborella_trichopoda_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'amborella_trichopoda_core_35_88_1' [Amborella,core,89]
+Earliest patch in database 'amborella_trichopoda_core_35_88_1' is from release 75
+
+
+arabidopsis_lyrata_core_35_88_10
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'arabidopsis_lyrata_core_35_88_10' [lyrate rockcress,core,89]
+Earliest patch in database 'arabidopsis_lyrata_core_35_88_10' is from release 53
+
+
+arabidopsis_thaliana_core_35_88_11
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'arabidopsis_thaliana_core_35_88_11' [thale-cress,core,89]
+Earliest patch in database 'arabidopsis_thaliana_core_35_88_11' is from release 60
+
+
+beta_vulgaris_core_35_88_2
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'beta_vulgaris_core_35_88_2' [beta_vulgaris,core,89]
+Earliest patch in database 'beta_vulgaris_core_35_88_2' is from release 85
+
+
+brachypodium_distachyon_core_35_88_12
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brachypodium_distachyon_core_35_88_12' [purple false brome,core,89]
+Earliest patch in database 'brachypodium_distachyon_core_35_88_12' is from release 53
+
+
+brassica_napus_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brassica_napus_core_35_88_1' [brassica_napus,core,89]
+Earliest patch in database 'brassica_napus_core_35_88_1' is from release 85
+
+
+brassica_oleracea_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brassica_oleracea_core_35_88_1' [brassica_oleracea,core,89]
+Earliest patch in database 'brassica_oleracea_core_35_88_1' is from release 76
+
+
+brassica_rapa_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'brassica_rapa_core_35_88_1' [field mustard,core,89]
+Earliest patch in database 'brassica_rapa_core_35_88_1' is from release 56
+
+
+chlamydomonas_reinhardtii_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'chlamydomonas_reinhardtii_core_35_88_1' [a green algae,core,89]
+Earliest patch in database 'chlamydomonas_reinhardtii_core_35_88_1' is from release 63
+
+
+chondrus_crispus_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'chondrus_crispus_core_35_88_1' [chondrus_crispus,core,89]
+Earliest patch in database 'chondrus_crispus_core_35_88_1' is from release 87
+
+
+cyanidioschyzon_merolae_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'cyanidioschyzon_merolae_core_35_88_1' [a red algae,core,89]
+Earliest patch in database 'cyanidioschyzon_merolae_core_35_88_1' is from release 64
+
+
+galdieria_sulphuraria_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'galdieria_sulphuraria_core_35_88_1' [galdieria_sulphuraria,core,89]
+Earliest patch in database 'galdieria_sulphuraria_core_35_88_1' is from release 87
+
+
+glycine_max_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'glycine_max_core_35_88_1' [soybean,core,89]
+Earliest patch in database 'glycine_max_core_35_88_1' is from release 62
+
+
+hordeum_vulgare_core_35_88_2
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'hordeum_vulgare_core_35_88_2' [Barley,core,89]
+Earliest patch in database 'hordeum_vulgare_core_35_88_2' is from release 64
+
+
+leersia_perrieri_core_35_88_14
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'leersia_perrieri_core_35_88_14' [Leersia,core,89]
+Earliest patch in database 'leersia_perrieri_core_35_88_14' is from release 75
+
+
+medicago_truncatula_core_35_88_2
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'medicago_truncatula_core_35_88_2' [barrel medic,core,89]
+Earliest patch in database 'medicago_truncatula_core_35_88_2' is from release 78
+
+
+musa_acuminata_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'musa_acuminata_core_35_88_1' [banana,core,89]
+Earliest patch in database 'musa_acuminata_core_35_88_1' is from release 64
+
+
+oryza_barthii_core_35_88_3
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_barthii_core_35_88_3' [African wild rice,core,89]
+Earliest patch in database 'oryza_barthii_core_35_88_3' is from release 75
+
+
+oryza_brachyantha_core_35_88_14
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_brachyantha_core_35_88_14' [oryza_brachyantha,core,89]
+Earliest patch in database 'oryza_brachyantha_core_35_88_14' is from release 64
+
+
+oryza_glaberrima_core_35_88_2
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_glaberrima_core_35_88_2' [African rice,core,89]
+Earliest patch in database 'oryza_glaberrima_core_35_88_2' is from release 62
+
+
+oryza_glumaepatula_core_35_88_15
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_glumaepatula_core_35_88_15' [oryza_glumaepatula,core,89]
+Earliest patch in database 'oryza_glumaepatula_core_35_88_15' is from release 72
+
+
+oryza_indica_core_35_88_2
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_indica_core_35_88_2' [Indica rice,core,89]
+Earliest patch in database 'oryza_indica_core_35_88_2' is from release 55
+
+
+oryza_longistaminata_core_35_88_2
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_longistaminata_core_35_88_2' [authorityOryza longistaminata A.Chev. & Roehr.,core,89]
+Earliest patch in database 'oryza_longistaminata_core_35_88_2' is from release 79
+
+
+oryza_meridionalis_core_35_88_13
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_meridionalis_core_35_88_13' [Oryza meridionalis,core,89]
+Earliest patch in database 'oryza_meridionalis_core_35_88_13' is from release 72
+
+
+oryza_nivara_core_35_88_10
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_nivara_core_35_88_10' [oryza_nivara,core,89]
+Earliest patch in database 'oryza_nivara_core_35_88_10' is from release 72
+
+
+oryza_punctata_core_35_88_12
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_punctata_core_35_88_12' [oryza_punctata,core,89]
+Earliest patch in database 'oryza_punctata_core_35_88_12' is from release 72
+
+
+oryza_rufipogon_core_35_88_11
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_rufipogon_core_35_88_11' [common wild rice,core,89]
+Earliest patch in database 'oryza_rufipogon_core_35_88_11' is from release 72
+
+
+oryza_sativa_core_35_88_7
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'oryza_sativa_core_35_88_7' [Japonica rice,core,89]
+Earliest patch in database 'oryza_sativa_core_35_88_7' is from release 64
+
+
+ostreococcus_lucimarinus_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'ostreococcus_lucimarinus_core_35_88_1' [a green algae,core,89]
+Earliest patch in database 'ostreococcus_lucimarinus_core_35_88_1' is from release 76
+
+
+physcomitrella_patens_core_35_88_11
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'physcomitrella_patens_core_35_88_11' [a moss,core,89]
+Earliest patch in database 'physcomitrella_patens_core_35_88_11' is from release 58
+
+
+populus_trichocarpa_core_35_88_20
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'populus_trichocarpa_core_35_88_20' [western balsam poplar,core,89]
+Earliest patch in database 'populus_trichocarpa_core_35_88_20' is from release 56
+
+
+prunus_persica_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'prunus_persica_core_35_88_1' [peach,core,89]
+Earliest patch in database 'prunus_persica_core_35_88_1' is from release 75
+
+
+selaginella_moellendorffii_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'selaginella_moellendorffii_core_35_88_1' [a spike moss,core,89]
+Earliest patch in database 'selaginella_moellendorffii_core_35_88_1' is from release 63
+
+
+setaria_italica_core_35_88_21
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'setaria_italica_core_35_88_21' [foxtail millet,core,89]
+Earliest patch in database 'setaria_italica_core_35_88_21' is from release 64
+
+
+solanum_lycopersicum_core_35_88_250
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'solanum_lycopersicum_core_35_88_250' [solanum_lycopersicum,core,89]
+Earliest patch in database 'solanum_lycopersicum_core_35_88_250' is from release 80
+
+
+solanum_tuberosum_core_35_88_4
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'solanum_tuberosum_core_35_88_4' [potato,core,89]
+Earliest patch in database 'solanum_tuberosum_core_35_88_4' is from release 64
+
+
+sorghum_bicolor_core_35_88_20
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'sorghum_bicolor_core_35_88_20' [sorghum_bicolor,core,89]
+Earliest patch in database 'sorghum_bicolor_core_35_88_20' is from release 87
+
+
+theobroma_cacao_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'theobroma_cacao_core_35_88_1' [cocoa,core,89]
+Earliest patch in database 'theobroma_cacao_core_35_88_1' is from release 76
+
+
+trifolium_pratense_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'trifolium_pratense_core_35_88_1' [trifolium_pratense,core,89]
+Earliest patch in database 'trifolium_pratense_core_35_88_1' is from release 85
+
+
+triticum_urartu_core_35_88_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'triticum_urartu_core_35_88_1' [an einkorn,core,89]
+Earliest patch in database 'triticum_urartu_core_35_88_1' is from release 72
+
+
+vitis_vinifera_core_35_88_3
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'vitis_vinifera_core_35_88_3' [wine grape,core,89]
+Earliest patch in database 'vitis_vinifera_core_35_88_3' is from release 56
+
+
+zea_mays_core_35_88_7
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'zea_mays_core_35_88_7' [maize,core,89]
+Earliest patch in database 'zea_mays_core_35_88_7' is from release 81
+
+

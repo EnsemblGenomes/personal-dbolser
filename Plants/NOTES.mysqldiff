@@ -1,0 +1,14 @@
+
+while read -r db; do
+    echo $db
+    
+    mysqldiff $db dbolser_ensembl_variation_master \
+        --host1 mysql-eg-staging-1 --port1 4160 --user1 ensro \
+        --host2 mysql-eg-devel-1   --port2 4126 --user2 ensro \
+        > $db.diff
+
+done < \
+    <(grep variation plant_17_db.list)
+
+
+

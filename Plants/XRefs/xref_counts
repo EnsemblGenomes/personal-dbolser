@@ -1,0 +1,241 @@
+## Genes transcripts translations
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT gene_id),
+    COUNT(DISTINCT translation_id),
+    COUNT(DISTINCT transcript_id)
+  FROM
+    gene
+  INNER JOIN
+    transcript USING (gene_id)
+  INNER JOIN
+    translation USING (transcript_id)
+  -- Only needed for a Zea mays bug...
+  WHERE
+    gene.biotype = \"protein_coding\"
+"
+
+## UniParc
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT ensembl_id),
+    ensembl_object_type
+  FROM
+    object_xref
+  INNER JOIN
+    xref USING (xref_id)
+  INNER JOIN
+    external_db USING (external_db_id)
+  WHERE
+    db_name = \"UniParc\"
+  GROUP BY
+    ensembl_object_type
+"
+
+## UniProt
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT ensembl_id),
+    ensembl_object_type
+  FROM
+    object_xref
+  INNER JOIN
+    xref USING (xref_id)
+  INNER JOIN
+    external_db using (external_db_id)
+  WHERE
+    db_name LIKE \"Uniprot/%\"
+  GROUP BY
+    ensembl_object_type
+"
+
+## Translations with at least one InterPro domain (of given 11 types)
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT translation_id),
+    COUNT(DISTINCT analysis_id)
+  FROM
+    protein_feature
+  INNER JOIN
+    analysis USING (analysis_id)
+  -- Just for consistency
+  WHERE
+    logic_name IN (\"blastprodom\", \"gene3d\", \"hmmpanther\", \"pfam\", \"pfscan\", \"pirsf\", \"prints\", \"scanprosite\", \"smart\", \"superfamily\", \"tigrfam\")
+"
+
+## ANY GO annotation
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT ensembl_id),
+    COUNT(DISTINCT(IF(linkage_type=\"IEA\", NULL, ensembl_id))) AS MANUAL
+  FROM
+    object_xref
+  INNER JOIN
+    ontology_xref USING (object_xref_id)
+  INNER JOIN
+    xref USING (xref_id)
+  INNER JOIN
+    external_db USING (external_db_id)
+  -- Only interested in GO here...
+  WHERE
+    db_name = \"GO\"
+  -- Almost always the case...
+  AND
+    ensembl_object_type = \"Translation\"
+"
+
+## GO annotation from InterPro2GO and elsewhere...
+SQL="
+  SELECT
+    COUNT(*),
+    ensembl_object_type,
+    IF(linkage_type=\"IEA\", 0, 1) AS MANUAL,
+    db_name
+  FROM
+    object_xref
+  INNER JOIN
+    ontology_xref USING (object_xref_id)
+  INNER JOIN
+    xref source ON source_xref_id = source.xref_id
+  INNER JOIN
+    external_db USING (external_db_id)
+  GROUP BY
+    ensembl_object_type,
+    MANUAL,
+    external_db_id ORDER BY db_name, MANUAL
+"
+## GO annotation from InterPro2GO direct
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT ensembl_id),
+    COUNT(DISTINCT(IF(linkage_type=\"IEA\", NULL, ensembl_id))) AS MANUAL
+  FROM
+    object_xref
+  INNER JOIN
+    ontology_xref USING (object_xref_id)
+  INNER JOIN
+    xref USING (xref_id)
+  INNER JOIN
+    external_db USING (external_db_id)
+  INNER JOIN
+    xref source ON source_xref_id = source.xref_id
+  INNER JOIN
+    external_db sdb ON source.external_db_id = sdb.external_db_id
+  -- Only interested in GO here...
+  WHERE
+    external_db.db_name = \"GO\"
+  -- Only interested in InterPro here...
+  AND
+    sdb.db_name = \"InterPro\"
+  -- Almost always the case...
+  AND
+    ensembl_object_type = \"Translation\"
+"
+
+## GO annotation from InterPro2GO via UniProt (we assume)
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT ensembl_id),
+    COUNT(DISTINCT(IF(linkage_type=\"IEA\", ensembl_id, NULL))) AS IEA,
+    COUNT(DISTINCT(IF(linkage_type=\"IEA\", NULL, ensembl_id))) AS MANUAL
+  FROM
+    object_xref
+  INNER JOIN
+    ontology_xref USING (object_xref_id)
+  INNER JOIN
+    xref USING (xref_id)
+  INNER JOIN
+    external_db USING (external_db_id)
+  INNER JOIN
+    xref source ON source_xref_id = source.xref_id
+  INNER JOIN
+    external_db sdb ON source.external_db_id = sdb.external_db_id
+  -- Only interested in GO here...
+  WHERE
+    external_db.db_name = \"GO\"
+  -- Only interested in UniProt here...
+  AND
+    (sdb.db_name = \"Uniprot/SPTREMBL\" OR
+     sdb.db_name = \"Uniprot/SWISSPROT\")
+  -- Almost always the case...
+  AND
+    ensembl_object_type = \"Translation\"
+"
+
+## GO annotation from InterPro2GO direct or via UniProt (we assume)
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT ensembl_id),
+    COUNT(DISTINCT(IF(linkage_type=\"IEA\", ensembl_id, NULL))) AS IEA,
+    COUNT(DISTINCT(IF(linkage_type=\"IEA\", NULL, ensembl_id))) AS MANUAL
+  FROM
+    object_xref
+  INNER JOIN
+    ontology_xref USING (object_xref_id)
+  INNER JOIN
+    xref USING (xref_id)
+  INNER JOIN
+    external_db USING (external_db_id)
+  INNER JOIN
+    xref source ON source_xref_id = source.xref_id
+  INNER JOIN
+    external_db sdb ON source.external_db_id = sdb.external_db_id
+  -- Only interested in GO here...
+  WHERE
+    external_db.db_name = \"GO\"
+  -- Only interested in UniProt here...
+  AND
+    (sdb.db_name = \"InterPro\" OR
+     sdb.db_name = \"Uniprot/SPTREMBL\" OR
+     sdb.db_name = \"Uniprot/SWISSPROT\")
+  -- Almost always the case...
+  AND
+    ensembl_object_type = \"Translation\"
+"
+
+## GO annotation projected from A. thaliana (defacto)
+SQL="
+  SELECT
+    COUNT(*),
+    COUNT(DISTINCT ensembl_id),
+    COUNT(DISTINCT(IF(linkage_type=\"IEA\", ensembl_id, NULL))) AS IEA,
+    COUNT(DISTINCT(IF(linkage_type=\"IEA\", NULL, ensembl_id))) AS MANUAL
+  FROM
+    object_xref
+  INNER JOIN
+    ontology_xref USING (object_xref_id)
+  INNER JOIN
+    xref USING (xref_id)
+  INNER JOIN
+    external_db USING (external_db_id)
+  INNER JOIN
+    xref source ON source_xref_id = source.xref_id
+  INNER JOIN
+    external_db sdb ON source.external_db_id = sdb.external_db_id
+  -- Only interested in GO here...
+  WHERE
+    external_db.db_name = \"GO\"
+  -- Only interested in UniProt here...
+  AND
+    sdb.db_name = \"Ensembl_Plants\"
+  -- Almost always the case...
+  AND
+    ensembl_object_type = \"Translation\"
+"
+
+list=plant_22_db.list
+while read -r db; do
+    echo -ne "$db\t"
+    mysql-staging-2 $db -Ne "$SQL"
+done \
+    < <(grep _core_ ${list}) > one
+
+

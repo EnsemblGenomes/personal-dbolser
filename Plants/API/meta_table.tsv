@@ -1,0 +1,16 @@
+arabidopsis_lyrata_core_13_66_10	arabidopsis_lyrata	1	Imported from JGI-Phytozome	2008-12-JGI	2008-12	2008-12-Araly1.0	Araly1	Araly1			JGI	http://genome.jgi-psf.org/Araly1/Araly1.info.html
+arabidopsis_thaliana_core_13_66_10	arabidopsis_thaliana	10	Imported from TAIR	2010-09-TAIR	2010-09	2010-09-TAIR10	TAIR10	TAIR10			TAIR	http://www.arabidopsis.org/
+brachypodium_distachyon_core_13_66_12	brachypodium_distachyon		Imported from JGI-Phytozome	2010-02-JGI		2010-02-Brachy1.2	Brachy1.0	Brachy1.0			Brachypodium distachyion Information Resource	http://www.brachypodium.org
+brassica_rapa_core_13_66_1	brassica_rapa	1	Imported from IVFCAAS by BrassEnsembl	2010-08-IVFCAAS	2010-10	bra_v1.01_SP2010_01	IVFCAASv1	IVFCAASv1			IVFCAAS	http://brassicadb.org/brad/
+chlamydomonas_reinhardtii_core_13_66_1	chlamydomonas_reinhardtii	1	Generated from ENA and UniProtKB annotation	1995-01-ENA	2007-11	2007-11-ENA	ENA1	ENA 1			European Nucleotide Archive	http://www.ebi.ac.uk/ena/data/view/DS497326
+cyanidioschyzon_merolae_core_13_66_1	cyanidioschyzon_merolae	1	Generated from ENA and UniProtKB annotation	2003-05-ENA	2008-11	2008-11-ENA	ENA1	ENA 1			European Nucleotide Archive	http://www.ebi.ac.uk/ena/data/view/AB002583
+glycine_max_core_13_66_1	glycine_max		Imported from JGI-Phytozome	2011-05-JGI		JGI-Glyma-1.0	1.0	1.0			JGI	http://www.phytozome.net/soybean
+oryza_glaberrima_core_13_66_2	oryza_glaberrima		Imported from MIPS	2011-05-AGI		2011-05-AGI	AGI1.1	AGI1.1			AGI	http://www2.genome.arizona.edu/genomes/rice_glab_genome_announce
+oryza_indica_core_13_66_2	oryza_indica	2	Imported from BGI	2010-07-BGI	2010-07	2010-07-BGI	Jan_2005	Jan_2005			Rice Information System	http://rice.genomics.org.cn
+oryza_sativa_core_13_66_6	oryza_sativa	6	Imported from MSU	2009-01-MSU	2009-01	2009-01-MSU6	MSU6	MSU6			MSU	http://rice.plantbiology.msu.edu
+physcomitrella_patens_core_13_66_11	physcomitrella_patens	16	Imported from JGI-Phytozome	2011-03-JGI	2011-03	2011-03-Phypa1.6	Phypa1.1	Phypa1.1			JGI	http://genome.jgi-psf.org/physcomitrella/physcomitrella.home.html
+populus_trichocarpa_core_13_66_20	populus_trichocarpa		Imported from JGI-Phytozome	2010-01-JGI		2010-01-JGI	JGI2.0	JGI2.0			JGI	http://www.phytozome.net/poplar
+selaginella_moellendorffii_core_13_66_1	selaginella_moellendorffii	1	Generated from ENA and UniProtKB annotation	2010-07-ENA	2011-05	2011-05-ENA	ENA1	ENA 1			European Nucleotide Archive	http://www.ebi.ac.uk/ena/data/view/GL378322
+sorghum_bicolor_core_13_66_14	sorghum_bicolor	1	Imported from JGI-Phytozome	2007-12-JGI	2007-12	2007-12-JGI	Sbi1	Sbi1			JGI	http://genome.jgi-psf.org/Sorbi1/Sorbi1.home.html
+vitis_vinifera_core_13_66_3	vitis_vinifera		Imported from CRIBI V1 Grape Genome	2011-06-CRIBI		2011-06-CRIBI	IGGP_12x	IGGP_12x			Genoscope	http://www.genoscope.cns.fr/externe/GenomeBrowser/Vitis
+zea_mays_core_13_66_5	zea_mays	5a	Imported from MaizeSequence.org	2010-01-MaizeSequence	2010-01	5a.53	AGPv2	AGPv2			MaizeSequence	http://www.MaizeSequence.org

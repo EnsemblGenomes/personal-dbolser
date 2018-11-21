@@ -1,0 +1,374 @@
+bacillus_collection_core_13_66_4
+	UniProtKB/Swiss-Prot	16377
+	UniProtKB/TrEMBL	401706
+borrelia_collection_core_13_66_1
+	UniProtKB/Swiss-Prot	1453
+	UniProtKB/TrEMBL	7870
+buchnera_collection_core_13_66_1
+	UniProtKB/Swiss-Prot	2278
+	UniProtKB/TrEMBL	828
+escherichia_shigella_collection_core_13_66_5
+	UniProtKB/Swiss-Prot	36036
+	UniProtKB/TrEMBL	180888
+mycobacterium_collection_core_13_66_4
+	UniProtKB/Swiss-Prot	10189
+	UniProtKB/TrEMBL	80837
+neisseria_collection_core_13_66_3
+	UniProtKB/Swiss-Prot	2486
+	UniProtKB/TrEMBL	13863
+pyrococcus_collection_core_13_66_1
+	UniProtKB/Swiss-Prot	1757
+	UniProtKB/TrEMBL	6467
+staphylococcus_collection_core_13_66_4
+	UniProtKB/Swiss-Prot	12849
+	UniProtKB/TrEMBL	58449
+streptococcus_collection_core_13_66_5
+	UniProtKB/Swiss-Prot	12694
+	UniProtKB/TrEMBL	81808
+wolbachia_collection_core_13_66_1
+	UniProtKB/Swiss-Prot	710
+	UniProtKB/TrEMBL	3715
+dictyostelium_discoideum_core_13_66_1
+	Uniprot/SPTREMBL	1022
+	Uniprot/SWISSPROT	4172
+plasmodium_berghei_core_13_66_1
+	Uniprot/SPTREMBL	581
+	Uniprot/SWISSPROT	20
+phaeodactylum_tricornutum_core_13_66_1
+	Uniprot/SPTREMBL	10340
+	Uniprot/SWISSPROT	17
+	phatr_jgi_v2	1
+plasmodium_falciparum_core_13_66_3
+	Uniprot/SPTREMBL	5171
+	Uniprot/SWISSPROT	154
+plasmodium_chabaudi_core_13_66_1
+	Uniprot/SPTREMBL	482
+	Uniprot/SWISSPROT	15
+plasmodium_vivax_core_13_66_2
+	RNAMMER	12
+	TRNASCAN_SE	44
+	Uniprot/SPTREMBL	174
+	Uniprot/SWISSPROT	16
+plasmodium_knowlesi_core_13_66_1
+	RNAMMER	3
+	TRNASCAN_SE	44
+	Uniprot/SPTREMBL	5088
+	Uniprot/SWISSPROT	14
+phytophthora_infestans_core_13_66_1
+	BROAD_P_infestans	408
+	RFAM	241
+	RNAMMER	227
+	TRNASCAN_SE	6989
+	Uniprot/SPTREMBL	17749
+	Uniprot/SWISSPROT	21
+thalassiosira_pseudonana_core_13_66_1
+	RFAM	13
+	RNAMMER	19
+	TRNASCAN_SE	90
+	Uniprot/SPTREMBL	11616
+	Uniprot/SWISSPROT	39
+phytophthora_ramorum_core_13_66_1
+	RFAM	57
+	RNAMMER	2
+	TRNASCAN_SE	154
+	Uniprot/SPTREMBL	73
+phytophthora_sojae_core_13_66_1
+	RFAM	59
+	RNAMMER	3
+	TRNASCAN_SE	235
+	Uniprot/SPTREMBL	303
+	physo1_jgi_v1.1	1
+pythium_ultimum_core_13_66_1
+	RFAM	10
+	TRNASCAN_SE	124
+	Uniprot/SPTREMBL	2
+leishmania_major_core_13_66_2
+	GeneDB	9379
+trypanosoma_brucei_core_13_66_1
+	NONE!	8773
+aspergillus_fumigatusa1163_core_13_66_1
+	 TRNASCAN-SE	180
+	NONE!	9929
+	RFAM	18
+	RNAMMER	33
+aspergillus_nidulans_core_13_66_6
+	NONE!	10597
+	RFAM	15
+	RNAMMER	35
+	TRNASCAN-SE	180
+aspergillus_flavus_core_13_66_1
+	RFAM	19
+	RNAMMER	75
+	TRNASCAN-SE	294
+	UniProtKB/Swiss-Prot	11
+	UniProtKB/TrEMBL	13476
+aspergillus_fumigatus_core_13_66_2
+	 TRNASCAN-SE	159
+	NONE!	8772
+	RFAM	18
+	RNAMMER	34
+	UniProtKB/Swiss-Prot	452
+	UniProtKB/TrEMBL	463
+aspergillus_terreus_core_13_66_1
+	NONE!	6
+	RFAM	14
+	RNAMMER	33
+	TRNASCAN-SE	152
+	UniProtKB/Swiss-Prot	166
+	UniProtKB/TrEMBL	10223
+gibberella_zeae_core_13_66_3
+	BROAD_G_zeae	12973
+	RFAM	32
+	TRNASCAN_SE	343
+	Uniprot/SPTREMBL	145
+	Uniprot/SWISSPROT	199
+aspergillus_niger_core_13_66_1
+	RFAM	20
+	RNAMMER	59
+	TRNASCAN_SE	264
+	Uniprot/SPTREMBL	13507
+	Uniprot/SWISSPROT	301
+aspergillus_oryzae_core_13_66_2
+	 TRNASCAN-SE	242
+	NONE!	18
+	RFAM	18
+	RNAMMER	51
+	UniProtKB/Swiss-Prot	306
+	UniProtKB/TrEMBL	11750
+mycosphaerella_graminicola_core_13_66_2
+	RFAM	15
+	RNAMMER	16
+	TRNASCAN_SE	111
+	Uniprot/SPTREMBL	10886
+	Uniprot/SWISSPROT	6
+nectria_haematococca_core_13_66_1
+	RFAM	29
+	RNAmmer	67
+	UniProtKB/Swiss-Prot	38
+	UniProtKB/TrEMBL	15663
+	tRNAScan-SE	289
+gibberella_moniliformis_core_13_66_3
+	BROAD_G_moniliformis	14039
+	RFAM	31
+	RNAMMER	75
+	TRNASCAN_SE	327
+	Uniprot/SPTREMBL	122
+	Uniprot/SWISSPROT	5
+fusarium_oxysporum_core_13_66_2
+	BROAD_F_oxysporum	17585
+	RFAM	29
+	TRNASCAN_SE	329
+	Uniprot/SPTREMBL	99
+	Uniprot/SWISSPROT	12
+phaeosphaeria_nodorum_core_13_66_1
+	RFAM	21
+	RNAMMER	112
+	TRNASCAN_SE	117
+	Uniprot/SPTREMBL	12169
+	Uniprot/SWISSPROT	197
+puccinia_graministritici_core_13_66_1
+	Broad_Puccinia	20534
+	RFAM	159
+	RNAMMER	5
+	TRNASCAN_SE	523
+neosartorya_fischeri_core_13_66_1
+	 TRNASCAN-SE	291
+	NONE!	46
+	RFAM	19
+	RNAMMER	58
+	UniProtKB/Swiss-Prot	184
+	UniProtKB/TrEMBL	10207
+neurospora_crassa_core_13_66_1
+	RFAM	28
+	RNAMMER	137
+	TRNASCAN_SE	410
+	UniProtKB/Swiss-Prot	751
+	UniProtKB/TrEMBL	9069
+tuber_melanosporum_core_13_66_1
+	RFAM	26
+	RNAMMER	30
+	TRNASCAN_SE	175
+schizosaccharomyces_pombe_core_13_66_2
+	PomBase Gene ID	7031
+saccharomyces_cerevisiae_core_13_66_4
+	SGD	7125
+puccinia_triticina_core_13_66_1
+	BROAD_P_triticina	11632
+	RFAM	120
+	RNAMMER	72
+	TRNASCAN_SE	1500
+	UniProtKB/TrEMBL	6
+ustilago_maydis_core_13_66_1
+	BROAD_U_maydis	5036
+	RFAM	4
+	RNAMMER	34
+	TRNASCAN_SE	130
+	UniProtKB/Swiss-Prot	282
+	UniProtKB/TrEMBL	1204
+aspergillus_clavatus_core_13_66_1
+	 TRNASCAN-SE	235
+	NONE!	30
+	RFAM	18
+	RNAMMER	55
+	UniProtKB/Swiss-Prot	198
+	UniProtKB/TrEMBL	8916
+ashbya_gossypii_core_13_66_1
+	RFAM	54
+	RNAMMER	117
+	TRNASCAN_SE	242
+	Uniprot/SPTREMBL	3847
+	Uniprot/SWISSPROT	922
+caenorhabditis_japonica_core_13_66_1
+caenorhabditis_remanei_core_13_66_1
+pristionchus_pacificus_core_13_66_1
+	NONE!	29644
+anopheles_gambiae_core_13_66_3
+	 RFAM 9.0	79
+	UniProtKB/Swiss-Prot	219
+	VB Community Annotation	824
+	VB RNA Description	450
+drosophila_yakuba_core_13_66_13
+	FlyBase gene name	109
+caenorhabditis_brenneri_core_13_66_1
+caenorhabditis_briggsae_core_13_66_1
+caenorhabditis_elegans_core_13_66_220
+	 WormBase	4691
+	NONE!	39335
+atta_cephalotes_core_13_66_1
+	UniProt/SPTREMBL	3
+bombyx_mori_core_13_66_1
+	UniProt/SPTREMBL	789
+	UniProt/SWISSPROT	85
+apis_mellifera_core_13_66_1
+	UniProt/SPTREMBL	230
+	UniProt/SWISSPROT	68
+strongylocentrotus_purpuratus_core_13_66_1
+	RefSeq DNA	9
+	RefSeq peptide	282
+aedes_aegypti_core_13_66_1
+	VB External Description	15474
+culex_quinquefasciatus_core_13_66_2
+	NONE!	22755
+	UniProtKB/Swiss-Prot	87
+ixodes_scapularis_core_13_66_1
+	Ixodes ManualAnnotation	27
+	Ixodes_ManualAnnotation	1
+	NONE!	24877
+	UniProtKB/Swiss-Prot	20
+pediculus_humanus_core_13_66_1
+	NONE!	10773
+amphimedon_queenslandica_core_13_66_1
+	UniProt/SPTREMBL	10
+acyrthosiphon_pisum_core_13_66_1
+	RefSeq DNA	8
+	RefSeq DNA predicted	111
+	RefSeq peptide	1060
+	RefSeq peptide predicted	9033
+	UniProtKB/Swiss-Prot	3
+	UniProtKB/TrEMBL	91
+schistosoma_mansoni_core_13_66_1
+	UniProt/SPTREMBL	11669
+	UniProt/SWISSPROT	76
+nematostella_vectensis_core_13_66_1
+	UniProt/SPTREMBL	79
+	UniProt/SWISSPROT	32
+daphnia_pulex_core_13_66_1
+	RFAM	186
+	TRNASCAN_SE	5193
+	UniProtKB/TrEMBL	22
+trichoplax_adhaerens_core_13_66_1
+	RFAM	37
+	RNAMMER	19
+	TRNASCAN_SE	51
+	UniProt/SPTREMBL	19
+	UniProt/SWISSPROT	1
+tribolium_castaneum_core_13_66_1
+	UniProt/SPTREMBL	3707
+	UniProt/SWISSPROT	9
+drosophila_grimshawi_core_13_66_13
+	FlyBase gene name	24
+drosophila_erecta_core_13_66_13
+	FlyBase gene name	75
+drosophila_ananassae_core_13_66_13
+	FlyBase gene name	60
+drosophila_pseudoobscura_core_13_66_222
+	FlyBase gene name	149
+drosophila_persimilis_core_13_66_13
+	FlyBase gene name	15
+drosophila_mojavensis_core_13_66_13
+	FlyBase gene name	23
+drosophila_melanogaster_core_13_66_539
+	FlyBase gene name	6786
+drosophila_willistoni_core_13_66_13
+	FlyBase gene name	17
+drosophila_virilis_core_13_66_12
+	FlyBase gene name	136
+drosophila_simulans_core_13_66_13
+	FlyBase gene name	146
+drosophila_sechellia_core_13_66_13
+	FlyBase gene name	47
+cyanidioschyzon_merolae_core_13_66_1
+	Uniprot/SPTREMBL	2
+	Uniprot/SWISSPROT	1
+vitis_vinifera_core_13_66_3
+	UniProtKB/Swiss-Prot	82
+	UniProtKB/TrEMBL	29479
+zea_mays_core_13_66_5
+	RefSeq DNA	1350
+	RefSeq peptide	16813
+	UniProtKB/Swiss-Prot	628
+	UniProtKB/TrEMBL	3643
+selaginella_moellendorffii_core_13_66_1
+	NONE!	34799
+sorghum_bicolor_core_13_66_14
+	RefSeq_dna_predicted	12
+	UniProtKB/Swiss-Prot	86
+	UniProtKB/TrEMBL	32856
+arabidopsis_thaliana_core_13_66_10
+	EMBL	27204
+	RefSeq DNA	76
+	TAIR	5722
+arabidopsis_lyrata_core_13_66_10
+	UniProtKB/Swiss-Prot	3
+	UniProtKB/TrEMBL	139
+oryza_sativa_core_13_66_6
+	NONE!	57997
+oryza_glaberrima_core_13_66_2
+	UniProtKB/Swiss-Prot	1
+	UniProtKB/TrEMBL	135
+populus_trichocarpa_core_13_66_20
+	RefSeq_dna_predicted	877
+	UniProtKB/Swiss-Prot	41
+	UniProtKB/TrEMBL	29526
+physcomitrella_patens_core_13_66_11
+	RefSeq peptide	5
+	UniProtKB/Swiss-Prot	43
+	UniProtKB/TrEMBL	16010
+chlamydomonas_reinhardtii_core_13_66_1
+	NONE!	14416
+brachypodium_distachyon_core_13_66_12
+	RefSeq peptide	31
+	UniProtKB/Swiss-Prot	16
+	UniProtKB/TrEMBL	99
+oryza_indica_core_13_66_2
+	RefSeq_dna	145
+	UniProtKB/Swiss-Prot	6
+	UniProtKB/TrEMBL	16731
+	Uniprot/SPTREMBL	20933
+	Uniprot/SWISSPROT	28
+glycine_max_core_13_66_1
+	UniProtKB/Swiss-Prot	301
+	UniProtKB/TrEMBL	9299
+toxoplasma_gondii_core_13_66_1
+trichinella_spiralis_core_13_66_1
+	UniProtKB/Swiss-Prot	3
+	UniProtKB/TrEMBL	150
+magnaporthe_oryzae_core_13_66_8
+magnaporthe_poae_core_13_66_1
+	BROAD_Magnaporthe_DB	12169
+gaeumannomyces_graminis_core_13_66_1
+	BROAD_G_graminis	14463
+	RFAM	21
+	RNAMMER	13
+	TRNASCAN_SE	274
+brassica_rapa_core_13_66_1

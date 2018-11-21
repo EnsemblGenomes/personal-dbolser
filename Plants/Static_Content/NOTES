@@ -1,0 +1,11 @@
+The make_summary.plx reads in the .dump files and outputs an HTML
+summary of it's content.
+
+The dump files are created by the 'make_dumps.plx' script.
+
+Curently:
+* summarise_dna_align_features.dump
+* summarise_repeats.dump
+
+* summarise_probe_features.dump
+* summarise_simple_features.dump

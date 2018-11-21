@@ -1,0 +1,52 @@
+# See: http://www.ebi.ac.uk/seqdb/confluence/display/EnsGen/\
+# Core+database+healthchecks#Coredatabasehealthchecks-ControlledTableAttribType
+
+source /nfs/panda/ensemblgenomes/apis/ensembl/78/setup.sh
+cd $ENSEMBL_ROOT_DIR/ensembl-production/scripts/production_database
+
+list=~/Plants/plant_list-26.txt
+
+while read -r db
+do
+    echo $db
+    perl populate_production_db_tables.pl  \
+        $(mysql-staging-2-ensrw details script) \
+        $(mysql-pan-1 details prefix_m) \
+        --database $db \
+        --table attrib_type
+    echo; echo; echo
+done < <( grep _core_ $list )
+
+SQL="
+SELECT
+  DATABASE(), 
+  old.attrib_type_id AS old_attrib_type_id,
+  new.attrib_type_id AS new_attrib_type_id,
+  old.code
+FROM       attrib_type_bak old
+INNER JOIN attrib_type new USING (code)
+WHERE old.attrib_type_id <> new.attrib_type_id"
+
+while read -r db
+do ${dbserver} $db -Ne "$SQL"
+done < <( grep _core_ $list )
+
+SQL="DROP TABLE attrib_type_bak"
+
+while read -r db
+do ${dbserver} $db -Ne "$SQL"
+done < <( grep _core_ $list )
+
+SQL="TRUNCATE TABLE genome_statistics"
+
+while read -r db
+do ${dbserver} $db -Ne "$SQL"
+done < <( grep _core_ $list )
+
+SQL="DELETE FROM seq_region_attrib WHERE attrib_type_id=353"
+
+while read -r db
+do ${dbserver} $db -Ne "$SQL"
+done < <( grep _core_ $list )
+
+# NOW RE-RUN CORE STATS PLZ! (minus pepstats)

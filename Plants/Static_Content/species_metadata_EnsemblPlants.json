@@ -1,0 +1,1379 @@
+
+{
+   "genome" : [
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "1227568",
+               "dust" : "1835606",
+               "trf" : "1050732"
+            },
+            "simpleFeatures" : {
+               "assembly_gap" : "677165",
+               "gene" : "6635",
+               "wheat_snp_b" : "29611",
+               "wheat_snp_a" : "101724"
+            },
+            "dnaAlignFeatures" : {}
+         },
+         "bam" : {
+            "bam" : [
+               {
+                  "source_name" : "T.aestivum D genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/atauschii/LastZ_Wheat_Genome_D.atauschii.bam",
+                  "id" : "Lastz_Wheat_D_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum D sequences against A. tauschii genome"
+               },
+               {
+                  "source_name" : "T.aestivum cap3 assembly Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/atauschii/LastZ_Wheat_Genome_cap3.atauschii.bam",
+                  "id" : "Lastz_Wheat_cap3_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum cap3 genome assembly sequences against A. tauschii genome"
+               }
+            ]
+         },
+         "division" : "EnsemblPlants",
+         "name" : "Aegilops tauschii",
+         "species" : "aegilops_tauschii",
+         "assembly_name" : "ASM34733v1",
+         "dbname" : "aegilops_tauschii_core_20_73_1",
+         "taxonomy_id" : "37682",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000347335.1",
+         "genebuild" : "2008-11-BGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "76873",
+               "wesslerbennetzen" : "21471",
+               "dust" : "1531266",
+               "trf" : "97408"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {
+               "dicot_est_cluster" : "1214584",
+               "rice_est_cluster" : "51820",
+               "monocot_est_cluster" : "249693",
+               "maize_est_cluster" : "46039",
+               "arabidopsis_est" : "429108",
+               "arabidopsis_est_cluster" : "68591"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Arabidopsis lyrata subsp. lyrata",
+         "species" : "arabidopsis_lyrata",
+         "assembly_name" : "v.1.0",
+         "dbname" : "arabidopsis_lyrata_core_20_73_10",
+         "taxonomy_id" : "81972",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000004255.1",
+         "genebuild" : "2008-12-JGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "34430",
+               "wesslerbennetzen" : "7936",
+               "dust" : "1041277",
+               "trf" : "44593"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {
+               "dicot_est_cluster" : "1059729",
+               "rice_est_cluster" : "34662",
+               "overgo" : "56",
+               "monocot_est_cluster" : "154060",
+               "maize_est_cluster" : "25453",
+               "rflp" : "49",
+               "arabidopsis_est_cluster" : "289075"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Arabidopsis thaliana",
+         "species" : "arabidopsis_thaliana",
+         "assembly_name" : "TAIR10",
+         "dbname" : "arabidopsis_thaliana_core_20_73_10",
+         "taxonomy_id" : "3702",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000001735.1",
+         "genebuild" : "2010-09-TAIR",
+         "pan_species" : 1,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "wheat_est_exonerate" : "1272924",
+               "wheat_unigene_exonerate" : "29983"
+            }
+         },
+         "bam" : {
+            "rnaseq" : [
+               {
+                  "source_name" : "ERR125556: Triticum aestivum; non-normalised cDNA from roots, young flowers, young leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125556.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125556",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125556\" target=\"_blank\">ERR125556</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125557: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125557.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125557",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125557\" target=\"_blank\">ERR125557</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125558: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125558.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125558",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125558\" target=\"_blank\">ERR125558</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125559: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125559.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125559",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125559\" target=\"_blank\">ERR125559</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125560: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125560.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125560",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125560\" target=\"_blank\">ERR125560</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125561: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125561.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125561",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125561\" target=\"_blank\">ERR125561</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125562: Triticum aestivum; normalised cDNA from 6- and 11-day drought leaves and 3 DAA and 5 DAA senescent leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125562.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125562",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125562\" target=\"_blank\">ERR125562</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125563: Triticum aestivum; normalised cDNA from 6- and 11-day drought leaves and 3 DAA and 5 DAA senescent leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125563.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125563",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125563\" target=\"_blank\">ERR125563</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125564: Triticum aestivum; normalised cDNA from 6- and 11-day drought leaves and 3 DAA and 5 DAA senescent leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125564.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125564",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125564\" target=\"_blank\">ERR125564</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125565: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125565.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125565",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125565\" target=\"_blank\">ERR125565</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125566: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125566.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125566",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125566\" target=\"_blank\">ERR125566</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125567: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125567.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125567",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125567\" target=\"_blank\">ERR125567</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125568: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125568.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125568",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125568\" target=\"_blank\">ERR125568</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125569: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125569.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125569",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125569\" target=\"_blank\">ERR125569</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125570: non-normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125570.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125570",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125570\" target=\"_blank\">ERR125570</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125571: non-normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125571.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125571",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125571\" target=\"_blank\">ERR125571</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125572: non-normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125572.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125572",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125572\" target=\"_blank\">ERR125572</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125573: non-normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125573.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125573",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125573\" target=\"_blank\">ERR125573</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125574: non-normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125574.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125574",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125574\" target=\"_blank\">ERR125574</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125575: normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125575.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125575",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125575\" target=\"_blank\">ERR125575</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125576: normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125576.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125576",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125576\" target=\"_blank\">ERR125576</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125577: normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125577.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125577",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125577\" target=\"_blank\">ERR125577</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125578: normalised cDNA from various tissues, drought- and salt-stressed samples, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125578.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125578",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125578\" target=\"_blank\">ERR125578</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125579: normalised cDNA from roots, young flowers, young leaves, young shoots and immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125579.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125579",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125579\" target=\"_blank\">ERR125579</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125580: normalised cDNA from salt-stressed roots and shoots and 6-day drought leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125580.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125580",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125580\" target=\"_blank\">ERR125580</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125581: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR125581.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125581",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125581\" target=\"_blank\">ERR125581</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR169814: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR169814.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR169814",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR169814\" target=\"_blank\">ERR169814</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR169815: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR169815.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR169815",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR169815\" target=\"_blank\">ERR169815</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR169816: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR169816.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR169816",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR169816\" target=\"_blank\">ERR169816</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR169817: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/bd.ERR169817.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR169817",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR169817\" target=\"_blank\">ERR169817</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               }
+            ],
+            "bam" : [
+               {
+                  "source_name" : "T.aestivum A genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/LastZ_Wheat_Genome_A.bam",
+                  "id" : "Lastz_Wheat_A_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum A sequences against B.distachyon genome"
+               },
+               {
+                  "source_name" : "T.aestivum B genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/LastZ_Wheat_Genome_B.bam",
+                  "id" : "Lastz_Wheat_B_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum B sequences against B.distachyon genome"
+               },
+               {
+                  "source_name" : "T.aestivum D genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/LastZ_Wheat_Genome_D.bam",
+                  "id" : "Lastz_Wheat_D_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum D sequences against B.distachyon genome"
+               },
+               {
+                  "source_name" : "T.aestivum X genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/LastZ_Wheat_Genome_X.bam",
+                  "id" : "Lastz_Wheat_X_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum unmapped sequences against B.distachyon genome"
+               },
+               {
+                  "source_name" : "T.aestivum cap3 assembly Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/LastZ_Wheat_Genome_cap3.bam",
+                  "id" : "Lastz_Wheat_cap3_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum cap3 assembly sequences against B.distachyon genome"
+               }
+            ]
+         },
+         "division" : "EnsemblPlants",
+         "name" : "Brachypodium distachyon",
+         "species" : "brachypodium_distachyon",
+         "assembly_name" : "v1.0",
+         "dbname" : "brachypodium_distachyon_core_20_73_12",
+         "taxonomy_id" : "15368",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000005505.1",
+         "genebuild" : "2010-02-JGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "at_cds_blat_as" : "383022",
+               "br_est_blast_as" : "4740156",
+               "95kbr_unigene_blat_as" : "465610",
+               "135kbr_unigene_blat_as" : "763938"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Brassica rapa",
+         "species" : "brassica_rapa",
+         "assembly_name" : "IVFCAASv1",
+         "dbname" : "brassica_rapa_core_20_73_1",
+         "taxonomy_id" : "51351",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000309985.1",
+         "genebuild" : "2012-03-IVFCAAS",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "ena_repeat" : "2",
+               "dust" : "137925",
+               "trf" : "151744"
+            },
+            "simpleFeatures" : {
+               "mobile_element" : "2",
+               "misc_feature" : "4",
+               "old_sequence" : "4",
+               "gene" : "650",
+               "mrna" : "542",
+               "misc_rna" : "1",
+               "intron" : "10",
+               "misc_difference" : "27",
+               "gap" : "9827",
+               "exon" : "13"
+            },
+            "dnaAlignFeatures" : {
+               "rice_est_cluster" : "50048",
+               "chlamydomonas_est_cluster" : "13104",
+               "maize_est_cluster" : "40881",
+               "chlamy_est" : "54865",
+               "arabidopsis_est_cluster" : "4400"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Chlamydomonas reinhardtii",
+         "species" : "chlamydomonas_reinhardtii",
+         "assembly_name" : "v3.0",
+         "dbname" : "chlamydomonas_reinhardtii_core_20_73_1",
+         "taxonomy_id" : "3055",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000002595.2",
+         "genebuild" : "2012-11-JGI",
+         "pan_species" : 1,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "dust" : "2866",
+               "trf" : "3360"
+            },
+            "simpleFeatures" : {
+               "eponine" : "12069"
+            },
+            "dnaAlignFeatures" : {}
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Cyanidioschyzon merolae strain 10D",
+         "species" : "cyanidioschyzon_merolae",
+         "assembly_name" : "ASM9120v1",
+         "dbname" : "cyanidioschyzon_merolae_core_20_73_1",
+         "taxonomy_id" : "280699",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000091205.1",
+         "genebuild" : "2003-05-ENA",
+         "pan_species" : 1,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "rice_est_cluster" : "206314",
+               "maize_est_cluster" : "130184",
+               "soybean_est" : "1680476",
+               "glycine_est_cluster" : "155299",
+               "arabidopsis_est_cluster" : "122083"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Glycine max",
+         "species" : "glycine_max",
+         "assembly_name" : "V1.0",
+         "dbname" : "glycine_max_core_20_73_1",
+         "taxonomy_id" : "3847",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000004515.1",
+         "genebuild" : "2012-07-JGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "wheat_est_exonerate" : "2160425",
+               "barley_est_exonerate" : "11242",
+               "wheat_unigene_exonerate" : "66095"
+            }
+         },
+         "bam" : {
+            "rnaseq" : [
+               {
+                  "source_name" : "ERR125556: Triticum aestivum; non-normalised cDNA from roots, young flowers, young leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125556.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125556",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125556\" target=\"_blank\">ERR125556</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125557: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125557.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125557",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125557\" target=\"_blank\">ERR125557</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125558: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125558.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125558",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125558\" target=\"_blank\">ERR125558</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125559: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125559.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125559",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125559\" target=\"_blank\">ERR125559</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125560: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125560.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125560",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125560\" target=\"_blank\">ERR125560</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125561: Triticum aestivum; normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125561.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125561",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125561\" target=\"_blank\">ERR125561</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125562: Triticum aestivum; normalised cDNA from 6- and 11-day drought leaves and 3 DAA and 5 DAA senescent leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125562.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125562",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125562\" target=\"_blank\">ERR125562</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125563: Triticum aestivum; normalised cDNA from 6- and 11-day drought leaves and 3 DAA and 5 DAA senescent leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125563.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125563",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125563\" target=\"_blank\">ERR125563</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125564: Triticum aestivum; normalised cDNA from 6- and 11-day drought leaves and 3 DAA and 5 DAA senescent leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125564.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125564",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125564\" target=\"_blank\">ERR125564</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125565: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125565.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125565",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125565\" target=\"_blank\">ERR125565</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125566: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125566.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125566",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125566\" target=\"_blank\">ERR125566</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125567: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125567.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125567",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125567\" target=\"_blank\">ERR125567</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125568: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125568.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125568",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125568\" target=\"_blank\">ERR125568</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125569: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125569.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125569",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125569\" target=\"_blank\">ERR125569</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125570: non-normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125570.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125570",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125570\" target=\"_blank\">ERR125570</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125571: non-normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125571.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125571",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125571\" target=\"_blank\">ERR125571</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125572: non-normalised cDNA from roots, young flowers, young leaves, immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125572.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125572",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125572\" target=\"_blank\">ERR125572</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125573: non-normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125573.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125573",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125573\" target=\"_blank\">ERR125573</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125574: non-normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125574.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125574",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125574\" target=\"_blank\">ERR125574</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125575: normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125575.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125575",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125575\" target=\"_blank\">ERR125575</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125576: normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125576.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125576",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125576\" target=\"_blank\">ERR125576</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125577: normalised cDNA from various tissues, drought-stressed and senescent leaves, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125577.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125577",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125577\" target=\"_blank\">ERR125577</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125578: normalised cDNA from various tissues, drought- and salt-stressed samples, and leaves over a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125578.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125578",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125578\" target=\"_blank\">ERR125578</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125579: normalised cDNA from roots, young flowers, young leaves, young shoots and immature seeds",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125579.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125579",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125579\" target=\"_blank\">ERR125579</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125580: normalised cDNA from salt-stressed roots and shoots and 6-day drought leaves",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125580.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125580",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125580\" target=\"_blank\">ERR125580</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR125581: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR125581.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR125581",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR125581\" target=\"_blank\">ERR125581</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR169814: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR169814.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR169814",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR169814\" target=\"_blank\">ERR169814</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR169815: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR169815.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR169815",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR169815\" target=\"_blank\">ERR169815</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR169816: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR169816.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR169816",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR169816\" target=\"_blank\">ERR169816</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               },
+               {
+                  "source_name" : "ERR169817: normalised cDNA from seedling leaves in a circadian time-course",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/hv.ERR169817.gmap.exons.bam",
+                  "id" : "Gmap_Wheat_ERR169817",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERR169817\" target=\"_blank\">ERR169817</a>: 454 sequencing of the Triticum aestivum cv. Chinese spring transcriptome"
+               }
+            ],
+            "bam" : [
+               {
+                  "source_name" : "T.aestivum A genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/LastZ_Wheat_Genome_A.hvulgare.bam",
+                  "id" : "Lastz_Wheat_A_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum A sequences against H.vulgare genome"
+               },
+               {
+                  "source_name" : "T.aestivum B genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/LastZ_Wheat_Genome_B.hvulgare.bam",
+                  "id" : "Lastz_Wheat_B_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum B sequences against H.vulgare genome"
+               },
+               {
+                  "source_name" : "T.aestivum D genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/LastZ_Wheat_Genome_D.hvulgare.bam",
+                  "id" : "Lastz_Wheat_D_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum D sequences against H.vulgare genome"
+               },
+               {
+                  "source_name" : "T.aestivum X genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/LastZ_Wheat_Genome_X.hvulgare.bam",
+                  "id" : "Lastz_Wheat_X_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum unmapped sequences against H.vulgare genome"
+               },
+               {
+                  "source_name" : "T.aestivum cap3 Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/hvulgare/LastZ_Wheat_cap3.hvulgare.bam",
+                  "id" : "Lastz_Wheat_cap3_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum cap3 assembly sequences against H.vulgare genome"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Barke'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154249.bam",
+                  "id" : "ERS154249",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Sergeant'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154256.bam",
+                  "id" : "ERS154256",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Intro'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154253.bam",
+                  "id" : "ERS154253",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Optic'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154254.bam",
+                  "id" : "ERS154254",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Betzes'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154250.bam",
+                  "id" : "ERS154250",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Quench'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154255.bam",
+                  "id" : "ERS154255",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Morex'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS157253.bam",
+                  "id" : "ERS157253",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Derkado'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154252.bam",
+                  "id" : "ERS154252",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Tocada'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154257.bam",
+                  "id" : "ERS154257",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               },
+               {
+                  "source_name" : "Hordeum vulgare subsp. vulgare; RNASeq of cultivar 'Bowman'",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/barley/ERS154251.bam",
+                  "id" : "ERS154251",
+                  "description" : "SNP Discovery in Nine Lines of Cultivated Barley (Study ERP001573)"
+               }
+            ]
+         },
+         "division" : "EnsemblPlants",
+         "name" : "Hordeum vulgare",
+         "species" : "hordeum_vulgare",
+         "assembly_name" : "IBSC_1.0",
+         "dbname" : "hordeum_vulgare_core_20_73_1",
+         "taxonomy_id" : "112509",
+         "species_id" : "1",
+         "assembly_id" : "",
+         "genebuild" : "2012-06-IBSC_1.0",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "est_exonerate" : "93634"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Medicago truncatula",
+         "species" : "medicago_truncatula",
+         "assembly_name" : "MedtrA17_3.5",
+         "dbname" : "medicago_truncatula_core_20_73_1",
+         "taxonomy_id" : "3880",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000219495.1",
+         "genebuild" : "2011-08-IMGAG",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "21074",
+               "dust" : "335481",
+               "trf" : "190900"
+            },
+            "simpleFeatures" : {
+               "eponine" : "28027"
+            },
+            "dnaAlignFeatures" : {}
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Musa acuminata",
+         "species" : "musa_acuminata",
+         "assembly_name" : "MA1",
+         "dbname" : "musa_acuminata_core_20_73_1",
+         "taxonomy_id" : "214687",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000313855.1",
+         "genebuild" : "2012-08-Cirad",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "oryza_mrna" : "71846",
+               "oryza_rflp" : "2415",
+               "oryza_est_cluster" : "187043",
+               "oryza_est" : "843078"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Oryza brachyantha",
+         "species" : "oryza_brachyantha",
+         "assembly_name" : "Oryza_brachyantha.v1.4b",
+         "dbname" : "oryza_brachyantha_core_20_73_14",
+         "taxonomy_id" : "4533",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000231095.2",
+         "genebuild" : "2011-05-OGE",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "280508",
+               "agi_repeats" : "617073",
+               "repeatmaskagi" : "385849",
+               "dust" : "2064287",
+               "trf" : "136144"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {
+               "rice_est" : "1372062",
+               "rice_est_cluster" : "448760",
+               "maize_est_cluster" : "239834",
+               "arabidopsis_est_cluster" : "37452"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Oryza glaberrima",
+         "species" : "oryza_glaberrima",
+         "assembly_name" : "AGI1.1",
+         "dbname" : "oryza_glaberrima_core_20_73_2",
+         "taxonomy_id" : "4538",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000147395.1",
+         "genebuild" : "2011-05-AGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "437290",
+               "repeatmaskagi" : "596610",
+               "dust" : "3400873",
+               "irgsp1.0-repeats" : "258975",
+               "trf" : "262919"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {}
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Oryza sativa",
+         "species" : "oryza_sativa",
+         "assembly_name" : "IRGSP-1.0",
+         "dbname" : "oryza_sativa_core_20_73_7",
+         "taxonomy_id" : "39947",
+         "species_id" : "1",
+         "assembly_id" : "",
+         "genebuild" : "2011-10-IRGSP",
+         "pan_species" : 1,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "329549",
+               "agi_repeats" : "409128",
+               "wesslerbennetzen" : "105263",
+               "dust" : "2778202",
+               "trf" : "197193"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {
+               "dicot_est_cluster" : "565085",
+               "rice_est_cluster" : "332541",
+               "overgo" : "475",
+               "affymetrix" : "89610",
+               "te-t-dna-insertions" : "46956",
+               "monocot_est_cluster" : "1395588",
+               "maize_est_cluster" : "201143",
+               "arabidopsis_est_cluster" : "31655",
+               "rice_est" : "1227624",
+               "agilent" : "44910",
+               "nsf" : "68775",
+               "rflp" : "4431"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Oryza sativa Indica Group",
+         "species" : "oryza_indica",
+         "assembly_name" : "ASM465v1",
+         "dbname" : "oryza_indica_core_20_73_2",
+         "taxonomy_id" : "39946",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000004655.2",
+         "genebuild" : "2010-07-BGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "dicot_est_cluster" : "545251",
+               "rice_est_cluster" : "91085",
+               "maize_est_cluster" : "71709",
+               "est_exonerate" : "1199540",
+               "arabidopsis_est_cluster" : "30316"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Physcomitrella patens subsp. patens",
+         "species" : "physcomitrella_patens",
+         "assembly_name" : "ASM242v1",
+         "dbname" : "physcomitrella_patens_core_20_73_11",
+         "taxonomy_id" : "145481",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000002425.1",
+         "genebuild" : "2011-03-JGI",
+         "pan_species" : 1,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "100940",
+               "dust" : "6136528",
+               "trf" : "344051"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {
+               "poplar_est" : "362182",
+               "dicot_est_cluster" : "2045509",
+               "rice_est_cluster" : "104806",
+               "overgo" : "1",
+               "monocot_est_cluster" : "445365",
+               "maize_est_cluster" : "98978",
+               "poplar_est_cluster" : "261714",
+               "arabidopsis_est_cluster" : "96479"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Populus trichocarpa",
+         "species" : "populus_trichocarpa",
+         "assembly_name" : "JGI2.0",
+         "dbname" : "populus_trichocarpa_core_20_73_20",
+         "taxonomy_id" : "3694",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000002775",
+         "genebuild" : "2010-01-JGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "19562",
+               "inverted" : "2",
+               "dust" : "103874",
+               "trf" : "91809"
+            },
+            "simpleFeatures" : {
+               "gap" : "4636",
+               "eponine" : "19678",
+               "gene" : "1557",
+               "exon" : "21",
+               "mrna" : "1396"
+            },
+            "dnaAlignFeatures" : {
+               "rice_est_cluster" : "166219",
+               "maize_est_cluster" : "116946",
+               "selaginella_est" : "187089",
+               "selaginella_est_cluster" : "481",
+               "arabidopsis_est_cluster" : "30335"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Selaginella moellendorffii",
+         "species" : "selaginella_moellendorffii",
+         "assembly_name" : "v1.0",
+         "dbname" : "selaginella_moellendorffii_core_20_73_1",
+         "taxonomy_id" : "88036",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000143415.1",
+         "genebuild" : "2010-07-ENA",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "est_exonerate" : "119760"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Setaria italica",
+         "species" : "setaria_italica",
+         "assembly_name" : "JGIv2.0",
+         "dbname" : "setaria_italica_core_20_73_21",
+         "taxonomy_id" : "4555",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000263155.1",
+         "genebuild" : "2012-01-JGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "solanum_est_cluster" : "24883",
+               "solanum_est" : "571251",
+               "solanum_mrna" : "15621"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Solanum lycopersicum",
+         "species" : "solanum_lycopersicum",
+         "assembly_name" : "SL2.40",
+         "dbname" : "solanum_lycopersicum_core_20_73_240",
+         "taxonomy_id" : "4081",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000188115.1",
+         "genebuild" : "2011-04-ITAG",
+         "pan_species" : 1,
+      },
+
+      {
+         "features" : {
+            "simpleFeatures" : {},
+            "repeatFeatures" : {},
+            "proteinAlignFeatures" : {},
+            "dnaAlignFeatures" : {
+               "est_exonerate" : "707018"
+            }
+         },
+         "bam" : {
+            "rnaseq" : [
+               {
+                  "source_name" : "ERS023593: Solanum tuberosum; Mature Tuber",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023593.bam",
+                  "id" : "solanum_tuberosum_ERS023593",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023593\" target=\"_blank\">ERS023593</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023594: Solanum tuberosum; Tuber sprout",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023594.bam",
+                  "id" : "solanum_tuberosum_ERS023594",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023594\" target=\"_blank\">ERS023594</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer II sequencing"
+               },
+               {
+                  "source_name" : "ERS023595: Solanum tuberosum; Young Tuber",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023595.bam",
+                  "id" : "solanum_tuberosum_ERS023595",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023595\" target=\"_blank\">ERS023595</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023596: Solanum tuberosum; Mature Tuber",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023596.bam",
+                  "id" : "solanum_tuberosum_ERS023596",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023596\" target=\"_blank\">ERS023596</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023597: Solanum tuberosum; Leaf",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023597.bam",
+                  "id" : "solanum_tuberosum_ERS023597",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023597\" target=\"_blank\">ERS023597</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023598: Solanum tuberosum; Stamen",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023598.bam",
+                  "id" : "solanum_tuberosum_ERS023598",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023598\" target=\"_blank\">ERS023598</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023599: Solanum tuberosum; Flower",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023599.bam",
+                  "id" : "solanum_tuberosum_ERS023599",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023599\" target=\"_blank\">ERS023599</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023600: Solanum tuberosum; Stolon",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023600.bam",
+                  "id" : "solanum_tuberosum_ERS023600",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023600\" target=\"_blank\">ERS023600</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023601: Solanum tuberosum; Petiole",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023601.bam",
+                  "id" : "solanum_tuberosum_ERS023601",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023601\" target=\"_blank\">ERS023601</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023602: Solanum tuberosum; Tuber cortex",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023602.bam",
+                  "id" : "solanum_tuberosum_ERS023602",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023602\" target=\"_blank\">ERS023602</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023603: Solanum tuberosum; Root",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023603.bam",
+                  "id" : "solanum_tuberosum_ERS023603",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023603\" target=\"_blank\">ERS023603</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023604: Solanum tuberosum; Water stressed leaf",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023604.bam",
+                  "id" : "solanum_tuberosum_ERS023604",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023604\" target=\"_blank\">ERS023604</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023605: Solanum tuberosum; Tuber peel",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023605.bam",
+                  "id" : "solanum_tuberosum_ERS023605",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023605\" target=\"_blank\">ERS023605</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023606: Solanum tuberosum; Shoot apex",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023606.bam",
+                  "id" : "solanum_tuberosum_ERS023606",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023606\" target=\"_blank\">ERS023606</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023607: Solanum tuberosum; Stem",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023607.bam",
+                  "id" : "solanum_tuberosum_ERS023607",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023607\" target=\"_blank\">ERS023607</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               },
+               {
+                  "source_name" : "ERS023608: Solanum tuberosum; Whole in vitro plant",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/potato/ERS023608.bam",
+                  "id" : "solanum_tuberosum_ERS023608",
+                  "description" : "<a href=\"http://www.ebi.ac.uk/ena/data/view/ERS023608\" target=\"_blank\">ERS023608</a>: Transcriptome Analysis of the potato (genotype RH89-039-16) with Illumina Genome Analyzer sequencing"
+               }
+            ]
+         },
+         "division" : "EnsemblPlants",
+         "name" : "Solanum tuberosum",
+         "species" : "solanum_tuberosum",
+         "assembly_name" : "SolTub_3.0",
+         "dbname" : "solanum_tuberosum_core_20_73_4",
+         "taxonomy_id" : "4113",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000226075",
+         "genebuild" : "2011-05-SolTub_3.0",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "539570",
+               "wesslerbennetzen" : "323874",
+               "dust" : "3829682",
+               "trf" : "247515"
+            },
+            "simpleFeatures" : {
+               "mdr_1" : "6175494",
+               "mdr_0.25" : "19995",
+               "mdr_3" : "3545369",
+               "mdr_2" : "6503296"
+            },
+            "dnaAlignFeatures" : {
+               "dicot_est_cluster" : "549187",
+               "rice_est_cluster" : "279750",
+               "overgo" : "7182",
+               "monocot_est_cluster" : "1380455",
+               "maize_est_cluster" : "269743",
+               "sorghum_est_cluster" : "127371",
+               "sorghum_estcluster3p_lgbpratt" : "59557",
+               "arabidopsis_est_cluster" : "31727",
+               "rflp" : "612",
+               "sorghum_est" : "230192"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Sorghum bicolor",
+         "species" : "sorghum_bicolor",
+         "assembly_name" : "Sorbi1",
+         "dbname" : "sorghum_bicolor_core_20_73_14",
+         "taxonomy_id" : "4558",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000003195.1",
+         "genebuild" : "2007-12-JGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "1877920",
+               "dust" : "2046668",
+               "trf" : "1487261"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {}
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Triticum aestivum",
+         "species" : "triticum_aestivum",
+         "assembly_name" : "IWGSP1",
+         "dbname" : "triticum_aestivum_core_20_73_1",
+         "taxonomy_id" : "4565",
+         "species_id" : "1",
+         "assembly_id" : "",
+         "genebuild" : "2013-08",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "78506",
+               "dust" : "2147864",
+               "trf" : "1010725"
+            },
+            "simpleFeatures" : {
+               "assembly_gap" : "956215",
+               "gene" : "5021",
+               "wheat_snp_b" : "27994",
+               "wheat_snp_a" : "95852"
+            },
+            "dnaAlignFeatures" : {}
+         },
+         "bam" : {
+            "bam" : [
+               {
+                  "source_name" : "T.aestivum A genome Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/turartu/LastZ_Wheat_Genome_A.turartu.bam",
+                  "id" : "Lastz_Wheat_A_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum A sequences against T. urartu genome"
+               },
+               {
+                  "source_name" : "T.aestivum cap3 assembly Lastz alignments",
+                  "source_url" : "ftp://ftp.ensemblgenomes.org/pub/misc_data/bam/wheat/turartu/LastZ_Wheat_Genome_cap3.turartu.bam",
+                  "id" : "Lastz_Wheat_cap3_subsequences_alignments",
+                  "description" : "Lastz Alignments of the T.aestivum cap3 genome assembly sequences against T. urartu genome"
+               }
+            ]
+         },
+         "division" : "EnsemblPlants",
+         "name" : "Triticum urartu",
+         "species" : "triticum_urartu",
+         "assembly_name" : "ASM34745v1",
+         "dbname" : "triticum_urartu_core_20_73_1",
+         "taxonomy_id" : "4572",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000347455.1",
+         "genebuild" : "2012-12-BGI",
+         "pan_species" : 0,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "119232",
+               "dust" : "6002980",
+               "trf" : "426307"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {
+               "dicot_est_cluster" : "1711397",
+               "rice_est_cluster" : "131769",
+               "monocot_est_cluster" : "504495",
+               "maize_est_cluster" : "127940",
+               "vitis_est_cluster" : "107467",
+               "vitis_est" : "345915",
+               "arabidopsis_est_cluster" : "71178"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Vitis vinifera",
+         "species" : "vitis_vinifera",
+         "assembly_name" : "IGGP_12x",
+         "dbname" : "vitis_vinifera_core_20_73_3",
+         "taxonomy_id" : "29760",
+         "species_id" : "1",
+         "assembly_id" : "GCA_000003745.2",
+         "genebuild" : "2012-11-CRIBI",
+         "pan_species" : 1,
+      },
+
+      {
+         "features" : {
+            "proteinAlignFeatures" : {},
+            "repeatFeatures" : {
+               "repeatmask" : "1052798",
+               "teconsortium" : "1786408",
+               "dust" : "761521",
+               "teconsortiumltr" : "1092709",
+               "trf" : "786741"
+            },
+            "simpleFeatures" : {},
+            "dnaAlignFeatures" : {
+               "dicot_est_cluster" : "2037155",
+               "rice_est_cluster" : "626673",
+               "overgo" : "12347",
+               "monocot_est_cluster" : "2461012",
+               "maize_est_cluster" : "417032",
+               "maize_est" : "2053965",
+               "arabidopsis_est_cluster" : "108044",
+               "rflp" : "2997",
+               "est_exonerate" : "2893311",
+               "fgeneshpred" : "287064",
+               "cdna_exonerate" : "1350361"
+            }
+         },
+         "bam" : {},
+         "division" : "EnsemblPlants",
+         "name" : "Zea mays",
+         "species" : "zea_mays",
+         "assembly_name" : "AGPv3",
+         "dbname" : "zea_mays_core_20_73_6",
+         "taxonomy_id" : "4577",
+         "species_id" : "1",
+         "assembly_id" : "",
+         "genebuild" : "2010-01-MaizeSequence",
+         "pan_species" : 0,
+      }
+
+   ]
+}

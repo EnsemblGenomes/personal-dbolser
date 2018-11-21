@@ -1,0 +1,53 @@
+DATABASE()	description	N	LEN
+aegilops_tauschii_core_21_74_1	assembly_gap feature annotated in ENA	677165	621986774
+aegilops_tauschii_core_21_74_1	gene feature annotated in ENA	6635	14313032
+aegilops_tauschii_core_21_74_1	T.aestivum homoeologous SNPs that differ between the A and D genomes (where the B genome is unknown)	101724	101724
+aegilops_tauschii_core_21_74_1	T.aestivum homoeologous SNPs that are the same between the A and D genomes, but differ in B	29611	29611
+DATABASE()	description	N	LEN
+brachypodium_distachyon_core_21_74_12	T.aestivum homoeologous SNPs that differ between the A and D genomes (where the B genome is unknown)	91459	91459
+brachypodium_distachyon_core_21_74_12	T.aestivum homoeologous SNPs that are the same between the A and D genomes, but differ in B	25952	25952
+DATABASE()	description	N	LEN
+chlamydomonas_reinhardtii_core_21_74_1	gap feature annotated in ENA	9827	14994368
+chlamydomonas_reinhardtii_core_21_74_1	mRNA feature annotated in ENA	542	2272811
+chlamydomonas_reinhardtii_core_21_74_1	gene feature annotated in ENA	650	2409306
+chlamydomonas_reinhardtii_core_21_74_1	intron feature annotated in ENA	10	12818
+chlamydomonas_reinhardtii_core_21_74_1	exon feature annotated in ENA	13	4365
+chlamydomonas_reinhardtii_core_21_74_1	misc_RNA feature annotated in ENA	1	443
+chlamydomonas_reinhardtii_core_21_74_1	mobile_element feature annotated in ENA	2	206569
+chlamydomonas_reinhardtii_core_21_74_1	misc_feature feature annotated in ENA	4	44514
+chlamydomonas_reinhardtii_core_21_74_1	misc_difference feature annotated in ENA	27	37
+chlamydomonas_reinhardtii_core_21_74_1	old_sequence feature annotated in ENA	4	9
+DATABASE()	description	N	LEN
+cyanidioschyzon_merolae_core_21_74_1	Transcription start sites predicted by <a rel="external" href="http://www.sanger.ac.uk/Users/td2/eponine/">Eponine-TSS</a>.	12069	48999
+DATABASE()	description	N	LEN
+hordeum_vulgare_core_21_74_1	T.aestivum homoeologous SNPs that differ between the A and D genomes (where the B genome is unknown)	81194	81194
+hordeum_vulgare_core_21_74_1	T.aestivum homoeologous SNPs that are the same between the A and D genomes, but differ in B	23965	23965
+hordeum_vulgare_core_21_74_1	Transcription start sites predicted by <a rel="external" href="http://www.sanger.ac.uk/Users/td2/eponine/">Eponine-TSS</a>.	427469	1945867
+hordeum_vulgare_core_21_74_1	FPC Contigs <a rel="external" href="http://mips.helmholtz-muenchen.de/plant/barley/fpc/index.jsp">assembled by MIPS</a>	4533	2389047050
+DATABASE()	description	N	LEN
+medicago_truncatula_core_21_74_1	gap feature annotated in ENA	294	44543571
+medicago_truncatula_core_21_74_1	mRNA feature annotated in ENA	595	1877479
+medicago_truncatula_core_21_74_1	Transcription start sites predicted by <a rel="external" href="http://www.sanger.ac.uk/Users/td2/eponine/">Eponine-TSS</a>.	1843	8912
+DATABASE()	description	N	LEN
+musa_acuminata_core_21_74_1	Transcription start sites predicted by <a rel="external" href="http://www.sanger.ac.uk/Users/td2/eponine/">Eponine-TSS</a>.	28027	115430
+DATABASE()	description	N	LEN
+selaginella_moellendorffii_core_21_74_1	gap feature annotated in ENA	4636	4137132
+selaginella_moellendorffii_core_21_74_1	gene feature annotated in ENA	1557	2657350
+selaginella_moellendorffii_core_21_74_1	mRNA feature annotated in ENA	1396	2411528
+selaginella_moellendorffii_core_21_74_1	exon feature annotated in ENA	21	8859
+selaginella_moellendorffii_core_21_74_1	Transcription start sites predicted by <a rel="external" href="http://www.sanger.ac.uk/Users/td2/eponine/">Eponine-TSS</a>.	19678	81173
+DATABASE()	description	N	LEN
+solanum_tuberosum_core_21_74_4	Transcription start sites predicted by <a rel="external" href="http://www.sanger.ac.uk/Users/td2/eponine/">Eponine-TSS</a>.	1369	7832
+DATABASE()	description	N	LEN
+sorghum_bicolor_core_21_74_14	Mathmatically defined repeats (MDR, 0.25 level)	19995	920388796
+sorghum_bicolor_core_21_74_14	Mathmatically defined repeats (MDR, 1 level)	6175494	411946989
+sorghum_bicolor_core_21_74_14	Mathmatically defined repeats (MDR, 2 level)	6503296	256199096
+sorghum_bicolor_core_21_74_14	Mathmatically defined repeats (MDR, 3 level)	3545369	79065807
+DATABASE()	description	N	LEN
+triticum_aestivum_core_21_74_1	T.aestivum homoeologous SNPs that differ between the A and D genomes (where the B genome is unknown)	101570	101570
+triticum_aestivum_core_21_74_1	T.aestivum homoeologous SNPs that are the same between the A and D genomes, but differ in B	29638	29638
+DATABASE()	description	N	LEN
+triticum_urartu_core_21_74_1	assembly_gap feature annotated in ENA	956215	738181938
+triticum_urartu_core_21_74_1	gene feature annotated in ENA	5021	10437518
+triticum_urartu_core_21_74_1	T.aestivum homoeologous SNPs that differ between the A and D genomes (where the B genome is unknown)	95852	95852
+triticum_urartu_core_21_74_1	T.aestivum homoeologous SNPs that are the same between the A and D genomes, but differ in B	27994	27994

@@ -1,0 +1,12 @@
+lupinus_angustifolius_core_42_95_1
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl-95/ensembl/misc-scripts/../../ensembl/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl-95/ensembl/misc-scripts/../../ensembl-compara/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl-95/ensembl/misc-scripts/../../ensembl-funcgen/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl-95/ensembl/misc-scripts/../../ensembl-variation/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl-95/ensembl/misc-scripts/../../ensembl-production/sql' as our SQL directory
+Using '/nfs/production/panda/ensemblgenomes/development/dbolser/lib/libensembl-95/ensembl/misc-scripts/../../ensembl/misc-scripts/ontology/sql' as our SQL directory
+--------------------------------------------------------------------------------
+Considering 'lupinus_angustifolius_core_42_95_1' [lupinus_angustifolius,core,95]
+Earliest patch in database 'lupinus_angustifolius_core_42_95_1' is from release 94
+
+

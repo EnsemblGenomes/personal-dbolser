@@ -1,0 +1,54 @@
+
+./get_plant_dbs_from_eg_prod_on_pan1.sh | grep core > plant_13_core.list
+./get_plant_dbs_from_eg_prod_on_pan1.sh | grep -v core > plant_13_non_core.list
+
+
+## DUMB, I KNOW...
+
+SQL="
+
+SELECT
+  logic_name,
+  x.*
+FROM
+  analysis
+RIGHT JOIN (
+  SELECT
+    analysis_id,
+    COUNT(*)                      AS PROTEIN_FEATURES,
+    SUM(IF(id IS NOT NULL, 1, 0)) AS MATCHES,
+    SUM(IF(ID IS     NULL, 1, 0)) AS NONMATCH,
+    hit_name                      AS EXAMPLE
+  FROM
+    protein_feature
+  LEFT JOIN
+    interpro
+  ON
+    hit_name = id
+  GROUP BY
+    analysis_id
+) AS
+  x
+USING
+  (analysis_id)
+;
+
+"
+
+dbcmd=mysql-prod-1
+list=plant_list-34.txt
+
+while read -r db; do
+    #echo $db
+#    $dbcmd $db --table -e "$SQL"
+    $dbcmd $db -Ne "$SQL"
+    #echo
+    #break
+done \
+    < <( grep _core_ $list ) | sort | uniq -c | sort -n 
+
+
+ \
+    > interpro_matching.dump
+
+

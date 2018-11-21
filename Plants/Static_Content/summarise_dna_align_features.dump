@@ -1,0 +1,133 @@
+DATABASE()	description	N	LEN
+arabidopsis_lyrata_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	68591	72615857
+arabidopsis_lyrata_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	1214584	860430658
+arabidopsis_lyrata_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from monocot species	249693	140471160
+arabidopsis_lyrata_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	51820	30892394
+arabidopsis_lyrata_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	46039	27959720
+arabidopsis_lyrata_core_21_74_10	Genomic alignments of Arabidopsis "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	429108	179654454
+DATABASE()	description	N	LEN
+arabidopsis_thaliana_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	289075	298446453
+arabidopsis_thaliana_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	1059729	888766908
+arabidopsis_thaliana_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from monocot species	154060	120781207
+arabidopsis_thaliana_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	34662	27866806
+arabidopsis_thaliana_core_21_74_10	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	25453	39819881
+arabidopsis_thaliana_core_21_74_10	Genomic location of <a rel="external" href="www.ncbi.nlm.nih.gov/projects/genome/probe/doc/TechOvergo.shtml">Overgo</a> probe markers	56	3190
+arabidopsis_thaliana_core_21_74_10	Genomic location of RFLP (restriction fragment length polymorphism) markers	49	420000
+DATABASE()	description	N	LEN
+brachypodium_distachyon_core_21_74_12	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	36944	18569187
+brachypodium_distachyon_core_21_74_12	Alignments of EST clusters (Unigenes, Gene Indices) from Brachypodium species	12268	20890987
+brachypodium_distachyon_core_21_74_12	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	665390	364339465
+brachypodium_distachyon_core_21_74_12	Alignments of EST clusters (Unigenes, Gene Indices) from monocot species	1555315	1753228583
+brachypodium_distachyon_core_21_74_12	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	349362	454943900
+brachypodium_distachyon_core_21_74_12	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	250155	275023826
+brachypodium_distachyon_core_21_74_12	Transcriptome transcripts from <a href=http://jaiswallab.cgrb.oregonstate.edu/genomics/brasy>Jaiswal lab Brachypodium sylvaticum variation project</a>	947472	77009810
+brachypodium_distachyon_core_21_74_12	Transcriptome transcripts from <a href=http://jaiswallab.cgrb.oregonstate.edu/genomics/brasy>Jaiswal lab Brachypodium sylvaticum variation project</a>	1077243	78449595
+brachypodium_distachyon_core_21_74_12	Transcriptome transcripts from <a href=http://jaiswallab.cgrb.oregonstate.edu/genomics/brasy>Jaiswal lab Brachypodium sylvaticum variation project</a>	1893281	133934749
+DATABASE()	description	N	LEN
+brachypodium_distachyon_otherfeatures_21_74_12	Triticum aestivum 'Expressed Sequence Tags' (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	1272924	800903997
+brachypodium_distachyon_otherfeatures_21_74_12	Triticum aestivum UniGene cluster sequences from <a rel="external" href="http://www.ncbi.nlm.nih.gov/unigene/">NCBI</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	29983	22002186
+DATABASE()	description	N	LEN
+brassica_rapa_otherfeatures_21_74_1	Brassica ESTs within <a rel="external" href="http://www.ncbi.nlm.nih.gov">GenBank</a> aligned to Brassica BACs with BLAST	4740156	804011802
+brassica_rapa_otherfeatures_21_74_1	<a rel="external" href="http://brassica.bbsrc.ac.uk/array_info.html">Brassica 95K unigene set</a> aligned to Brassica BACs with BLAT	465610	74927934
+brassica_rapa_otherfeatures_21_74_1	<a rel="external" href="http://brassica.bbsrc.ac.uk/array_info.html">Brassica 135K unigene set</a> aligned to Brassica BACs with BLAT	763938	162161431
+brassica_rapa_otherfeatures_21_74_1	<a rel="external" href="http://www.arabidopsis.org">TAIR</a> v9 Arabidopsis CDS aligned to Brassica BACs with BLAT	383022	57531508
+DATABASE()	description	N	LEN
+chlamydomonas_reinhardtii_core_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	4400	1263807
+chlamydomonas_reinhardtii_core_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from Chlamydomonas species	13104	28402520
+chlamydomonas_reinhardtii_core_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	50048	35127083
+chlamydomonas_reinhardtii_core_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	40881	57153660
+chlamydomonas_reinhardtii_core_21_74_1	Genomic alignments of Chlamydomonas "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	54865	66100462
+DATABASE()	description	N	LEN
+glycine_max_otherfeatures_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	122083	99827199
+glycine_max_otherfeatures_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from soybean (Glycine) species	155299	280702048
+glycine_max_otherfeatures_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	206314	128803351
+glycine_max_otherfeatures_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	130184	123891187
+glycine_max_otherfeatures_21_74_1	Genomic alignments of soybean (Glycine) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	1680476	1141065139
+DATABASE()	description	N	LEN
+hordeum_vulgare_otherfeatures_21_74_1	Triticum aestivum UniGene cluster sequences from <a rel="external" href="http://www.ncbi.nlm.nih.gov/unigene/">NCBI</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	66095	43741029
+hordeum_vulgare_otherfeatures_21_74_1	Triticum aestivum 'Expressed Sequence Tags' (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	2160425	1058132162
+hordeum_vulgare_otherfeatures_21_74_1	Non-redundant barley full-length cDNAs from <a rel="external" href="http://www.plantphysiol.org/content/156/1/20.long">Matsumoto et al, 2011 Plant Physiol 156:20-28</a>	11242	31249635
+hordeum_vulgare_otherfeatures_21_74_1	Expressed Sequence Tags (ESTs) from <a rel="external" href="http://harvest.ucr.edu/">the HarvEST database</a>.	1026436	436840348
+DATABASE()	description	N	LEN
+medicago_truncatula_otherfeatures_21_74_1	'Expressed Sequence Tags' (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	93634	50038935
+DATABASE()	description	N	LEN
+oryza_brachyantha_otherfeatures_21_74_14	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	187043	380742777
+oryza_brachyantha_otherfeatures_21_74_14	Genomic alignments of rice (Oryza) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	843078	747628808
+oryza_brachyantha_otherfeatures_21_74_14	Genomic alignments of rice (Oryza) mRNA	71846	213054796
+oryza_brachyantha_otherfeatures_21_74_14	Genomic alignments of rice (Oryza) RFLP (restriction fragment length polymorphism) markers	2415	4763341
+DATABASE()	description	N	LEN
+oryza_glaberrima_core_21_74_2	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	37452	19946374
+oryza_glaberrima_core_21_74_2	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	448760	760272952
+oryza_glaberrima_core_21_74_2	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	239834	233293962
+oryza_glaberrima_core_21_74_2	Genomic alignments of rice (Oryza) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	1372062	1178023468
+DATABASE()	description	N	LEN
+oryza_indica_core_21_74_2	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	31655	18434792
+oryza_indica_core_21_74_2	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	565085	313172471
+oryza_indica_core_21_74_2	Alignments of EST clusters (Unigenes, Gene Indices) from monocot species	1395588	1783170287
+oryza_indica_core_21_74_2	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	332541	651158167
+oryza_indica_core_21_74_2	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	201143	213468055
+oryza_indica_core_21_74_2	Genomic alignments of rice (Oryza) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	1227624	1094557611
+oryza_indica_core_21_74_2	Locations of <a rel="external" href="http://en.wikipedia.org/wiki/T-DNA">T-DNA</A> and transposable element insertion sites identified via alignment to the genome of appropriate flanking sequence tags (FST)	46956	19695455
+oryza_indica_core_21_74_2	Genomic location of RFLP (restriction fragment length polymorphism) markers	4431	3453321
+oryza_indica_core_21_74_2	Genomic location of <a rel="external" href="www.ncbi.nlm.nih.gov/projects/genome/probe/doc/TechOvergo.shtml">Overgo</a> probe markers	475	22766
+DATABASE()	description	N	LEN
+physcomitrella_patens_otherfeatures_21_74_11	'Expressed Sequence Tags' (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	1199540	600607825
+physcomitrella_patens_otherfeatures_21_74_11	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	91085	153395856
+physcomitrella_patens_otherfeatures_21_74_11	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	30316	28214450
+physcomitrella_patens_otherfeatures_21_74_11	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	71709	174618203
+physcomitrella_patens_otherfeatures_21_74_11	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	545251	649741561
+DATABASE()	description	N	LEN
+populus_trichocarpa_core_21_74_20	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	96479	84105573
+populus_trichocarpa_core_21_74_20	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	2045509	1726094713
+populus_trichocarpa_core_21_74_20	Alignments of EST clusters (Unigenes, Gene Indices) from monocot species	445365	276180037
+populus_trichocarpa_core_21_74_20	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	104806	72549726
+populus_trichocarpa_core_21_74_20	Alignments of EST clusters (Unigenes, Gene Indices) from poplar (Populus) species	261714	390493819
+populus_trichocarpa_core_21_74_20	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	98978	72559737
+populus_trichocarpa_core_21_74_20	Genomic alignments of poplar (Populus) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	362182	432496023
+populus_trichocarpa_core_21_74_20	Genomic location of <a rel="external" href="www.ncbi.nlm.nih.gov/projects/genome/probe/doc/TechOvergo.shtml">Overgo</a> probe markers	1	40
+DATABASE()	description	N	LEN
+selaginella_moellendorffii_core_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	30335	13682902
+selaginella_moellendorffii_core_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	166219	86246750
+selaginella_moellendorffii_core_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from Selaginella species	481	487249
+selaginella_moellendorffii_core_21_74_1	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	116946	97562001
+selaginella_moellendorffii_core_21_74_1	Genomic alignments of Selaginella "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	187089	167222300
+DATABASE()	description	N	LEN
+setaria_italica_otherfeatures_21_74_21	'Expressed Sequence Tags' (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	119760	56383041
+DATABASE()	description	N	LEN
+solanum_lycopersicum_otherfeatures_21_74_240	Genomic alignments of tomato (Solanum) mRNA	15621	66385284
+solanum_lycopersicum_otherfeatures_21_74_240	Genomic alignments of tomato (Solanum) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	571251	908171359
+solanum_lycopersicum_otherfeatures_21_74_240	Alignments of EST clusters (Unigenes, Gene Indices) from tomato (Solanum) species	24883	65277395
+DATABASE()	description	N	LEN
+solanum_tuberosum_otherfeatures_21_74_4	'Expressed Sequence Tags' (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a> are aligned to the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	707018	472241898
+DATABASE()	description	N	LEN
+sorghum_bicolor_core_21_74_14	Alignments of LGB Pratt EST clusters for Sorghum	59557	15689826
+sorghum_bicolor_core_21_74_14	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	31727	17423111
+sorghum_bicolor_core_21_74_14	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	549187	284321033
+sorghum_bicolor_core_21_74_14	Alignments of EST clusters (Unigenes, Gene Indices) from monocot species	1380455	1737214816
+sorghum_bicolor_core_21_74_14	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	279750	383881283
+sorghum_bicolor_core_21_74_14	Alignments of EST clusters (Unigenes, Gene Indices) from Sorghum species	127371	204373439
+sorghum_bicolor_core_21_74_14	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	269743	340795437
+sorghum_bicolor_core_21_74_14	Genomic alignments of Sorghum "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	230192	260495538
+sorghum_bicolor_core_21_74_14	Genomic location of <a rel="external" href="www.ncbi.nlm.nih.gov/projects/genome/probe/doc/TechOvergo.shtml">Overgo</a> probe markers	7182	334050
+sorghum_bicolor_core_21_74_14	Genomic location of RFLP (restriction fragment length polymorphism) markers	612	465993
+DATABASE()	description	N	LEN
+vitis_vinifera_core_21_74_3	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	71178	72470850
+vitis_vinifera_core_21_74_3	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	1711397	1800873574
+vitis_vinifera_core_21_74_3	Alignments of EST clusters (Unigenes, Gene Indices) from monocot species	504495	462419251
+vitis_vinifera_core_21_74_3	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	131769	128709466
+vitis_vinifera_core_21_74_3	Alignments of EST clusters (Unigenes, Gene Indices) from grape species	107467	253988340
+vitis_vinifera_core_21_74_3	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	127940	172934292
+vitis_vinifera_core_21_74_3	Genomic alignments of grape "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	345915	602352276
+DATABASE()	description	N	LEN
+zea_mays_core_21_74_6	'Expressed Sequence Tags' (ESTs) are mapped onto the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	2893311	2942047809
+zea_mays_core_21_74_6	Alignments of EST clusters (Unigenes, Gene Indices) from Arabidopsis species	108044	292238064
+zea_mays_core_21_74_6	Alignments of EST clusters (Unigenes, Gene Indices) from all dicot species	2037155	16267554952
+zea_mays_core_21_74_6	Alignments of EST clusters (Unigenes, Gene Indices) from Maize species	417032	1686474325
+zea_mays_core_21_74_6	Alignments of EST clusters (Unigenes, Gene Indices) from monocot species	2461012	12649225030
+zea_mays_core_21_74_6	Alignments of EST clusters (Unigenes, Gene Indices) from rice (Oryza) species	626673	6291284234
+zea_mays_core_21_74_6	Genomic alignments of maize (Zea) "Expressed Sequence Tags" (ESTs) from <a rel="external" href="http://www.ncbi.nlm.nih.gov/dbEST/">dbEST</a>	2053965	4200636022
+zea_mays_core_21_74_6	Genomic location of RFLP (restriction fragment length polymorphism) markers	2997	5455028
+zea_mays_core_21_74_6	Genomic location of <a rel="external" href="www.ncbi.nlm.nih.gov/projects/genome/probe/doc/TechOvergo.shtml">Overgo</a> probe markers	12347	576918
+zea_mays_core_21_74_6	NULL	287064	225051792
+zea_mays_core_21_74_6	cDNA sequences are mapped onto the genome using <a rel="external" href="http://www.biomedcentral.com/1471-2105/6/31">Exonerate</a>.	1350361	1423131061
+zea_mays_core_21_74_6	Maize FPC markers	189833	28109897969
