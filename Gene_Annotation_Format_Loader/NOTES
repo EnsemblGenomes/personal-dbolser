@@ -1,0 +1,76 @@
+
+## There are (at least) two locations for data:
+
+# 1) UniProt-GOA
+http://www.ebi.ac.uk/GOA/downloads
+
+# 2) GOA
+http://www.geneontology.org/GO.downloads.annotations.shtml
+
+## I'd hope that all of 1) is obtained by the XRef pipeline? Source 2)
+## provides information for A. thaliana, O. sativa (MSU6?) and a
+## handfull of annotations against the solanaceae.
+
+
+
+
+## There are some funny TAIR annotations that we ignore:
+grep -P '\tTAIR:Communication:1345790\t' Data/gene_association.tair \
+    | grep -Pc "\t(GO:0005575|GO:0003674|GO:0008150)\t"
+
+# gives  18,831
+
+
+## excluding them, we have
+grep -c "^TAIR" Data/gene_association.tair
+
+# gives 180,225
+
+perl -e 'print 180225 - 18831, "\n"'
+
+# gives 161,394
+
+
+## Of those, we still fail to match 795 annotations
+
+perl -e 'print 161_394-795, "\n"'
+
+# gives 160,599
+
+
+
+## The GOA annotations seem to show up some (16) missing annotations
+
+grep -c "^UniProtKB" Data/gene_association.goa_arabidopsis
+
+# gives 153,812
+
+perl -e 'print 153_812-16, "\n"'
+
+# gives 153,796
+
+
+## The 'missing' genes seem to be missing from EG!
+
+# * C3H69_ARATH|At3g63550
+# * DF134_ARATH|At5g29576|T26N4
+# * P4KG2_ARATH|At1g64460/At1g64470|F1N19.4/F1N19.30|PI4KG2|PI4KGAMMA2
+# *  SCRA_ARATH|At4g21364|T6K22|SCRA|SCR1|SP11
+# * Y3852_ARATH|At3g28852|T19N8.16
+
+
+
+
+
+
+perl gaf_loader.plx \
+    Data/gene_association.goa_arabidopsis     1> \
+    Data/gene_association.goa_arabidopsis.out 2> \
+    Data/gene_association.goa_arabidopsis.err &
+
+perl gaf_loader.plx \
+    Data/gene_association.tair     1> \
+    Data/gene_association.tair.out 2> \
+    Data/gene_association.tair.err
+
+
