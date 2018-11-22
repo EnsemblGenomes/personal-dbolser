@@ -15,7 +15,8 @@ pipeline_name=variation_consequence
 ## CONFIG:
 
 ## ENSEMBL
-libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-93
+#libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-93
+libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-95
 
 # This sets Ensembl environment (PERL5LIB and ENSEMBL_ROOT_DIR):
 source ${libdir}/setup.sh
@@ -27,7 +28,7 @@ perl -e 'print join("\n", split(/:/, $ENV{PERL5LIB})), "\n"'
 ## The variation database (and speceis) we want to use:
 
 #vdb=arabidopsis_thaliana_variation_36_89_11
-vdb=brachypodium_distachyon_variation_40_93_4
+#vdb=brachypodium_distachyon_variation_40_93_4
 #vdb=hordeum_vulgare_variation_36_89_3
 
 #vdb=oryza_glumaepatula_variation_37_90_15
@@ -35,8 +36,9 @@ vdb=brachypodium_distachyon_variation_40_93_4
 #vdb=oryza_sativa_variation_39_92_7
 
 #vdb=solanum_lycopersicum_variation_36_89_250
+vdb=solanum_lycopersicum_variation_42_95_3
 #vdb=sorghum_bicolor_variation_37_90_30
-vdb=triticum_aestivum_variation_39_92_4
+#vdb=triticum_aestivum_variation_39_92_4
 #vdb=vitis_vinifera_variation_36_89_3
 #vdb=zea_mays_variation_36_89_7
 
@@ -65,8 +67,8 @@ max_distance=200
 
 #core_server=mysql-staging-1-ensrw
 #core_server=mysql-staging-2-ensrw
-core_server=mysql-prod-1-ensrw
-#core_server=mysql-prod-2-ensrw
+#core_server=mysql-prod-1-ensrw
+core_server=mysql-prod-2-ensrw
 #core_server=mysql-prod-3-ensrw
 
 #hive_server=mysql-prod-1-ensrw
@@ -118,25 +120,30 @@ registry=~/Registries/registry.mysql-prod-2+panx.pm
 ## Uh?
 PERL5LIB=$ENSEMBL_ROOT_DIR/ensembl-variation/scripts/import:$PERL5LIB
 
-## Can we not update the conf to change the queue names?
+## Can we not update the conf to include some of this stupidity?
 
 #echo \
 time \
 init_pipeline.pl \
     Bio::EnsEMBL::Variation::Pipeline::VariationConsequence_conf \
+    -hive_root_dir $ENSEMBL_ROOT_DIR/ensembl-hive \
     -species       ${species} \
     -reg_file      ${registry} \
     -pipeline_dir  ${scratch_dir} \
-    -hive_root_dir $ENSEMBL_ROOT_DIR/ensembl-hive \
     $($hive_server --details script_hive_db_) \
     -hive_db_password $($hive_server pass) \
-    -default_lsf_options '-q production-rh7 -M  2000 -R "rusage[mem= 2000]"' \
-    -medmem_lsf_options  '-q production-rh7 -M  4000 -R "rusage[mem= 4000]"' \
-    -urgent_lsf_options  '-q production-rh7 -M  2000 -R "rusage[mem= 2000]"' \
-    -highmem_lsf_options '-q production-rh7 -M 15000 -R "rusage[mem=15000]"' \
-    -long_lsf_options    '-q production-rh7 -M  2000 -R "rusage[mem= 2000]"' \
     -max_distance $max_distance \
+    -hive_default_max_retry_count 1 \
+    -hive_debug_init 0 \
     -hive_force_init 0
+
+
+# ## Can we not update the conf to change the queue names?
+#     -default_lsf_options '-q production-rh7 -M  2000 -R "rusage[mem= 2000]"' \
+#     -medmem_lsf_options  '-q production-rh7 -M  4000 -R "rusage[mem= 4000]"' \
+#     -urgent_lsf_options  '-q production-rh7 -M  2000 -R "rusage[mem= 2000]"' \
+#     -highmem_lsf_options '-q production-rh7 -M 15000 -R "rusage[mem=15000]"' \
+#     -long_lsf_options    '-q production-rh7 -M  2000 -R "rusage[mem= 2000]"' \
 
 ## Note, this setting simply matches what's in the _conf. We define it
 ## here for convenience. Note that in this pipeline the database isn't
@@ -156,6 +163,11 @@ url=$($hive_server --details url)$hive_db
 
 echo $url
 echo $url | xclip
+
+## FUCKERELLA!
+url="${url};reconnect_when_lost=1"
+
+
 
 # Synchronize the Hive (should be done before [re]starting a pipeline) :
 beekeeper.pl -url ${url} -sync

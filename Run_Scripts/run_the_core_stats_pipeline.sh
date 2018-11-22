@@ -5,18 +5,23 @@ pipeline_name=core_statistics
 
 ## Define our species (note, use -division EnsemblPlants if that's
 ## what you want)
+
 species_cmd="\
+  --species lupinus_angustifolius \
+  --species glycine_max \
+  --species vigna_radiata \
+  --species physcomitrella_patens \
+  --species arabidopsis_halleri \
   --species triticum_dicoccoides \
 "
 
 species_cmd="\
-  --species amborella_trichopoda \
-  --species prunus_persica \
+  --species physcomitrella_patens \
 "
 
-species_cmd="\
-  --division EnsemblPlants \
-"
+# species_cmd="\
+#   --division EnsemblPlants \
+# "
 
 # species_cmd="\
 #   --division EnsemblPlants \
@@ -30,13 +35,14 @@ species_cmd="\
 #libdir=/nfs/panda/ensemblgenomes/apis/ensembl/79
 #libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl
 #libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-93
-libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-94
+#libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-94
+libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-95
 
 ## This sets Ensembl environment (PERL5LIB and ENSEMBL_ROOT_DIR)...
 source ${libdir}/setup.sh
 
 ## Sets Ensembl Genomes environment
-PERL5LIB=$PERL5LIB:${libdir}/../lib-eg/eg-pipelines/modules # OR
+PERL5LIB=$PERL5LIB:${libdir}/../lib-eg/eg-pipelines/modules
 
 ## Check...
 perl -e 'print join("\n", split(/:/, $ENV{PERL5LIB})), "\n"'
@@ -48,17 +54,17 @@ echo $ensembl_version
 ## Moving on
 #registry=/homes/dbolser/Registries/s1pan.reg
 #registry=/homes/dbolser/Registries/s2pan.reg
-registry=/homes/dbolser/Registries/p1pan.reg
-#registry=/homes/dbolser/Registries/p2pan.reg
+#registry=/homes/dbolser/Registries/p1pan.reg
+registry=/homes/dbolser/Registries/p2pan.reg
 #registry=/homes/dbolser/Registries/p3pan.reg
 
 #hive_server=mysql-devel-1-ensrw
 #hive_server=mysql-devel-2-ensrw
 #hive_server=mysql-devel-3-ensrw
 #hive_server=mysql-prod-1-ensrw
-hive_server=mysql-prod-2-ensrw
+#hive_server=mysql-prod-2-ensrw
 #hive_server=mysql-prod-3-ensrw
-#hive_server=mysql-hive-ensrw
+hive_server=mysql-hive-ensrw
 
 #echo \
 time \

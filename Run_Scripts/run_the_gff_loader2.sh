@@ -17,8 +17,8 @@ echo $ensembl_version
 
 ## Where is the core for the above speceis?
 #registry=${HOME}/Registries/p1pan.reg
+#registry=${HOME}/Registries/p2pan.reg
 registry=${HOME}/Registries/p2pan.reg
-#registry=${HOME}/Registries/p3pan.reg
 
 ## Which hive server do you want to use
 hive_server=mysql-hive-ensrw
@@ -35,21 +35,36 @@ ls $pipeline_dir
 species=dioscorea_rotundata
 species=vigna_radiata
 species=arabidopsis_halleri
+species=aegilops_tauschii_subsp_strangulata
+species=physcomitrella_patens
 
+
+
+##
 ## The GFF and protein FASTA for that species...
+##
+
 # dir=/homes/dbolser/EG_Places/Data/Yam/GFF
 # gff3_file=$dir/TDr96_F1_Pseudo_Chromosome_v1.0.gff_20170804.gff3
 # protein_fasta_file=$dir/TDr96_F1_v1.0.protein_20170801.fasta
 
-dir=/homes/dbolser/EG_Places/Data/Vigna_radiata
-#gff3_file=$dir/GCF_000741045.1_Vradiata_ver6_genomic.gff
-#protein_fasta_file=$dir/GCF_000741045.1_Vradiata_ver6_protein.faa
-gff3_file=$dir/vigra.VC1973A.gnm6.ann1.M1Qs.gene_models_main-fix.gff3
-protein_fasta_file=$dir/vigra.VC1973A.gnm6.ann1.M1Qs.protein.faa.gz
+# dir=/homes/dbolser/EG_Places/Data/Vigna_radiata
+# gff3_file=$dir/GCF_000741045.1_Vradiata_ver6_genomic.gff
+# protein_fasta_file=$dir/GCF_000741045.1_Vradiata_ver6_protein.faa
+# gff3_file=$dir/vigra.VC1973A.gnm6.ann1.M1Qs.gene_models_main-fix.gff3
+# protein_fasta_file=$dir/vigra.VC1973A.gnm6.ann1.M1Qs.protein.faa.gz
 
 # dir=/homes/dbolser/EG_Places/Data/Arabidopsis_halleri
 # gff3_file=$dir/annotation.gff
 # protein_fasta_file=$dir/protein.fa
+
+# dir=/homes/dbolser/EG_Places/Data/Aegilops_tauschii
+# gff3_file=$dir/AET_High_confidence_gene.gff3
+# protein_fasta_file=$dir/AET_High_confidence_gene_protein.fasta
+
+dir=/homes/dbolser/EG_Places/Data/Physcomitrella_patens/
+gff3_file=$dir/experiment_11065/v3.3_annotation_all_gene_models.gff3
+
 
 ll $gff3_file $protein_fasta_file
 
@@ -68,8 +83,10 @@ PERL5LIB=$PERL5LIB:$EG_APIS/bioperl/run-stable
 
 #gene_source=IBRC
 #gene_source=Gnomon
-gene_source=maker
+#gene_source=maker
 #gene_source=halleri
+#gene_source=idk
+gene_source=coge
 
 
 ## Add this if you have GBFF
@@ -85,9 +102,12 @@ init_pipeline.pl \
     --pipeline_dir $pipeline_dir \
     --species $species \
     --gff3_file $gff3_file \
-    --protein_fasta_file $protein_fasta_file \
     --gene_source "$gene_source" \
     --hive_force_init 0
+
+## Do you have a protein fasta file?
+    --protein_fasta_file $protein_fasta_file \
+
 
 ## Currently matches what the pipeline sets
 hive_db=${USER}_${pipeline}_${species}

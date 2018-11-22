@@ -9,18 +9,22 @@ release=42
 # 
 # list=db_to_copy.txt
 
-list=~/Plants/Lists/plant_list-42.txt
-#list=~/Plants/funcgen.list
+#list=~/EG_Places/Devel/Plants/Lists/plant_list-42.txt
+#list=~/EG_Places/Devel/Plants/funcgen.list
+list=~/EG_Places/Devel/Plants/full_of_list
 
 ENDPOINT=http://eg-prod-01.ebi.ac.uk:7000/hc/
 
-SERVER=$(         mysql-prod-2             details url)
+#SERVER=$(         mysql-prod-2             details url)
+SERVER=$(         mysql-staging-2          details url)
 PRODUCTION=$(     mysql-pan-prod           details url)
 #STAGING=$(        mysql-staging-1          details url)
 STAGING=$(        mysql-staging-2          details url)
 LIVE=$(           mysql-publicsql          details url)
 
 #COMPARA_MASTER=$( mysql-pan-prod           details url)
+#COMPARA_MASTER=$(COMPARA_MASTER}plants_compara_master
+
 COMPARA_MASTER=$( mysql-ens-compara-prod-5 details url)
 COMPARA_MASTER=${COMPARA_MASTER}ensembl_compara_master_plants
 
@@ -39,7 +43,8 @@ unset TEST
 #TEST=InterproDescriptions
 #TEST=AssemblyMapping
 #TEST=GeneSource
-TEST=SeqRegionsConsistentWithComparaMaster
+#TEST=SeqRegionsConsistentWithComparaMaste
+TEST=MultiDbStableId
 
 LABEL=''
 GREST=''
@@ -89,11 +94,13 @@ while read -r db; do
     echo
 
 done \
-    < <( grep _core_ $list )
+    < $list
 
 
 #    < $list
 #    < <( grep _funcgen_ $list )
+#    < <( grep _core_ $list )
+#    < <( grep _otherfeatures_ $list )
 
 
 

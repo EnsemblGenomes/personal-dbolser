@@ -11,7 +11,8 @@ pipeline_name=lastz
 #source /nfs/panda/ensemblgenomes/apis/ensembl/91/setup.sh # or
 #source ${HOME}/EG_Places/Devel/lib/libensembl-90/setup.sh
 #source ${HOME}/EG_Places/Devel/lib/libensembl-91/setup.sh
-source ${HOME}/EG_Places/Devel/lib/libensembl-93/setup.sh
+#source ${HOME}/EG_Places/Devel/lib/libensembl-93/setup.sh
+source ${HOME}/EG_Places/Devel/lib/libensembl-95/setup.sh
 #source ${HOME}/EG_Places/Devel/lib/libensembl/setup.sh
 
 ## Ensembl Genomes (.../Bio/EnsEMBL/Analysis/Config/General.pm)
@@ -69,6 +70,26 @@ oth_species=triticum_aestivum.B
 oth_species=triticum_aestivum.D
 
 
+## WHEAT McFUCK!
+
+ref_species=triticum_dicoccoides
+oth_species=hordeum_vulgare
+
+ref_species=triticum_dicoccoides
+oth_species=triticum_aestivum
+
+ref_species=triticum_dicoccoides
+oth_species=aegilops_tauschii
+
+ref_species=aegilops_tauschii
+oth_species=hordeum_vulgare
+
+ref_species=aegilops_tauschii
+oth_species=triticum_aestivum
+
+
+
+
 
 # ## COLLECTION?
 
@@ -90,19 +111,19 @@ oth_species=triticum_aestivum.D
 ## Where are the cores for this pair or collection?
 #core_server=mysql-staging-1
 #core_server=mysql-staging-2
-core_server=mysql-prod-1
-#core_server=mysql-prod-2
+#core_server=mysql-prod-1
+core_server=mysql-prod-2
 #core_server=mysql-prod-3
 #core_server=mysql-devel-3
 
 ## Where are previous WGA results, if you have them? (Needed for a
 ## simple healthcheck).
-#prev_server=mysql-eg-mirror
-prev_server=mysql-prod-1
-prev_server=mysql-prod-2
-prev_server=mysql-prod-3
+prev_server=mysql-eg-mirror
+#prev_server=mysql-prod-1
+#prev_server=mysql-prod-2
+#prev_server=mysql-prod-3
 
-prev_db=ensembl_compara_plants_30_93
+prev_db=ensembl_compara_plants_41_94
 
 #prev_db=dbolser_${pipeline_name}_${ensembl_version}_hvul_taes7
 #prev_db=dbolser_${pipeline_name}_${ensembl_version}_hvul_taes14
@@ -113,21 +134,33 @@ prev_db=ensembl_compara_plants_30_93
 
 ## Where is the Compara master database? NOTE, this needs to be set in
 ## the registry
-mast_server=mysql-pan-prod-ensrw
+#mast_server=mysql-pan-prod-ensrw
 #mast_server=mysql-prod-3-ensrw
+mast_server=mysql-ens-compara-prod-5
 
 #mast_db=plants_compara_master_2
 #mast_db=plants_compara_master_39_92
-mast_db=plants_compara_master_40_93
+#mast_db=plants_compara_master_40_93
+mast_db=ensembl_compara_master_plants
 
 ## Where do you want the hive database (production_db)?
 #hive_server=mysql-prod-1-ensrw
-#hive_server=mysql-prod-2-ensrw
-hive_server=mysql-prod-3-ensrw
+hive_server=mysql-prod-2-ensrw
+#hive_server=mysql-prod-3-ensrw
 #hive_server=mysql-devel-1-ensrw
 #hive_server=mysql-hive-ensrw
 
+
+
 ## NYANG NYANG NYANG
+
+hive_db=${pipeline_name}_${ensembl_version}_tdic_hvul
+hive_db=${pipeline_name}_${ensembl_version}_tdic_taes
+hive_db=${pipeline_name}_${ensembl_version}_tdic_atau
+
+hive_db=${pipeline_name}_${ensembl_version}_atau_hvul
+hive_db=${pipeline_name}_${ensembl_version}_atau_taes
+
 
 #hive_db=${pipeline_name}_${ensembl_version}_bdis_hvul
 #hive_db=${pipeline_name}_${ensembl_version}_bdis_oind
@@ -272,7 +305,11 @@ create_mlss.pl \
     --source "ensembl" \
     --method_link_type LASTZ_NET \
     --url "" --species_set_name "" \
+    --pw --ref_species $ref_species \
     --genome_db_id 
+
+    --genome_db_id 2088,2120 # Barley vs. Ae. tauschii
+    --genome_db_id 2102,2120 # IWGSC  vs. Ae. tauschii
 
     --genome_db_id 2088,2102 # Barley vs. IWGSC
 
@@ -328,23 +365,26 @@ create_mlss.pl \
 # mlss_id=9581
 # mlss_id=9604
 # mlss_id=9616 # Barley vs. IWGSC
-mlss_id=9624 # Barley vs. IWGSC Component A
-mlss_id=9625 # Barley vs. IWGSC Component D
+#mlss_id=9624 # Barley vs. IWGSC Component A
+#mlss_id=9625 # Barley vs. IWGSC Component D
 
-mlss_id=9623 # Wheat Component A vs. IWGSC Component B
+#mlss_id=9623 # Wheat Component A vs. IWGSC Component B
 
 # mlss_id=9621 # Sorgu collection
 
 
 
-mlss_id=9627 # Barley vs. IWGSC
-mlss_id=9628 # IWGSC Component A vs. IWGSC Component B
-mlss_id=9629 # IWGSC Component A vs. IWGSC Component D
-mlss_id=9630 # IWGSC Component B vs. IWGSC Component D
+#mlss_id=9627 # Barley vs. IWGSC
+#mlss_id=9628 # IWGSC Component A vs. IWGSC Component B
+#mlss_id=9629 # IWGSC Component A vs. IWGSC Component D
+#mlss_id=9630 # IWGSC Component B vs. IWGSC Component D
 
+mlss_id=9810 # T. dicoccoides vs. H. vulgare
+mlss_id=9811 # T. dicoccoides vs. T. aestivum
+mlss_id=9812 # T. dicoccoides vs. Ae. tauschii
 
-
-
+mlss_id=9813 # Ae. tauschii vs. H. vulgare
+mlss_id=9814 # Ae. tauschii vs. T. aestivum
 
 
 ## OK, HIVE TIME...

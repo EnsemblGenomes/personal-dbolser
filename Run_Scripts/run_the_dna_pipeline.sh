@@ -8,7 +8,8 @@ pipeline=dna_features
 
 ## Ensembl
 #source /homes/dbolser/EG_Places/Devel/lib/libensembl-93/setup.sh
-source /homes/dbolser/EG_Places/Devel/lib/libensembl-94/setup.sh
+#source /homes/dbolser/EG_Places/Devel/lib/libensembl-94/setup.sh
+source /homes/dbolser/EG_Places/Devel/lib/libensembl-95/setup.sh
 
 ## Sets Ensembl Genomes environment
 libdir=${HOME}/EG_Places/Devel/lib/lib-eg
@@ -29,10 +30,11 @@ grep -c "^>" $file ## 61730
 
 
 
-## Set the speceis (TODO: clean up)...
-species_cmd=" \
-  --division             EnsemblPlants \
-"
+## Set the speceis
+
+# species_cmd=" \
+#   --division             EnsemblPlants \
+# "
 
 # legacy!!!
 #   --repeatmasker_library all=$file \
@@ -41,16 +43,16 @@ species_cmd=" \
 # "
 
 species_cmd=" \
-  --species ostreococcus_lucimarinus \
-  --species chlamydomonas_reinhardtii \
-  --species chondrus_crispus \
-  --species musa_acuminata \
-  --species brachypodium_distachyon
+  --species aegilops_tauschii \
+  --species arabidopsis_halleri \
+  --species glycine_max \
+  --species lupinus_angustifolius \
+  --species solanum_lycopersicum \
 "
 
-species_cmd=" \
-  --species nicotiana_attenuata \
-"
+# species_cmd=" \
+#   --species nicotiana_attenuata \
+# "
 
 # species_cmd=" \
 #   --species hordeum_vulgare \
@@ -85,7 +87,7 @@ tmpdir=/hps/cstor01/nobackup/crop_genomics/Production_Pipelines
 tmpdir=$tmpdir/${USER}/$pipeline
 
 ls $tmpdir
-
+cd $tmpdir # You need to go here because of random cache files
 
 
 ## OK, HIVE TIME...
@@ -95,8 +97,8 @@ ls $tmpdir
 #hive_server=mysql-devel-3-ensrw
 #hive_server=mysql-prod-1-ensrw
 #hive_server=mysql-prod-2-ensrw
-hive_server=mysql-prod-3-ensrw
-#hive_server=mysql-hive-ensrw
+#hive_server=mysql-prod-3-ensrw
+hive_server=mysql-hive-ensrw
 
 #echo \
 time \

@@ -6,12 +6,12 @@
 ## BSHELL (non-hive pipeline)
 
 ## CONFIG
-species=brachypodium_distachyon
+#species=brachypodium_distachyon
 #species=hordeum_vulgare
 #species=oryza_glaberrima
 #species=oryza_indica
 #species=oryza_sativa
-#species=solanum_lycopersicum
+species=solanum_lycopersicum
 #species=sorghum_bicolor
 #species=vitis_vinifera
 #species=zea_mays
@@ -19,8 +19,8 @@ species=brachypodium_distachyon
 
 #export core_server=mysql-staging-1-ensrw
 #export core_server=mysql-staging-2-ensrw
-core_server=mysql-prod-1-ensrw
-#core_server=mysql-prod-2-ensrw
+#core_server=mysql-prod-1-ensrw
+core_server=mysql-prod-2-ensrw
 
 eval $($core_server --details env_DB)
 
@@ -35,7 +35,8 @@ eval $($core_server --details env_DB)
 
 ## Or mine
 #libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl
-libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-93
+#libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-93
+libdir=/homes/dbolser/EG_Places/Devel/lib/libensembl-95
 
 # This sets Ensembl environment (PERL5LIB and ENSEMBL_ROOT_DIR):
 source ${libdir}/setup.sh
@@ -47,18 +48,6 @@ perl -e 'print join("\n", split(/:/, $ENV{PERL5LIB})), "\n"'
 script_dir=${ENSEMBL_ROOT_DIR}/ensembl-variation/scripts/import
 
 ## Registry
-#ensembl_version=$(perl -MBio::EnsEMBL::ApiVersion -e "print software_version")
-#registry=${HOME}/Registries/registry.${core_server}.v${ensembl_version}.pm
-
-# echo "{
-#   package reg;
-#   Bio::EnsEMBL::Registry->
-#     load_registry_from_db(
-#       qw($DBHOST $DBPORT $DBUSER $DBPASS 0 ${ensembl_version})
-#     );
-#   1;
-# }" > ${registry}
-
 registry=${HOME}/Registries/registry.${core_server}.pm
 
 
@@ -75,6 +64,7 @@ registry=${HOME}/Registries/registry.${core_server}.pm
 
 ## compressed_genotype_var
 
+#echo \
 time \
   perl -I $script_dir \
     $script_dir/compress_genotypes_by_var.pl \

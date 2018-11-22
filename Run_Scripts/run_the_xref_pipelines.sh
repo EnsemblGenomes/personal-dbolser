@@ -7,7 +7,8 @@
 pipeline=xref
 
 ## Ensembl
-source /homes/dbolser/EG_Places/Devel/lib/libensembl-94/setup.sh
+#source /homes/dbolser/EG_Places/Devel/lib/libensembl-94/setup.sh
+source /homes/dbolser/EG_Places/Devel/lib/libensembl-95/setup.sh
 
 ## Ensembl Genomes (pick your dir)
 #libdir=/homes/dbolser/EG_Places/Devel/lib/lib-eg/eg-pipelines-branch
@@ -15,16 +16,19 @@ libdir=/homes/dbolser/EG_Places/Devel/lib/lib-eg/eg-pipelines
 
 export PERL5LIB=$PERL5LIB:${libdir}/modules
 
+## Check...
+perl -e 'print join("\n", split(/:/, $ENV{PERL5LIB})), "\n"'
+
 #registry=~/Registries/s1pan.reg
 #registry=~/Registries/p1pan.reg
-registry=~/Registries/p2pan.reg
-#registry=~/Registries/p3pan.reg
+#registry=~/Registries/p2pan.reg
+registry=~/Registries/p3pan.reg
 #registry=~/Registries/d1pan.reg
 #registry=~/Registries/d2pan.reg
 
-#hive_server=mysql-prod-1-ensrw
+hive_server=mysql-prod-1-ensrw
 #hive_server=mysql-prod-2-ensrw
-hive_server=mysql-prod-3-ensrw
+#hive_server=mysql-prod-3-ensrw
 #hive_server=mysql-hive-ensrw
 
 ## Just for convenience...
@@ -40,6 +44,7 @@ ls $tmpdir
 ## Select
 run_for="-division EnsemblPlants"
 run_for="-species nicotiana_attenuata"
+run_for="-species theobroma_cacao"
 
 
 
@@ -97,6 +102,16 @@ beekeeper.pl -url ${url} -reg_conf ${registry} -loop -keep_alive
 ## ALIGNMENT BASED...
 
 pipeline=alignment_xref
+
+## BUG!
+source /homes/dbolser/EG_Places/Devel/lib/libensembl-92/setup.sh
+
+## Check...
+perl -e 'print join("\n", split(/:/, $ENV{PERL5LIB})), "\n"'
+
+## And so...
+ensembl_version=$(perl -MBio::EnsEMBL::ApiVersion -e "print software_version")
+echo $ensembl_version
 
 #echo \
 time \

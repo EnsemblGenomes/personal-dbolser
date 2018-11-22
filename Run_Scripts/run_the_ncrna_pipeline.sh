@@ -12,7 +12,7 @@ pipeline_name=rna_features
 #libensembl=/nfs/panda/ensemblgenomes/apis/ensembl/current
 #libensembl=/nfs/panda/ensemblgenomes/apis/ensembl/87
 #libensembl=/homes/dbolser/EG_Places/Devel/lib/libensembl-93
-libensembl=/homes/dbolser/EG_Places/Devel/lib/libensembl-94
+libensembl=/homes/dbolser/EG_Places/Devel/lib/libensembl-95
 
 source $libensembl/setup.sh
 
@@ -38,6 +38,14 @@ species_cmd=" \
     --species nicotiana_attenuata \
 "
 
+species_cmd=" \
+    --species solanum_lycopersicum \
+    --species lupinus_angustifolius \
+    --species glycine_max \
+    --species arabidopsis_halleri \
+    --species aegilops_tauschii \
+"
+
 ## Where are the cores for the above species?
 #registry=${HOME}/Registries/p1pan.reg
 registry=${HOME}/Registries/p2pan.reg
@@ -45,7 +53,7 @@ registry=${HOME}/Registries/p2pan.reg
 ## Where do we want to store the hive database
 #hive_server=mysql-hive-ensrw
 #hive_server=mysql-prod-2-ensrw
-hive_server=mysql-prod-3-ensrw
+hive_server=mysql-prod-1-ensrw
 
 ## Where do we want temporary files
 tmpdir=/hps/cstor01/nobackup/crop_genomics/Production_Pipelines
@@ -68,6 +76,21 @@ mirbase_dir=/nfs/panda/ensemblgenomes/external/data/mirbase
 ## Do this as the ensgen user...
 cd $mirbase_dir
 wget ftp://mirbase.org/pub/mirbase/CURRENT/genomes/*.gff3
+
+for f in *.gff3; do
+    x=$(md5sum $f   | cut -d ' ' -f 1)
+    y=$(md5sum $f.1 | cut -d ' ' -f 1)
+    echo $x
+    echo $y
+
+    if [ $x == $y ]; then
+        echo match
+        rm $f.1
+    fi
+    
+    echo
+done
+
 
 
 ## Get GCA from the files
@@ -132,17 +155,18 @@ mirbase_cmd=" \
     --mirbase_file arabidopsis_thaliana=$mirbase_dir/ath.gff3 \
     --mirbase_file        brassica_rapa=$mirbase_dir/bra.gff3 \
     --mirbase_file      cucumis_sativus=$mirbase_dir/cst.gff3 \
-    --mirbase_file          glycine_max=$mirbase_dir/gma.gff3 \
     --mirbase_file  gossypium_raimondii=$mirbase_dir/gra.gff3 \
     --mirbase_file   phaseolus_vulgaris=$mirbase_dir/pvu.gff3 \
     --mirbase_file       prunus_persica=$mirbase_dir/ppe.gff3 \
-    --mirbase_file solanum_lycopersicum=$mirbase_dir/sly.gff3 \
     --mirbase_file      sorghum_bicolor=$mirbase_dir/sbi.gff3 \
     --mirbase_file       vitis_vinifera=$mirbase_dir/vvi.gff3 \
     --mirbase_file             zea_mays=$mirbase_dir/zma.gff3 \
 "
 
-##    -mirbase_file solanum_tuberosum       = stu.gff3 \ ??
+# Assembly mismatch:
+##    --mirbase_file          glycine_max=$mirbase_dir/gma.gff3 \
+##    --mirbase_file    solanum_tuberosum=stu.gff3 \
+##    --mirbase_file solanum_lycopersicum=$mirbase_dir/sly.gff3 \
 
 
 
@@ -166,9 +190,6 @@ init_pipeline.pl Bio::EnsEMBL::EGPipeline::PipeConfig::RNAFeatures_conf \
     ${mirbase_cmd} \
     --taxonomic_lca 1 \
     --hive_force_init 0
-
-
-
 
 hive_db=${USER}_${pipeline_name}_${ensembl_version}
 
@@ -226,7 +247,6 @@ url="${url};reconnect_when_lost=1"
 beekeeper.pl -url ${url} -sync
 runWorker.pl -url ${url} -reg_conf ${registry}
 beekeeper.pl -url ${url} -reg_conf ${registry} -loop -keep_alive
-
 
 
 

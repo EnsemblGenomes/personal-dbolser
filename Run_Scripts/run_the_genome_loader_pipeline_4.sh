@@ -168,6 +168,9 @@ TAG=my_gl_hc_run
 
 BASE_DIR=/homes/dbolser/EG_Places/Devel/lib/ensembl-prodinf-core
 
+#export JAVA_OPTS='-Xmx128g'
+export JAVA_OPTS='-Xmx256g -XX:+HeapDumpOnOutOfMemoryError -XX:+UseCompressedOops'
+
 python \
     $BASE_DIR/ensembl_prodinf/hc_client.py \
     --uri $ENDPOINT \

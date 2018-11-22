@@ -9,7 +9,8 @@ pipeline_name=probemapping_hive
 #source /nfs/panda/ensemblgenomes/apis/ensembl/current/setup.sh
 #source /homes/dbolser/EG_Places/Devel/lib/libensembl-91/setup.sh
 #source /homes/dbolser/EG_Places/Devel/lib/libensembl/setup.sh
-source /homes/dbolser/EG_Places/Devel/lib/libensembl-93/setup.sh
+#source /homes/dbolser/EG_Places/Devel/lib/libensembl-93/setup.sh
+source /homes/dbolser/EG_Places/Devel/lib/libensembl-95/setup.sh
 
 # A few extra things defined here (NOT NEEDED ANYMORE):
 # https://www.ebi.ac.uk/seqdb/confluence/display/
@@ -22,16 +23,17 @@ PATH=$PATH:$ENSEMBL_ROOT_DIR/ensembl-funcgen/scripts/export
 PATH=$PATH:$ENSEMBL_ROOT_DIR/ensembl-funcgen/scripts/array_mapping
 
 
-core_server=mysql-prod-1-ensrw
+#core_server=mysql-prod-1-ensrw
+core_server=mysql-prod-2-ensrw
 
 ## Registry file... (funcgen specific?)
-registry=/homes/dbolser/Registries/p1pan.reg
-#registry=/homes/dbolser/Registries/p2pan.reg
+#registry=/homes/dbolser/Registries/p1pan.reg
+registry=/homes/dbolser/Registries/p2pan.reg
 #registry=/homes/dbolser/Registries/p3pan.reg
 
 ## eHive config
-hive_server=mysql-prod-3-ensrw
-#hive_server=mysql-hive-ensrw
+#hive_server=mysql-prod-3-ensrw
+hive_server=mysql-hive-ensrw
 
 hive_db=${USER}_${pipeline_name}
 url=$($hive_server --details url)$hive_db
@@ -52,42 +54,41 @@ tree $probe_directory
 ## Make a database?
 
 db_list=(
-    aegilops_tauschii_funcgen_38_91_1
-    arabidopsis_lyrata_funcgen_38_91_10
-    arabidopsis_thaliana_funcgen_38_91_11
-    brassica_napus_funcgen_38_91_1
-    brassica_oleracea_funcgen_38_91_1
-    brassica_rapa_funcgen_38_91_1
-    glycine_max_funcgen_38_91_3
-    gossypium_raimondii_funcgen_38_91_1
-    hordeum_vulgare_funcgen_38_91_3
-    medicago_truncatula_funcgen_38_91_2
-    nicotiana_attenuata_funcgen_38_91_1
-    oryza_barthii_funcgen_38_91_3
-    oryza_brachyantha_funcgen_38_91_14
-    oryza_indica_funcgen_38_91_2
-    oryza_sativa_funcgen_38_91_7
-
-    oryza_glaberrima_funcgen_38_91_2
-    oryza_glumaepatula_funcgen_38_91_15
-    oryza_longistaminata_funcgen_38_91_2
-    oryza_meridionalis_funcgen_38_91_13
-    oryza_nivara_funcgen_38_91_10
-    oryza_punctata_funcgen_38_91_12
-    oryza_rufipogon_funcgen_38_91_11
-
-    populus_trichocarpa_funcgen_38_91_20
-    solanum_lycopersicum_funcgen_38_91_250
-    triticum_aestivum_funcgen_38_91_3
-    triticum_urartu_funcgen_38_91_1
-    vitis_vinifera_funcgen_38_91_3
-    zea_mays_funcgen_38_91_7
+    #aegilops_tauschii_funcgen_42_95_1
+    #arabidopsis_halleri_funcgen_42_95_1
+    #arabidopsis_lyrata_funcgen_42_95_10
+    #arabidopsis_thaliana_funcgen_42_95_11
+    #brassica_napus_funcgen_42_95_1
+    #brassica_oleracea_funcgen_42_95_1
+    #brassica_rapa_funcgen_42_95_1
+    glycine_max_funcgen_42_95_3
+    #gossypium_raimondii_funcgen_42_95_1
+    #hordeum_vulgare_funcgen_42_95_3
+    #medicago_truncatula_funcgen_42_95_2
+    #nicotiana_attenuata_funcgen_42_95_1
+    #oryza_barthii_funcgen_42_95_3
+    #oryza_brachyantha_funcgen_42_95_14
+    #oryza_indica_funcgen_42_95_2
+    #oryza_sativa_funcgen_42_95_7
+    #oryza_glaberrima_funcgen_42_95_2
+    #oryza_glumaepatula_funcgen_42_95_15
+    #oryza_longistaminata_funcgen_42_95_2
+    #oryza_meridionalis_funcgen_42_95_13
+    #oryza_nivara_funcgen_42_95_10
+    #oryza_punctata_funcgen_42_95_12
+    #oryza_rufipogon_funcgen_42_95_11
+    phaseolus_vulgaris_funcgen_42_95_1
+    #populus_trichocarpa_funcgen_42_95_3
+    #solanum_lycopersicum_funcgen_42_95_250
+    #triticum_aestivum_funcgen_40_93_4
+    #triticum_dicoccoides_funcgen_42_95_1
+    #triticum_urartu_funcgen_42_95_1
+    vigna_angularis_funcgen_42_95_1
+    vigna_radiata_funcgen_42_95_2
+    #vitis_vinifera_funcgen_42_95_3
+    #zea_mays_funcgen_42_95_7
 )
 
-db_list=(
-    triticum_aestivum_funcgen_40_93_4
-    populus_trichocarpa_funcgen_40_93_3
-)
 
 for db in ${db_list[*]}; do
     echo $db
@@ -189,26 +190,61 @@ beekeeper.pl -url ${url} -reg_conf ${registry} -loop -keep_alive
 ## Or perhaps...
 runWorker.pl -url ${url} -reg_conf ${registry}
 beekeeper.pl -url ${url} -reg_conf ${registry} -run
-
-
 runWorker.pl -url ${url} -reg_conf ${registry} -debug 1
+
 
 
 
 
 ## NOW DON@T FORGET:
 
-for db in triticum_aestivum_funcgen_39_92_3
+#for db in triticum_aestivum_funcgen_39_92_3
+for db in ${db_list[*]}
 do
     echo $db
     echo ${db%%_funcgen_*}
 
     perl $ENSEMBL_ROOT_DIR/ensembl-funcgen/scripts/release/populate_meta_coord.pl \
-        --registry /homes/dbolser/Registries/p3pan.reg \
+        --registry ${registry} \
         --species ${db%%_funcgen_*}
 
     echo
 done
+
+
+
+
+
+## NOW DON@T FORGET:
+## NOW DON@T FORGET:
+
+## INSERT species.production_name into FG DBs!
+
+
+SQL='SELECT * FROM meta
+     WHERE meta_key = "species.production_name"'
+
+for db in \
+    aegilops_tauschii_funcgen_42_95_3    \
+    arabidopsis_halleri_funcgen_42_95_1  \
+    glycine_max_funcgen_42_95_4          \
+    nicotiana_attenuata_funcgen_42_95_1  \
+    solanum_lycopersicum_funcgen_42_95_3 \
+    triticum_dicoccoides_funcgen_42_95_1 \
+    zea_mays_funcgen_42_95_7
+do
+    echo $db
+    mysql-prod-2 $db -e "$SQL"
+    
+    core=${db/_funcgen_/_core_}
+    echo $core
+
+    mysql-prod-2 $core -e "$SQL"
+
+    echo
+done
+
+
 
 
 
@@ -217,6 +253,7 @@ done
 https://docs.google.com/spreadsheets/d/1cfXs8y5rdXTfe5kf8MvsWVcgZKcql8WxOIUbYDW37Fk/edit#gid=320001600
 
 
+perl -ne 'chomp; @F=split/\t/; print "UPDATE array INNER JOIN array_chip USING (array_id) SET array.name = \"$F[2]\", array.description = \"$F[10]\", array_chip.name = \"$F[7]\" WHERE array_chip.design_id = \"$F[1]\";\n\n"' flabby 
 
 
 
@@ -226,16 +263,16 @@ https://docs.google.com/spreadsheets/d/1cfXs8y5rdXTfe5kf8MvsWVcgZKcql8WxOIUbYDW3
 
 
 
-## Comparing previous mappings to new mappings...
+## [OPTIONAL] Comparing previous mappings to new mappings...
 
 for db in \
-    arabidopsis_thaliana_funcgen_38_91_11 \
-    hordeum_vulgare_funcgen_38_91_3 \
-    oryza_indica_funcgen_38_91_2 \
-    oryza_sativa_funcgen_38_91_7 \
-    populus_trichocarpa_funcgen_38_91_20 \
-    vitis_vinifera_funcgen_38_91_3 \
-    zea_mays_funcgen_38_91_7
+    arabidopsis_thaliana_funcgen_42_95_11 \
+    hordeum_vulgare_funcgen_42_95_3 \
+    oryza_indica_funcgen_42_95_2 \
+    oryza_sativa_funcgen_42_95_7 \
+    populus_trichocarpa_funcgen_42_95_20 \
+    vitis_vinifera_funcgen_42_95_3 \
+    zea_mays_funcgen_42_95_7
 do
     echo $db;
 
