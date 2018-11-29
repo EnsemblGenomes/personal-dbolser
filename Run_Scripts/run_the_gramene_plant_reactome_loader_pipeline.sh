@@ -20,6 +20,8 @@ run_for="-species theobroma_cacao"
 #xref_file=Data/Ensembl2PlantReactome_PE_Pathway.txt
 #xref_file=Data/Ensembl2PlantReactome_PE_Pathway-rice.txt
 
+# Get these files from http://plantreactome.gramene.org/index.php?option=com_content&view=article&id=18&Itemid=242&lang=en
+
 xref_reac_file=Data/Ensembl2PlantReactome.txt
 xref_path_file=Data/Ensembl2PlantReactomeReactions.txt
 
