@@ -1,0 +1,75 @@
+
+a) gdbid=2081, dnafrags=207364
+b) gdbid=2082, dnafrags=193857
+d) gdbid=2083, 
+
+## 1) Query collection data (takes about 10 seconds):
+
+SELECT
+  dna_collection_id AS dcid,
+  dna_collection.description,
+  COUNT(DISTINCT dnafrag_chunk_set_id) AS dfcs,
+  COUNT(DISTINCT dnafrag_chunk_id)     AS dfc,
+  COUNT(DISTINCT dnafrag_id)           AS df,
+  COUNT(*),
+  GROUP_CONCAT(DISTINCT genome_db_id)  AS gdbid
+FROM
+  dna_collection
+INNER JOIN dnafrag_chunk_set USING (dna_collection_id)
+INNER JOIN dnafrag_chunk     USING (dnafrag_chunk_set_id)
+INNER JOIN dnafrag           USING (dnafrag_id)
+GROUP BY
+  dna_collection_id
+;
+
+
+
+# 2) Show the cross gdbid duplicates (takes about 10 seconds):
+
+SELECT genome_db_id, COUNT(*), COUNT(DISTINCT name) FROM dnafrag
+GROUP BY 1 WITH ROLLUP;
+
+
+
+# 3) Confirm dnafrag counts:
+
+SELECT genome_db_id, COUNT(*) FROM dnafrag GROUP BY 1;
+
+SELECT genome_db_id, COUNT(*) FROM dnafrag_ab GROUP BY 1;
+SELECT genome_db_id, COUNT(*) FROM dnafrag_bd GROUP BY 1;
+
+
+# As above, but with pretter
+
+SELECT genome_db_id, genome_db.name, assembly, genome_component, COUNT(*)
+FROM dnafrag INNER JOIN genome_db USING (genome_db_id) GROUP BY genome_db_id;
+
+SELECT genome_db_id, genome_db.name, assembly, genome_component, COUNT(*)
+FROM dnafrag_bd INNER JOIN genome_ad USING (genome_db_id) GROUP BY genome_db_id;
+
+
+## Showing the 'confusion'
+
+SELECT genome_db_id, MID(name, 25,1) AS x, COUNT(*), dnafrag_id
+FROM dnafrag GROUP BY 1, 2;
+
+SELECT genome_db_id, MID(name, 25,1) AS x, COUNT(*)
+FROM dnafrag_ad GROUP BY 1, 2 ;
+
+
+
+
+
+## Above queries look fine for AB
+
+## Try again for BD
+
++------+-------------------------------+-------+-------+-------+----------+-------+
+| dcid | description                   | dfcs  | dfc   | df    | COUNT(*) | gdbid |
++------+-------------------------------+-------+-------+-------+----------+-------+
+|    1 | triticum_aestivum.D raw       |    17 | 14708 | 14708 |    14708 | 2083  |
+|    2 | triticum_aestivum.B raw       | 14010 | 14010 | 14010 |    14010 | 2082  |
+|    3 | triticum_aestivum.B for chain | 14010 | 14010 | 14010 |    14010 | 2082  |
+|    4 | triticum_aestivum.D for chain | 14708 | 14708 | 14708 |    14708 | 2083  |
++------+-------------------------------+-------+-------+-------+----------+-------+
+

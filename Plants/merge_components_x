@@ -1,0 +1,194 @@
+
+
+
+SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.COLUMNS WHERE COLUMNS.TABLE_SCHEMA = DATABASE() AND COLUMN_NAME RLIKE 'dnafrag_id';
++---------------------+-------------+
+| TABLE_NAME          | COLUMN_NAME |
++---------------------+-------------+
+| anchor_align        | dnafrag_id  |
+| anchor_sequence     | dnafrag_id  |
+| constrained_element | dnafrag_id  |
+| dnafrag             | dnafrag_id  |*
+| dnafrag_bd          | dnafrag_id  |
+| dnafrag_chunk       | dnafrag_id  |*
+| dnafrag_region      | dnafrag_id  |
+| gene_member         | dnafrag_id  |
+| genomic_align       | dnafrag_id  |*
+| ortholog_goc_metric | dnafrag_id  |
+| seq_member          | dnafrag_id  |
+| statistics          | dnafrag_id  |*
++---------------------+-------------+
+12 rows in set (0.29 sec)
+
+SELECT TABLE_NAME, TABLE_TYPE, TABLE_ROWS, ENGINE, UPDATE_TIME FROM information_schema.TABLES WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME IN (SELECT TABLE_NAME FROM information_schema.COLUMNS WHERE COLUMNS.TABLE_SCHEMA = DATABASE() AND COLUMN_NAME RLIKE 'dnafrag_id') AND TABLE_ROWS > 0;
++---------------+------------+------------+--------+-------------+
+| TABLE_NAME    | TABLE_TYPE | TABLE_ROWS | ENGINE | UPDATE_TIME |
++---------------+------------+------------+--------+-------------+
+| dnafrag       | BASE TABLE |     466771 | InnoDB | NULL        |
+| dnafrag_bd    | BASE TABLE |     437817 | InnoDB | NULL        |
+| dnafrag_chunk | BASE TABLE |      57477 | InnoDB | NULL        |
+| genomic_align | BASE TABLE |   34380066 | InnoDB | NULL        |
+| statistics    | BASE TABLE |     476442 | InnoDB | NULL        |
++---------------+------------+------------+--------+-------------+
+5 rows in set (0.58 sec)
+
+
+
+
+-- One table to fix them  all
+
+DROP   TABLE IF EXISTS dnafrag_fix;
+CREATE TABLE           dnafrag_fix(
+  PRIMARY KEY  (dnafrag_id),
+  UNIQUE INDEX (dnafrag_id_swap)
+)
+SELECT
+  a.dnafrag_id AS dnafrag_id,
+  b.dnafrag_id AS dnafrag_id_swap
+FROM
+  dnafrag a
+INNER JOIN
+  dnafrag b
+USING
+  (name)
+WHERE
+  a.dnafrag_id < b.dnafrag_id
+#LIMIT
+#  03
+;
+
+OPTIMIZE TABLE dnafrag_fix;
+
+
+
+-- Sanity check...
+
+SELECT MID(name, 25,1), genome_db_id, COUNT(*) FROM dnafrag_fix f
+INNER JOIN dnafrag df ON df.dnafrag_id = f.dnafrag_id      GROUP BY 1,2
+UNION
+SELECT MID(name, 25,1), genome_db_id, COUNT(*) FROM dnafrag_fix f
+INNER JOIN dnafrag df ON df.dnafrag_id = f.dnafrag_id_swap GROUP BY 1,2
+;
+
+
+
+-- Ahh...
+
+OPTIMIZE TABLE dnafrag;
+OPTIMIZE TABLE dnafrag_chunk;
+OPTIMIZE TABLE genomic_align;
+OPTIMIZE TABLE statistics;
+
+
+
+-- BACKUP
+
+CREATE TABLE dnafrag_bk       LIKE dnafrag;
+CREATE TABLE dnafrag_chunk_bk LIKE dnafrag_chunk;
+CREATE TABLE genomic_align_bk LIKE genomic_align;
+CREATE TABLE statistics_bk    LIKE statistics;
+
+INSERT INTO  dnafrag_bk       SELECT * FROM dnafrag;
+INSERT INTO  dnafrag_chunk_bk SELECT * FROM dnafrag_chunk;
+INSERT INTO  genomic_align_bk SELECT * FROM genomic_align;
+INSERT INTO  statistics_bk    SELECT * FROM statistics;
+
+SELECT COUNT(*) FROM dnafrag UNION
+SELECT COUNT(*) FROM dnafrag_bk;
+SELECT COUNT(*) FROM dnafrag_chunk UNION
+SELECT COUNT(*) FROM dnafrag_chunk_bk;
+SELECT COUNT(*) FROM genomic_align UNION
+SELECT COUNT(*) FROM genomic_align_bk;
+SELECT COUNT(*) FROM statistics UNION
+SELECT COUNT(*) FROM statistics_bk;
+
+
+
+
+
+-- GO TIME
+
+-- dnafrag
+
+-- Need to do genomic_align first!
+
+
+
+-- dnafrag_chunk
+
+SELECT COUNT(*) FROM dnafrag_chunk;
+
+SELECT COUNT(*) FROM dnafrag_chunk c INNER JOIN dnafrag_fix f
+ON c.dnafrag_id = f.dnafrag_id;
+
+SELECT COUNT(*) FROM dnafrag_chunk c INNER JOIN dnafrag_fix f
+ON c.dnafrag_id = f.dnafrag_id_swap;
+
+UPDATE dnafrag_chunk c INNER JOIN dnafrag_fix f
+ON c.dnafrag_id = f.dnafrag_id_swap
+SET c.dnafrag_id = f.dnafrag_id;
+
+
+
+-- genomic_align
+
+SELECT COUNT(*) FROM genomic_align;
+
+SELECT COUNT(*) FROM genomic_align g INNER JOIN dnafrag_fix f
+ON g.dnafrag_id = f.dnafrag_id;
+
+SELECT COUNT(*) FROM genomic_align g INNER JOIN dnafrag_fix f
+ON g.dnafrag_id = f.dnafrag_id_swap;
+
+UPDATE genomic_align g INNER JOIN dnafrag_fix f
+ON g.dnafrag_id = f.dnafrag_id_swap
+SET g.dnafrag_id = f.dnafrag_id;
+
+
+
+-- dnafrag
+
+SELECT COUNT(*) FROM dnafrag;
+
+SELECT COUNT(*) FROM dnafrag d INNER JOIN dnafrag_fix f
+ON d.dnafrag_id = f.dnafrag_id;
+
+SELECT COUNT(*) FROM dnafrag d INNER JOIN dnafrag_fix f
+ON d.dnafrag_id = f.dnafrag_id_swap;
+
+DELETE d FROM dnafrag d INNER JOIN dnafrag_fix f
+ON d.dnafrag_id = f.dnafrag_id_swap;
+
+
+
+-- statistics
+
+SELECT COUNT(*) FROM statistics;
+
+SELECT COUNT(*) FROM statistics s INNER JOIN dnafrag_fix f
+ON s.dnafrag_id = f.dnafrag_id
+WHERE ref_insertions IS NULL;
+
+SELECT COUNT(*) FROM statistics s INNER JOIN dnafrag_fix f
+ON s.dnafrag_id = f.dnafrag_id_swap
+WHERE ref_insertions IS NULL;
+
+DELETE s FROM statistics s INNER JOIN dnafrag_fix f
+ON s.dnafrag_id = f.dnafrag_id;
+
+UPDATE statistics s INNER JOIN dnafrag_fix f
+ON s.dnafrag_id = f.dnafrag_id_swap
+SET s.dnafrag_id = f.dnafrag_id;
+
+
+
+-- Ahh...
+
+OPTIMIZE TABLE dnafrag;
+OPTIMIZE TABLE dnafrag_chunk;
+OPTIMIZE TABLE genomic_align;
+OPTIMIZE TABLE statistics;
+
+
+SELECT "done";
+

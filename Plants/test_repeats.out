@@ -1,0 +1,198 @@
+Bio::EnsEMBL::Slice=HASH(0x353f0a0)
+ARRAY(0x1b45b28)
+	Bio::EnsEMBL::RepeatFeature=HASH(0x378fe30)
+		trf
+		ID:1970895
+		14907057-14907230
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37b2920)
+		trf
+		ID:1961693
+		14908203-14908370
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x3799b78)
+		trf
+		ID:1967326
+		14908398-14908508
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x3799d88)
+		trf
+		ID:1969573
+		14908923-14910722
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x3799f98)
+		trf
+		ID:1958336
+		14911298-14911432
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x379a1a8)
+		trf
+		ID:1967724
+		14911623-14911661
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x379a3b8)
+		trf
+		ID:1969628
+		14912940-14912994
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x379a5c8)
+		trf
+		ID:1959762
+		14912940-14913008
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x379a7d8)
+		trf
+		ID:1953379
+		14920093-14920132
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x379a9e8)
+		trf
+		ID:1969952
+		14920757-14920794
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37ba6c0)
+		trf
+		ID:1957640
+		14923824-14923930
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37ba8d0)
+		trf
+		ID:1963503
+		14924138-14924251
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37baae0)
+		trf
+		ID:1969549
+		14924228-14924365
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37bacf0)
+		trf
+		ID:1952893
+		14924656-14924680
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37baf00)
+		trf
+		ID:1961286
+		14927107-14929359
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37bb110)
+		trf
+		ID:1966213
+		14928379-14929304
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37bb320)
+		trf
+		ID:1971924
+		14929371-14998850
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37bb530)
+		trf
+		ID:1955455
+		14929371-14998850
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37bda48)
+		trf
+		ID:1971878
+		14960255-14960990
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37bdb68)
+		trf
+		ID:1971830
+		14960988-14961724
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37bdd90)
+		trf
+		ID:1971162
+		14962045-14962812
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37bdfa0)
+		trf
+		ID:1966583
+		14962203-14962396
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37be1b0)
+		trf
+		ID:1956727
+		14963292-14963862
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37be2d0)
+		trf
+		ID:1962497
+		14966469-14967204
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37be408)
+		trf
+		ID:1971627
+		14967202-14967937
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37be630)
+		trf
+		ID:1960437
+		14967935-14968511
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37be840)
+		trf
+		ID:1968564
+		14971458-14998850
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37c18a8)
+		trf
+		ID:1970307
+		14976654-14998850
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37c1ab8)
+		trf
+		ID:1968817
+		14999048-14999264
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37c1cc8)
+		trf
+		ID:1964582
+		14999879-14999926
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37c1ed8)
+		trf
+		ID:1966179
+		15009705-15038145
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37c20e8)
+		trf
+		ID:1961281
+		15009705-15022194
+		contained
+
+	Bio::EnsEMBL::RepeatFeature=HASH(0x37c22f8)
+		trf
+		ID:1969162
+		15023447-15025608
+
